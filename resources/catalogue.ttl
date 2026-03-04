@@ -72,7 +72,7 @@ The code set content here is stored here in [RDF](https://www.w3.org/TR/rdf12-co
         "International Organization for Standardization" ,
         "geographic information" ,
         "geomatics" ;
-    schema:name "ISO TC-211 Common Codelists and Codesets" ;
+    schema:name "ISO TC-211 Codesets" ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status <https://def.isotc211.org/common/ItemStatus/stable> ;
 .

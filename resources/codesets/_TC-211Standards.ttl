@@ -105,7 +105,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    skos:definition "A vocabulary of TC-211 Standards"@en ;
+    skos:definition "A code set of TC-211 Standards"@en ;
     skos:hasTopConcept
         :iso-19115-1-2014 ,
         :iso-19115-2003 ,

@@ -10,7 +10,7 @@ status:retired
     rdfs:isDefinedBy cs: ;
     skos:broader status:invalid ;
     skos:definition "A decision has been made that the item is no longer recommended for use. It has not been superseded by another item"@en ;
-    skos:historyNote "Supplied within the original issuance of the vocabulary"@en ;
+    skos:historyNote "Supplied within the original issuance of the code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "retired"@en ;
     skos:topConceptOf cs: ;
@@ -33,7 +33,7 @@ status:submitted
     rdfs:isDefinedBy cs: ;
     skos:broader status:invalid ;
     skos:definition "The item has been entered into the register, but the control body has not accepted the proposal to add it"@en ;
-    skos:historyNote "Supplied within the original issuance of the vocabulary"@en ;
+    skos:historyNote "Supplied within the original issuance of the code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "submitted"@en ;
     skos:topConceptOf cs: ;
@@ -45,7 +45,7 @@ status:superseded
     rdfs:isDefinedBy cs: ;
     skos:broader status:invalid ;
     skos:definition "The item has been superseded by another item and is no longer recommended for use"@en ;
-    skos:historyNote "Supplied within the original issuance of the vocabulary"@en ;
+    skos:historyNote "Supplied within the original issuance of the code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "superseded"@en ;
     skos:topConceptOf cs: ;
@@ -56,7 +56,7 @@ status:addition
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader status:stable ;
-    skos:definition "The item is valid and was supplied to the vocabulary after initial creation"@en ;
+    skos:definition "The item is valid and was supplied to the code set after initial creation"@en ;
     skos:historyNote "Added to this codelist by GOM, 2022"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "addition"@en ;
@@ -78,7 +78,7 @@ status:valid
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The item has been accepted, is recommended for use, and has not been superseded or retired"@en ;
-    skos:historyNote "Supplied within the original issuance of the vocabulary"@en ;
+    skos:historyNote "Supplied within the original issuance of the code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "valid"@en ;
     skos:topConceptOf cs: ;
@@ -89,7 +89,7 @@ status:invalid
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A decision has been made that a previously valid register item contains a substantial error and is invalid, and will normally have been replaced by a corrected item"@en ;
-    skos:historyNote "Supplied within the original issuance of the vocabulary"@en ;
+    skos:historyNote "Supplied within the original issuance of the code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "invalid"@en ;
     skos:topConceptOf cs: ;
@@ -100,7 +100,7 @@ status:original
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader status:stable ;
-    skos:definition "Supplied within the original issuance of the vocabulary"@en ;
+    skos:definition "Supplied within the original issuance of the code set"@en ;
     skos:historyNote "Added to this codelist by GOM, 2022"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "original"@en ;

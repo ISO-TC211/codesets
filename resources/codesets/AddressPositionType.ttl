@@ -22,7 +22,7 @@ cs:
     rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19160-1-2015> ;
     skos:definition "AddressPosition represents information about the representative position of an address"@en ;
     skos:hasTopConcept :placeholder ;
-    skos:historyNote "This codelist vocabulary was extracted directly from the defining standard: ISO19160-1:2015"@en ;
+    skos:historyNote "This code set was extracted directly from the defining standard: ISO19160-1:2015"@en ;
     skos:prefLabel "Address Position Type"@en ;
     skos:scopeNote "This codelist has no values provided in the specifying standard. It may be added to through standard TC-211 codelist extension practices"@en ;
     schema:citation "http://standards.iso.org/iso/19160/-1/ed-1/en/"^^xsd:anyURI ;
