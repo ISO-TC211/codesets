@@ -17,7 +17,13 @@ The code sets here are maintained via procedures aligning with [ISO 19135:2026 G
 
 If you want to propose changes, including new terms, for the code sets, please create Pull Requests on this repository at <https://github.com/iso-TC211/codesets/pulls>. 
 
-### Status
+## Status
+
+### Code Set coverage
+
+Not all the Code Sets within TC-211's 19* series of standards are yet delivered here. Those that are, are published at <https://def.isotc211.org/codesets> with the remainder to be delivered by May 2026. 
+
+### Developing governance
 
 Governance procedures for this content are still in development as of March 2026. The _Control Body_ will communicate with anyone proposing changes (_Submitters_) to determine appropriate reviews until the procedures and finalised, at which point they will be documented here and at the [def.isotc211.org namespace's home](https://def.isotc211.org/). 
 
