@@ -1,0 +1,78 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://def.isotc211.org/codesets>
+    a dcat:Catalog ;
+    dcterms:hasPart
+        <https://def.isotc211.org/common/AddressAliasType> ,
+        <https://def.isotc211.org/common/AddressClass> ,
+        <https://def.isotc211.org/common/AddressComponentType> ,
+        <https://def.isotc211.org/common/AddressComponentValueType> ,
+        <https://def.isotc211.org/common/AddressLifecycleStage> ,
+        <https://def.isotc211.org/common/AddressPositionType> ,
+        <https://def.isotc211.org/common/AddressStatus> ,
+        <https://def.isotc211.org/common/AddressTypology> ,
+        <https://def.isotc211.org/common/AddressableObjectLifecycleStage> ,
+        <https://def.isotc211.org/common/AddressableObjectType> ,
+        <https://def.isotc211.org/common/AmendmentType> ,
+        <https://def.isotc211.org/common/AssociationTypeCode> ,
+        <https://def.isotc211.org/common/CellGeometryCode> ,
+        <https://def.isotc211.org/common/CharacterSetCode> ,
+        <https://def.isotc211.org/common/ClassificationCode> ,
+        <https://def.isotc211.org/common/CountryCode> ,
+        <https://def.isotc211.org/common/CouplingType> ,
+        <https://def.isotc211.org/common/CoverageContentTypeCode> ,
+        <https://def.isotc211.org/common/DCPList> ,
+        <https://def.isotc211.org/common/DatatypeCode> ,
+        <https://def.isotc211.org/common/DateTypeCode> ,
+        <https://def.isotc211.org/common/DecisionStatus> ,
+        <https://def.isotc211.org/common/DimensionNameTypeCode> ,
+        <https://def.isotc211.org/common/Disposition> ,
+        <https://def.isotc211.org/common/EvaluationMethodTypeCode> ,
+        <https://def.isotc211.org/common/FormulaLanguage> ,
+        <https://def.isotc211.org/common/GeometricObjectTypeCode> ,
+        <https://def.isotc211.org/common/ImagingConditionCode> ,
+        <https://def.isotc211.org/common/InitiativeTypeCode> ,
+        <https://def.isotc211.org/common/ItemStatus> ,
+        <https://def.isotc211.org/common/KeywordTypeCode> ,
+        <https://def.isotc211.org/common/KeywordTypeCode-Bio> ,
+        <https://def.isotc211.org/common/LanguageCode> ,
+        <https://def.isotc211.org/common/MaintenanceFrequencyCode> ,
+        <https://def.isotc211.org/common/MediumFormatCode> ,
+        <https://def.isotc211.org/common/OnLineFunctionCode> ,
+        <https://def.isotc211.org/common/PresentationFormCode> ,
+        <https://def.isotc211.org/common/ProgressCode> ,
+        <https://def.isotc211.org/common/ReferenceObjectType> ,
+        <https://def.isotc211.org/common/ReferenceSystemTypeCode> ,
+        <https://def.isotc211.org/common/RestrictionCode> ,
+        <https://def.isotc211.org/common/RoleCode> ,
+        <https://def.isotc211.org/common/ScopeCode> ,
+        <https://def.isotc211.org/common/SimilarityToSource> ,
+        <https://def.isotc211.org/common/SpatialRepresentationTypeCode> ,
+        <https://def.isotc211.org/common/TelephoneTypeCode> ,
+        <https://def.isotc211.org/common/TopologyLevelCode> ,
+        <https://def.isotc211.org/common/ValueStructure> ,
+        <https://def.isotc211.org/common/standards> ;
+    skos:historyNote "This catalogue was assembled by TC-211's Group on Ontology Maintenance"@en ;
+    schema:codeRepository "https://github.com/ISO-TC211/codelist-vocabularies" ;
+    schema:contributor <https://def.isotc211.org/org/ogc> ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2024-09-03"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:description """Code sets in the TC-211 Harmonised Model.
+
+This catalogue contains all of the code sets managed by ISO Technical Committee 211 (Geographic information/Geomatics) for use within their 19* series standards.
+
+The code set content here is stored here in [RDF](https://www.w3.org/TR/rdf12-concepts/) data files in the [Turtle format](https://www.w3.org/TR/rdf12-turtle/) as [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) vocabularies according to the [Vocabulary Publication Profile of SKOS](https://linked.data.gov.au/def/vocpub/spec), with SKOS being the [SKOS Simple Knowledge Organization System](https://www.w3.org/TR/skos-reference/) model.""" ;
+    schema:keywords
+        "ISO" ,
+        "International Organization for Standardization" ,
+        "geographic information" ,
+        "geomatics" ;
+    schema:name "ISO TC-211 Common Codelists and Codesets" ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status <https://def.isotc211.org/common/ItemStatus/stable> ;
+.

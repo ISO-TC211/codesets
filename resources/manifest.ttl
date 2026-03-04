@@ -1,0 +1,29 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX mrr: <https://prez.dev/ManifestResourceRoles/>
+PREFIX prez: <https://prez.dev/>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX schema: <https://schema.org/>
+
+[]
+    a prez:Manifest ;
+    prof:hasResource
+        [
+            prof:hasArtifact "catalogue.ttl" ;
+            prof:hasRole mrr:CatalogueData ;
+            schema:description "The definition of, and metadata for, the code sets container object - catalogue" ;
+            schema:name "Catalogue Definition"
+        ] ,
+        [
+            prof:hasArtifact "codesets/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+            schema:description "Code sets as catalogued resources" ;
+            schema:name "Resource Data" ;
+            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
+        ] ,
+        [
+            prof:hasArtifact "background/*.ttl" ;
+            prof:hasRole mrr:CompleteCatalogueAndResourceLabels ;
+            schema:description "Labels for resource data elements and reference data such as Agents" ;
+            schema:name "Labels Files" ;
+        ] ;
+.

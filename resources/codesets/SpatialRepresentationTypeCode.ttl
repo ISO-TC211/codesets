@@ -1,0 +1,95 @@
+PREFIX : <https://def.isotc211.org/common/SpatialRepresentationTypeCode/>
+PREFIX cs: <https://def.isotc211.org/common/SpatialRepresentationTypeCode>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/common/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:grid
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19115-1-2014> ;
+    skos:definition "grid data is used to represent geographic data"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "grid"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:stereoModel
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19115-1-2014> ;
+    skos:definition "three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stereo model"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:textTable
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19115-1-2014> ;
+    skos:definition "textual or tabular data is used to represent geographic data"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "text table"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:tin
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19115-1-2014> ;
+    skos:definition "triangulated irregular network"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tin"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:vector
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19115-1-2014> ;
+    skos:definition "vector data is used to represent geographic data"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "vector"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:video
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19115-1-2014> ;
+    skos:definition "scene from a video recording"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "video"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-awi-19115-1> ;
+    skos:definition "method used to represent geographic information in the resource"@en ;
+    skos:hasTopConcept
+        :grid ,
+        :stereoModel ,
+        :textTable ,
+        :tin ,
+        :vector ,
+        :video ;
+    skos:historyNote "This version of this codeset was produced for the 2025 update of the 19115 standard" ;
+    skos:prefLabel "Spatial Representation Type Code"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2025-11-19"^^xsd:date ;
+    schema:dateIssued "2025-11-19"^^xsd:date ;
+    schema:dateModified "2025-11-19"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+.

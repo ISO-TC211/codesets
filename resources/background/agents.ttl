@@ -1,6 +1,18 @@
 PREFIX schema: <https://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<https://committee.iso.org/home/tc211>
+    a schema:Organization ;
+    schema:description "The International Organization for Standardization's Technical Committee on \"Geographic information/Geomatics\", charged with standardization in the field of digital geographic information" ;
+    schema:name "ISO's Technical Committee 211" ;
+    schema:url "https://www.iso.org/committee/54904.html"^^xsd:anyURI ;
+.
+
+<https://def.isotc211.org/org/ogc>
+    a schema:Organization ;
+    schema:name "Open Geospatial Consortium" ;
+    schema:url "https://www.ogc.org"^^xsd:anyURI ;
+.
 
 <https://def.isotc211.org/org/tc211>
     a schema:Organization ;
@@ -8,7 +20,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:url "https://www.iso.org/committee/54904.html"^^xsd:anyURI ;
 .
 
-<https://def.isotc211.org/org/ogc>
+<https://www.ogc.org>
     a schema:Organization ;
     schema:name "Open Geospatial Consortium" ;
     schema:url "https://www.ogc.org"^^xsd:anyURI ;

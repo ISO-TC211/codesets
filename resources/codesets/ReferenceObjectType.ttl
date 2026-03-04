@@ -1,0 +1,37 @@
+PREFIX : <https://def.isotc211.org/common/ReferenceObjectType/>
+PREFIX cs: <https://def.isotc211.org/common/ReferenceObjectType>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/common/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:placeholder
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "placeholder concept" ;
+    skos:historyNote "to be removed when codelist is under active management"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "placeholder"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:experimental ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19160-1-2015> ;
+    skos:definition "An ISO standard's ConceptScheme"@en ;
+    skos:hasTopConcept :placeholder ;
+    skos:historyNote "This codelist vocabulary was extracted directly from the defining standard: ISO19160-1:2015"@en ;
+    skos:prefLabel "Reference Object Type"@en ;
+    skos:scopeNote "This codelist has no values provided in the specifying standard. It may be added to through standard TC-211 codelist extension practices"@en ;
+    schema:citation "http://standards.iso.org/iso/19160/-1/ed-1/en/"^^xsd:anyURI ;
+    schema:contributor <https://def.isotc211.org/org/ogc> ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2015-12-15"^^xsd:date ;
+    schema:dateIssued "2025-11-19"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:stable ;
+.

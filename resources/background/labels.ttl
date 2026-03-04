@@ -1,23 +1,32 @@
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 dcterms:conformsTo
-    schema:description "An established standard to which the described resource conforms."@en ;
-    schema:name "Conforms To"@en ;
+    schema:description "An established standard to which the described resource conforms." ;
+    schema:name "Conforms To" ;
 .
 
 dcterms:hasPart
-    schema:description "A related resource that is included either physically or logically in the described resource."@en ;
-    schema:name "Has Part"@en ;
+    schema:description "A related resource that is included either physically or logically in the described resource." ;
+    schema:name "Has Part" ;
 .
 
 dcterms:isPartOf
-    schema:description "A related resource in which the described resource is physically or logically included."@en ;
-    schema:name "Is Part Of"@en ;
+    schema:description "A related resource in which the described resource is physically or logically included." ;
+    schema:name "Is Part Of" ;
+.
+
+dcterms:isReplacedBy
+    schema:name "is replaced by" ;
+.
+
+dcterms:replaces
+    schema:name "replaces" ;
 .
 
 rdfs:isDefinedBy
@@ -26,87 +35,87 @@ rdfs:isDefinedBy
 .
 
 skos:Concept
-    schema:description
-        "An idea or notion; a unit of thought" ,
-        "An idea or notion; a unit of thought"@en ;
-    schema:name
-        "Concept" ,
-        "Concept"@en ;
+    schema:description "An idea or notion; a unit of thought" ;
+    schema:name "Concept" ;
 .
 
 skos:ConceptScheme
-    schema:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en ;
-    schema:name "Concept Scheme"@en ;
+    schema:description "A set of concepts, optionally including statements about semantic relationships between those concepts." ;
+    schema:name "Concept Scheme" ;
 .
 
 skos:altLabel
-    schema:description "An alternative lexical label for a resource"@en ;
-    schema:name "alternative label"@en ;
+    schema:description "An alternative lexical label for a resource." ;
+    schema:name "alternative label" ;
 .
 
 skos:broader
-    schema:description "Relates a concept to a concept that is more general in meaning"@en ;
-    schema:name "has broader"@en ;
+    schema:description "Relates a concept to a concept that is more general in meaning." ;
+    schema:name "has broader" ;
 .
 
 skos:definition
-    schema:description "A statement or formal explanation of the meaning of a concept"@en ;
-    schema:name "definition"@en ;
+    schema:description "A statement or formal explanation of the meaning of a concept." ;
+    schema:name "definition" ;
 .
 
 skos:hasTopConcept
-    schema:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en ;
-    schema:name "has top concept"@en ;
+    schema:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies." ;
+    schema:name "has top concept" ;
 .
 
 skos:historyNote
-    schema:description "A note about the past state/use/meaning of a concept"@en ;
-    schema:name "history note"@en ;
+    schema:description "A note about the past state/use/meaning of a concept." ;
+    schema:name "history note" ;
 .
 
 skos:inScheme
-    schema:description "Relates a resource (for example a concept) to a concept scheme in which it is included"@en ;
-    schema:name "is in scheme"@en ;
+    schema:description "Relates a resource (for example a concept) to a concept scheme in which it is included" ;
+    schema:name "is in scheme" ;
 .
 
 skos:notation
-    schema:description "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme"@en ;
-    schema:name "notation"@en ;
+    schema:description "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme." ;
+    schema:name "notation" ;
 .
 
 skos:prefLabel
-    schema:description "The preferred lexical label for a resource, in a given language"@en ;
-    schema:name "preferred label"@en ;
+    schema:description "The preferred lexical label for a resource, in a given language." ;
+    schema:name "preferred label" ;
 .
 
 skos:scopeNote
-    schema:description "A note that helps to clarify the meaning and/or the use of a concept"@en ;
-    schema:name "scope note"@en ;
+    schema:description "A note that helps to clarify the meaning and/or the use of a concept." ;
+    schema:name "scope note" ;
 .
 
 skos:topConceptOf
-    schema:description "Relates a concept to the concept scheme that it is a top level concept of"@en ;
-    schema:name "is top concept in scheme"@en ;
+    schema:description "Relates a concept to the concept scheme that it is a top level concept of." ;
+    schema:name "is top concept in scheme" ;
 .
 
 dcat:Catalog
-    schema:description "A curated collection of metadata about resources (e.g., datasets and data services in the context of a data catalog)."@en ;
-    schema:name "Catalog"@en ;
+    schema:description "A curated collection of metadata about resources (e.g., datasets and data services in the context of a data catalog)." ;
+    schema:name "Catalog" ;
 .
 
 prof:hasArtifact
-    schema:description "The URL of a downloadable file with particulars such as its format and role indicated by the Resource Descriptor"@en ;
+    schema:description "The URL of a downloadable file with particulars such as its format and role indicated by the Resource Descriptor" ;
     schema:name "has artifact" ;
 .
 
 prof:hasResource
-    schema:description "A resource which describes the nature of an artifact and the role it plays in relation to the Profile"@en ;
-    schema:name "has resource"@en ;
+    schema:description "A resource which describes the nature of an artifact and the role it plays in relation to the Profile" ;
+    schema:name "has resource" ;
 .
 
 prof:hasRole
-    schema:description "The function of an artifact described by a Resource Descriptor, such as specification, guidance etc."@en ;
+    schema:description "The function of an artifact described by a Resource Descriptor, such as specification, guidance etc." ;
     schema:name "has role" ;
+.
+
+prov:wasDerivedFrom
+    schema:name "was derived from" ;
 .
 
 <https://prez.dev/Manifest>
@@ -129,42 +138,42 @@ prof:hasRole
 .
 
 schema:Organization
-    schema:description "An organization such as a school, NGO, corporation, club, etc" ;
+    schema:description "An organization such as a school, NGO, corporation, club, etc." ;
     schema:name "Organization" ;
 .
 
 schema:citation
-    schema:description "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc" ;
+    schema:description "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc." ;
     schema:name "citation" ;
 .
 
 schema:codeRepository
-    schema:description "Link to the repository where the un-compiled, human readable code and related code is located (SVN, GitHub, CodePlex)" ;
+    schema:description "Link to the repository where the un-compiled, human readable code and related code is located (SVN, GitHub, CodePlex)." ;
     schema:name "code repository" ;
 .
 
 schema:contributor
-    schema:description "A secondary contributor to the CreativeWork or Event" ;
+    schema:description "A secondary contributor to the CreativeWork or Event." ;
     schema:name "contributor" ;
 .
 
 schema:creator
-    schema:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork" ;
+    schema:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork." ;
     schema:name "creator" ;
 .
 
 schema:dateCreated
-    schema:description "The date on which the CreativeWork was created or the item was added to a DataFeed" ;
+    schema:description "The date on which the CreativeWork was created or the item was added to a DataFeed." ;
     schema:name "date created" ;
 .
 
 schema:dateIssued
-    schema:description "The date the ticket was issued" ;
+    schema:description "The date the ticket was issued." ;
     schema:name "date issued" ;
 .
 
 schema:dateModified
-    schema:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed" ;
+    schema:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed." ;
     schema:name "date modified" ;
 .
 
@@ -174,12 +183,12 @@ schema:description
 .
 
 schema:isPartOf
-    schema:description "Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of" ;
+    schema:description "Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of." ;
     schema:name "is part of" ;
 .
 
 schema:keywords
-    schema:description "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property" ;
+    schema:description "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property." ;
     schema:name "keywords" ;
 .
 
@@ -189,12 +198,12 @@ schema:name
 .
 
 schema:publisher
-    schema:description "The publisher of the creative work" ;
+    schema:description "The publisher of the creative work." ;
     schema:name "publisher" ;
 .
 
 schema:status
-    schema:description "The status of the study (enumerated)" ;
+    schema:description "The status of the study (enumerated)." ;
     schema:name "status" ;
 .
 
@@ -203,14 +212,8 @@ schema:url
     schema:name "url" ;
 .
 
-<http://purl.org/dc/terms/isReplacedBy>
-    schema:name "is replaced by" ;
-.
+<https://linked.data.gov.au/def/vocpub/validator> schema:name "VocPub Validator" .
 
-<http://purl.org/dc/terms/replaces>
-    schema:name "replaces" ;
-.
-
-<http://www.w3.org/ns/prov#wasDerivedFrom>
-    schema:name "was derived from" ;
-.
+<https://def.isotc211.org/model/19157-1/EvaluationMethodTypeCode> schema:name "Evaluation Method Type Code" .
+<https://def.isotc211.org/model/19157-1/FormulaLanguage> schema:name "Formula Language" .
+<https://def.isotc211.org/model/19157-1/ValueStructure> schema:name "Value Structure" .

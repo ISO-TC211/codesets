@@ -1,0 +1,6057 @@
+PREFIX : <https://def.isotc211.org/common/LanguageCode/>
+PREFIX cs: <https://def.isotc211.org/common/LanguageCode>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/common/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:aar
+    a skos:Concept ;
+    skos:altLabel
+        "Danakil-Sprache"@de ,
+        "afar"@fr ;
+    skos:definition "The language Afar"@en ;
+    skos:inScheme cs: ;
+    skos:notation "aa"^^:iso639-1Code ;
+    skos:prefLabel "Afar"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:abk
+    a skos:Concept ;
+    skos:altLabel
+        "Abchasisch"@de ,
+        "abkhaze"@fr ;
+    skos:definition "The language Abkhazian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ab"^^:iso639-1Code ;
+    skos:prefLabel "Abkhazian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ace
+    a skos:Concept ;
+    skos:altLabel
+        "Aceh-Sprache"@de ,
+        "aceh"@fr ;
+    skos:definition "The language Achinese"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Achinese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ach
+    a skos:Concept ;
+    skos:altLabel
+        "Acholi-Sprache"@de ,
+        "acoli"@fr ;
+    skos:definition "The language Acoli"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Acoli"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ada
+    a skos:Concept ;
+    skos:altLabel
+        "Adangme-Sprache"@de ,
+        "adangme"@fr ;
+    skos:definition "The language Adangme"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Adangme"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ady
+    a skos:Concept ;
+    skos:altLabel
+        "Adygisch"@de ,
+        "adyghé"@fr ;
+    skos:definition "The language Adyghe; Adygei"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Adyghe; Adygei"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:afa
+    a skos:Concept ;
+    skos:altLabel
+        "Hamitosemitische Sprachen (Andere)"@de ,
+        "afro-asiatiques, langues"@fr ;
+    skos:definition "The language Afro-Asiatic languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Afro-Asiatic languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:afh
+    a skos:Concept ;
+    skos:altLabel
+        "Afrihili"@de ,
+        "afrihili"@fr ;
+    skos:definition "The language Afrihili"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Afrihili"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:afr
+    a skos:Concept ;
+    skos:altLabel
+        "Afrikaans"@de ,
+        "afrikaans"@fr ;
+    skos:definition "The language Afrikaans"@en ;
+    skos:inScheme cs: ;
+    skos:notation "af"^^:iso639-1Code ;
+    skos:prefLabel "Afrikaans"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ain
+    a skos:Concept ;
+    skos:altLabel
+        "Ainu-Sprache"@de ,
+        "aïnou"@fr ;
+    skos:definition "The language Ainu"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ainu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:aka
+    a skos:Concept ;
+    skos:altLabel
+        "Akan-Sprache"@de ,
+        "akan"@fr ;
+    skos:definition "The language Akan"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ak"^^:iso639-1Code ;
+    skos:prefLabel "Akan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:akk
+    a skos:Concept ;
+    skos:altLabel
+        "Akkadisch"@de ,
+        "akkadien"@fr ;
+    skos:definition "The language Akkadian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Akkadian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:alb
+    a skos:Concept ;
+    skos:altLabel
+        "Albanisch"@de ,
+        "albanais"@fr ;
+    skos:definition "The language Albanian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sq"^^:iso639-1Code ;
+    skos:prefLabel "Albanian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ale
+    a skos:Concept ;
+    skos:altLabel
+        "Aleutisch"@de ,
+        "aléoute"@fr ;
+    skos:definition "The language Aleut"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aleut"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:alg
+    a skos:Concept ;
+    skos:altLabel
+        "Algonkin-Sprachen (Andere)"@de ,
+        "algonquines, langues"@fr ;
+    skos:definition "The language Algonquian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Algonquian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:alt
+    a skos:Concept ;
+    skos:altLabel
+        "Altaisch"@de ,
+        "altai du Sud"@fr ;
+    skos:definition "The language Southern Altai"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Southern Altai"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:amh
+    a skos:Concept ;
+    skos:altLabel
+        "Amharisch"@de ,
+        "amharique"@fr ;
+    skos:definition "The language Amharic"@en ;
+    skos:inScheme cs: ;
+    skos:notation "am"^^:iso639-1Code ;
+    skos:prefLabel "Amharic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ang
+    a skos:Concept ;
+    skos:altLabel
+        "Altenglisch"@de ,
+        "anglo-saxon (ca.450-1100)"@fr ;
+    skos:definition "The language English, Old (ca.450-1100)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "English, Old (ca.450-1100)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:anp
+    a skos:Concept ;
+    skos:altLabel
+        "Anga-Sprache"@de ,
+        "angika"@fr ;
+    skos:definition "The language Angika"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Angika"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:apa
+    a skos:Concept ;
+    skos:altLabel
+        "Apachen-Sprachen"@de ,
+        "apaches, langues"@fr ;
+    skos:definition "The language Apache languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Apache languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ara
+    a skos:Concept ;
+    skos:altLabel
+        "Arabisch"@de ,
+        "arabe"@fr ;
+    skos:definition "The language Arabic"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ar"^^:iso639-1Code ;
+    skos:prefLabel "Arabic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:arc
+    a skos:Concept ;
+    skos:altLabel
+        "Aramäisch"@de ,
+        "araméen d'empire (700-300 BCE)"@fr ;
+    skos:definition "The language Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:arg
+    a skos:Concept ;
+    skos:altLabel
+        "Aragonesisch"@de ,
+        "aragonais"@fr ;
+    skos:definition "The language Aragonese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "an"^^:iso639-1Code ;
+    skos:prefLabel "Aragonese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:arm
+    a skos:Concept ;
+    skos:altLabel
+        "Armenisch"@de ,
+        "arménien"@fr ;
+    skos:definition "The language Armenian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "hy"^^:iso639-1Code ;
+    skos:prefLabel "Armenian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:arn
+    a skos:Concept ;
+    skos:altLabel
+        "Arauka-Sprachen"@de ,
+        "mapudungun; mapuche; mapuce"@fr ;
+    skos:definition "The language Mapudungun; Mapuche"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mapudungun; Mapuche"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:arp
+    a skos:Concept ;
+    skos:altLabel
+        "Arapaho-Sprache"@de ,
+        "arapaho"@fr ;
+    skos:definition "The language Arapaho"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Arapaho"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:art
+    a skos:Concept ;
+    skos:altLabel
+        "Kunstsprachen (Andere)"@de ,
+        "artificielles, langues"@fr ;
+    skos:definition "The language Artificial languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Artificial languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:arw
+    a skos:Concept ;
+    skos:altLabel
+        "Arawak-Sprachen"@de ,
+        "arawak"@fr ;
+    skos:definition "The language Arawak"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Arawak"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:asm
+    a skos:Concept ;
+    skos:altLabel
+        "Assamesisch"@de ,
+        "assamais"@fr ;
+    skos:definition "The language Assamese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "as"^^:iso639-1Code ;
+    skos:prefLabel "Assamese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ast
+    a skos:Concept ;
+    skos:altLabel
+        "Asturisch"@de ,
+        "asturien; bable; léonais; asturoléonais"@fr ;
+    skos:definition "The language Asturian; Bable; Leonese; Asturleonese"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Asturian; Bable; Leonese; Asturleonese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ath
+    a skos:Concept ;
+    skos:altLabel
+        "Athapaskische Sprachen (Andere)"@de ,
+        "athapascanes, langues"@fr ;
+    skos:definition "The language Athapascan languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Athapascan languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:aus
+    a skos:Concept ;
+    skos:altLabel
+        "Australische Sprachen"@de ,
+        "australiennes, langues"@fr ;
+    skos:definition "The language Australian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Australian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ava
+    a skos:Concept ;
+    skos:altLabel
+        "Awarisch"@de ,
+        "avar"@fr ;
+    skos:definition "The language Avaric"@en ;
+    skos:inScheme cs: ;
+    skos:notation "av"^^:iso639-1Code ;
+    skos:prefLabel "Avaric"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ave
+    a skos:Concept ;
+    skos:altLabel
+        "Avestisch"@de ,
+        "avestique"@fr ;
+    skos:definition "The language Avestan"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ae"^^:iso639-1Code ;
+    skos:prefLabel "Avestan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:awa
+    a skos:Concept ;
+    skos:altLabel
+        "Awadhi"@de ,
+        "awadhi"@fr ;
+    skos:definition "The language Awadhi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Awadhi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:aym
+    a skos:Concept ;
+    skos:altLabel
+        "Aymará-Sprache"@de ,
+        "aymara"@fr ;
+    skos:definition "The language Aymara"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ay"^^:iso639-1Code ;
+    skos:prefLabel "Aymara"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:aze
+    a skos:Concept ;
+    skos:altLabel
+        "Aserbeidschanisch"@de ,
+        "azéri"@fr ;
+    skos:definition "The language Azerbaijani"@en ;
+    skos:inScheme cs: ;
+    skos:notation "az"^^:iso639-1Code ;
+    skos:prefLabel "Azerbaijani"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bad
+    a skos:Concept ;
+    skos:altLabel
+        "Banda-Sprachen (Ubangi-Sprachen)"@de ,
+        "banda, langues"@fr ;
+    skos:definition "The language Banda languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Banda languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bai
+    a skos:Concept ;
+    skos:altLabel
+        "Bamileke-Sprachen"@de ,
+        "bamiléké, langues"@fr ;
+    skos:definition "The language Bamileke languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bamileke languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bak
+    a skos:Concept ;
+    skos:altLabel
+        "Baschkirisch"@de ,
+        "bachkir"@fr ;
+    skos:definition "The language Bashkir"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ba"^^:iso639-1Code ;
+    skos:prefLabel "Bashkir"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bal
+    a skos:Concept ;
+    skos:altLabel
+        "Belutschisch"@de ,
+        "baloutchi"@fr ;
+    skos:definition "The language Baluchi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Baluchi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bam
+    a skos:Concept ;
+    skos:altLabel
+        "Bambara-Sprache"@de ,
+        "bambara"@fr ;
+    skos:definition "The language Bambara"@en ;
+    skos:inScheme cs: ;
+    skos:notation "bm"^^:iso639-1Code ;
+    skos:prefLabel "Bambara"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ban
+    a skos:Concept ;
+    skos:altLabel
+        "Balinesisch"@de ,
+        "balinais"@fr ;
+    skos:definition "The language Balinese"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Balinese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:baq
+    a skos:Concept ;
+    skos:altLabel
+        "Baskisch"@de ,
+        "basque"@fr ;
+    skos:definition "The language Basque"@en ;
+    skos:inScheme cs: ;
+    skos:notation "eu"^^:iso639-1Code ;
+    skos:prefLabel "Basque"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bas
+    a skos:Concept ;
+    skos:altLabel
+        "Basaa-Sprache"@de ,
+        "basa"@fr ;
+    skos:definition "The language Basa"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Basa"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bat
+    a skos:Concept ;
+    skos:altLabel
+        "Baltische Sprachen (Andere)"@de ,
+        "baltes, langues"@fr ;
+    skos:definition "The language Baltic languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Baltic languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bej
+    a skos:Concept ;
+    skos:altLabel
+        "Bedauye"@de ,
+        "bedja"@fr ;
+    skos:definition "The language Beja; Bedawiyet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Beja; Bedawiyet"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bel
+    a skos:Concept ;
+    skos:altLabel
+        "Weißrussisch"@de ,
+        "biélorusse"@fr ;
+    skos:definition "The language Belarusian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "be"^^:iso639-1Code ;
+    skos:prefLabel "Belarusian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bem
+    a skos:Concept ;
+    skos:altLabel
+        "Bemba-Sprache"@de ,
+        "bemba"@fr ;
+    skos:definition "The language Bemba"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bemba"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ben
+    a skos:Concept ;
+    skos:altLabel
+        "Bengali"@de ,
+        "bengali"@fr ;
+    skos:definition "The language Bengali"@en ;
+    skos:inScheme cs: ;
+    skos:notation "bn"^^:iso639-1Code ;
+    skos:prefLabel "Bengali"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ber
+    a skos:Concept ;
+    skos:altLabel
+        "Berbersprachen (Andere)"@de ,
+        "berbères, langues"@fr ;
+    skos:definition "The language Berber languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Berber languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bho
+    a skos:Concept ;
+    skos:altLabel
+        "Bhojpuri"@de ,
+        "bhojpuri"@fr ;
+    skos:definition "The language Bhojpuri"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bhojpuri"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bih
+    a skos:Concept ;
+    skos:altLabel
+        "Bihari (Andere)"@de ,
+        "langues biharis"@fr ;
+    skos:definition "The language Bihari languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bihari languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bik
+    a skos:Concept ;
+    skos:altLabel
+        "Bikol-Sprache"@de ,
+        "bikol"@fr ;
+    skos:definition "The language Bikol"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bikol"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bin
+    a skos:Concept ;
+    skos:altLabel
+        "Edo-Sprache"@de ,
+        "bini; edo"@fr ;
+    skos:definition "The language Bini; Edo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bini; Edo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bis
+    a skos:Concept ;
+    skos:altLabel
+        "Beach-la-mar"@de ,
+        "bichlamar"@fr ;
+    skos:definition "The language Bislama"@en ;
+    skos:inScheme cs: ;
+    skos:notation "bi"^^:iso639-1Code ;
+    skos:prefLabel "Bislama"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bla
+    a skos:Concept ;
+    skos:altLabel
+        "Blackfoot-Sprache"@de ,
+        "blackfoot"@fr ;
+    skos:definition "The language Siksika"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Siksika"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bnt
+    a skos:Concept ;
+    skos:altLabel
+        "Bantusprachen (Andere)"@de ,
+        "bantou, langues"@fr ;
+    skos:definition "The language Bantu languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bantu languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bos
+    a skos:Concept ;
+    skos:altLabel
+        "Bosnisch"@de ,
+        "bosniaque"@fr ;
+    skos:definition "The language Bosnian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "bs"^^:iso639-1Code ;
+    skos:prefLabel "Bosnian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bra
+    a skos:Concept ;
+    skos:altLabel
+        "Braj-Bhakha"@de ,
+        "braj"@fr ;
+    skos:definition "The language Braj"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Braj"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bre
+    a skos:Concept ;
+    skos:altLabel
+        "Bretonisch"@de ,
+        "breton"@fr ;
+    skos:definition "The language Breton"@en ;
+    skos:inScheme cs: ;
+    skos:notation "br"^^:iso639-1Code ;
+    skos:prefLabel "Breton"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:btk
+    a skos:Concept ;
+    skos:altLabel
+        "Batak-Sprache"@de ,
+        "batak, langues"@fr ;
+    skos:definition "The language Batak languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Batak languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bua
+    a skos:Concept ;
+    skos:altLabel
+        "Burjatisch"@de ,
+        "bouriate"@fr ;
+    skos:definition "The language Buriat"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Buriat"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bug
+    a skos:Concept ;
+    skos:altLabel
+        "Bugi-Sprache"@de ,
+        "bugi"@fr ;
+    skos:definition "The language Buginese"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Buginese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bul
+    a skos:Concept ;
+    skos:altLabel
+        "Bulgarisch"@de ,
+        "bulgare"@fr ;
+    skos:definition "The language Bulgarian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "bg"^^:iso639-1Code ;
+    skos:prefLabel "Bulgarian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bur
+    a skos:Concept ;
+    skos:altLabel
+        "Birmanisch"@de ,
+        "birman"@fr ;
+    skos:definition "The language Burmese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "my"^^:iso639-1Code ;
+    skos:prefLabel "Burmese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:byn
+    a skos:Concept ;
+    skos:altLabel
+        "Bilin-Sprache"@de ,
+        "blin; bilen"@fr ;
+    skos:definition "The language Blin; Bilin"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Blin; Bilin"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cad
+    a skos:Concept ;
+    skos:altLabel
+        "Caddo-Sprachen"@de ,
+        "caddo"@fr ;
+    skos:definition "The language Caddo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Caddo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cai
+    a skos:Concept ;
+    skos:altLabel
+        "Indianersprachen, Zentralamerika (Andere)"@de ,
+        "amérindiennes de l'Amérique centrale, langues"@fr ;
+    skos:definition "The language Central American Indian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Central American Indian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:car
+    a skos:Concept ;
+    skos:altLabel
+        "Karibische Sprachen"@de ,
+        "karib; galibi; carib"@fr ;
+    skos:definition "The language Galibi Carib"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Galibi Carib"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cat
+    a skos:Concept ;
+    skos:altLabel
+        "Katalanisch"@de ,
+        "catalan; valencien"@fr ;
+    skos:definition "The language Catalan; Valencian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ca"^^:iso639-1Code ;
+    skos:prefLabel "Catalan; Valencian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cau
+    a skos:Concept ;
+    skos:altLabel
+        "Kaukasische Sprachen (Andere)"@de ,
+        "caucasiennes, langues"@fr ;
+    skos:definition "The language Caucasian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Caucasian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ceb
+    a skos:Concept ;
+    skos:altLabel
+        "Cebuano"@de ,
+        "cebuano"@fr ;
+    skos:definition "The language Cebuano"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cebuano"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cel
+    a skos:Concept ;
+    skos:altLabel
+        "Keltische Sprachen (Andere)"@de ,
+        "celtiques, langues; celtes, langues"@fr ;
+    skos:definition "The language Celtic languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Celtic languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cha
+    a skos:Concept ;
+    skos:altLabel
+        "Chamorro-Sprache"@de ,
+        "chamorro"@fr ;
+    skos:definition "The language Chamorro"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ch"^^:iso639-1Code ;
+    skos:prefLabel "Chamorro"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chb
+    a skos:Concept ;
+    skos:altLabel
+        "Chibcha-Sprachen"@de ,
+        "chibcha"@fr ;
+    skos:definition "The language Chibcha"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Chibcha"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:che
+    a skos:Concept ;
+    skos:altLabel
+        "Tschetschenisch"@de ,
+        "tchétchène"@fr ;
+    skos:definition "The language Chechen"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ce"^^:iso639-1Code ;
+    skos:prefLabel "Chechen"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chg
+    a skos:Concept ;
+    skos:altLabel
+        "Tschagataisch"@de ,
+        "djaghataï"@fr ;
+    skos:definition "The language Chagatai"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Chagatai"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chi
+    a skos:Concept ;
+    skos:altLabel
+        "Chinesisch"@de ,
+        "chinois"@fr ;
+    skos:definition "The language Chinese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "zh"^^:iso639-1Code ;
+    skos:prefLabel "Chinese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chk
+    a skos:Concept ;
+    skos:altLabel
+        "Trukesisch"@de ,
+        "chuuk"@fr ;
+    skos:definition "The language Chuukese"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Chuukese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chm
+    a skos:Concept ;
+    skos:altLabel
+        "Tscheremissisch"@de ,
+        "mari"@fr ;
+    skos:definition "The language Mari"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mari"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chn
+    a skos:Concept ;
+    skos:altLabel
+        "Chinook-Jargon"@de ,
+        "chinook, jargon"@fr ;
+    skos:definition "The language Chinook jargon"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Chinook jargon"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cho
+    a skos:Concept ;
+    skos:altLabel
+        "Choctaw-Sprache"@de ,
+        "choctaw"@fr ;
+    skos:definition "The language Choctaw"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Choctaw"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chp
+    a skos:Concept ;
+    skos:altLabel
+        "Chipewyan-Sprache"@de ,
+        "chipewyan"@fr ;
+    skos:definition "The language Chipewyan; Dene Suline"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Chipewyan; Dene Suline"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chr
+    a skos:Concept ;
+    skos:altLabel
+        "Cherokee-Sprache"@de ,
+        "cherokee"@fr ;
+    skos:definition "The language Cherokee"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cherokee"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chu
+    a skos:Concept ;
+    skos:altLabel
+        "Kirchenslawisch"@de ,
+        "slavon d'église; vieux slave; slavon liturgique; vieux bulgare"@fr ;
+    skos:definition "The language Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"@en ;
+    skos:inScheme cs: ;
+    skos:notation "cu"^^:iso639-1Code ;
+    skos:prefLabel "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chv
+    a skos:Concept ;
+    skos:altLabel
+        "Tschuwaschisch"@de ,
+        "tchouvache"@fr ;
+    skos:definition "The language Chuvash"@en ;
+    skos:inScheme cs: ;
+    skos:notation "cv"^^:iso639-1Code ;
+    skos:prefLabel "Chuvash"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:chy
+    a skos:Concept ;
+    skos:altLabel
+        "Cheyenne-Sprache"@de ,
+        "cheyenne"@fr ;
+    skos:definition "The language Cheyenne"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cheyenne"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cmc
+    a skos:Concept ;
+    skos:altLabel
+        "Cham-Sprachen"@de ,
+        "chames, langues"@fr ;
+    skos:definition "The language Chamic languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Chamic languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cnr
+    a skos:Concept ;
+    skos:altLabel
+        "Montenegrinisch"@de ,
+        "monténégrin"@fr ;
+    skos:definition "The language Montenegrin"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Montenegrin"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cop
+    a skos:Concept ;
+    skos:altLabel
+        "Koptisch"@de ,
+        "copte"@fr ;
+    skos:definition "The language Coptic"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coptic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cor
+    a skos:Concept ;
+    skos:altLabel
+        "Kornisch"@de ,
+        "cornique"@fr ;
+    skos:definition "The language Cornish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "kw"^^:iso639-1Code ;
+    skos:prefLabel "Cornish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cos
+    a skos:Concept ;
+    skos:altLabel
+        "Korsisch"@de ,
+        "corse"@fr ;
+    skos:definition "The language Corsican"@en ;
+    skos:inScheme cs: ;
+    skos:notation "co"^^:iso639-1Code ;
+    skos:prefLabel "Corsican"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cpe
+    a skos:Concept ;
+    skos:altLabel
+        "Kreolisch-Englisch (Andere)"@de ,
+        "créoles et pidgins basés sur l'anglais"@fr ;
+    skos:definition "The language Creoles and pidgins, English based"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Creoles and pidgins, English based"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cpf
+    a skos:Concept ;
+    skos:altLabel
+        "Kreolisch-Französisch (Andere)"@de ,
+        "créoles et pidgins basés sur le français"@fr ;
+    skos:definition "The language Creoles and pidgins, French-based"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Creoles and pidgins, French-based"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cpp
+    a skos:Concept ;
+    skos:altLabel
+        "Kreolisch-Portugiesisch (Andere)"@de ,
+        "créoles et pidgins basés sur le portugais"@fr ;
+    skos:definition "The language Creoles and pidgins, Portuguese-based"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Creoles and pidgins, Portuguese-based"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cre
+    a skos:Concept ;
+    skos:altLabel
+        "Cree-Sprache"@de ,
+        "cree"@fr ;
+    skos:definition "The language Cree"@en ;
+    skos:inScheme cs: ;
+    skos:notation "cr"^^:iso639-1Code ;
+    skos:prefLabel "Cree"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:crh
+    a skos:Concept ;
+    skos:altLabel
+        "Krimtatarisch"@de ,
+        "tatar de Crimé"@fr ;
+    skos:definition "The language Crimean Tatar; Crimean Turkish"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Crimean Tatar; Crimean Turkish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:crp
+    a skos:Concept ;
+    skos:altLabel
+        "Kreolische Sprachen; Pidginsprachen (Andere)"@de ,
+        "créoles et pidgins"@fr ;
+    skos:definition "The language Creoles and pidgins"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Creoles and pidgins"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:b
+    a skos:Concept ;
+    skos:altLabel
+        "Kaschubisch"@de ,
+        "kachoube"@fr ;
+    skos:definition "The language Kashubian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kashubian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cus
+    a skos:Concept ;
+    skos:altLabel
+        "Kuschitische Sprachen (Andere)"@de ,
+        "couchitiques, langues"@fr ;
+    skos:definition "The language Cushitic languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cushitic languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cze
+    a skos:Concept ;
+    skos:altLabel
+        "Tschechisch"@de ,
+        "tchèque"@fr ;
+    skos:definition "The language Czech"@en ;
+    skos:inScheme cs: ;
+    skos:notation "cs"^^:iso639-1Code ;
+    skos:prefLabel "Czech"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dak
+    a skos:Concept ;
+    skos:altLabel
+        "Dakota-Sprache"@de ,
+        "dakota"@fr ;
+    skos:definition "The language Dakota"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dakota"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dan
+    a skos:Concept ;
+    skos:altLabel
+        "Dänisch"@de ,
+        "danois"@fr ;
+    skos:definition "The language Danish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "da"^^:iso639-1Code ;
+    skos:prefLabel "Danish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dar
+    a skos:Concept ;
+    skos:altLabel
+        "Darginisch"@de ,
+        "dargwa"@fr ;
+    skos:definition "The language Dargwa"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dargwa"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:day
+    a skos:Concept ;
+    skos:altLabel
+        "Dajakisch"@de ,
+        "dayak, langues"@fr ;
+    skos:definition "The language Land Dayak languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Land Dayak languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:del
+    a skos:Concept ;
+    skos:altLabel
+        "Delaware-Sprache"@de ,
+        "delaware"@fr ;
+    skos:definition "The language Delaware"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Delaware"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:den
+    a skos:Concept ;
+    skos:altLabel
+        "Slave-Sprache"@de ,
+        "esclave (athapascan)"@fr ;
+    skos:definition "The language Slave (Athapascan)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Slave (Athapascan)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dgr
+    a skos:Concept ;
+    skos:altLabel
+        "Tlicho-Sprache; Dogrib-Sprache"@de ,
+        "tlicho; dogrib"@fr ;
+    skos:definition "The language Tlicho; Dogrib"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tlicho; Dogrib"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:din
+    a skos:Concept ;
+    skos:altLabel
+        "Dinka-Sprache"@de ,
+        "dinka"@fr ;
+    skos:definition "The language Dinka"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dinka"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:div
+    a skos:Concept ;
+    skos:altLabel
+        "Maledivisch"@de ,
+        "maldivien"@fr ;
+    skos:definition "The language Divehi; Dhivehi; Maldivian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "dv"^^:iso639-1Code ;
+    skos:prefLabel "Divehi; Dhivehi; Maldivian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:doi
+    a skos:Concept ;
+    skos:altLabel
+        "Dogri"@de ,
+        "dogri"@fr ;
+    skos:definition "The language Dogri (macrolanguage)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dogri (macrolanguage)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dra
+    a skos:Concept ;
+    skos:altLabel
+        "Drawidische Sprachen (Andere)"@de ,
+        "dravidiennes, langues"@fr ;
+    skos:definition "The language Dravidian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dravidian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dsb
+    a skos:Concept ;
+    skos:altLabel
+        "Niedersorbisch"@de ,
+        "bas-sorabe"@fr ;
+    skos:definition "The language Lower Sorbian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lower Sorbian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dua
+    a skos:Concept ;
+    skos:altLabel
+        "Duala-Sprachen"@de ,
+        "douala"@fr ;
+    skos:definition "The language Duala"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Duala"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dum
+    a skos:Concept ;
+    skos:altLabel
+        "Mittelniederländisch"@de ,
+        "néerlandais moyen (ca. 1050-1350)"@fr ;
+    skos:definition "The language Dutch, Middle (ca.1050-1350)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dutch, Middle (ca.1050-1350)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dut
+    a skos:Concept ;
+    skos:altLabel
+        "Niederländisch"@de ,
+        "néerlandais; flamand"@fr ;
+    skos:definition "The language Dutch; Flemish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "nl"^^:iso639-1Code ;
+    skos:prefLabel "Dutch; Flemish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dyu
+    a skos:Concept ;
+    skos:altLabel
+        "Dyula-Sprache"@de ,
+        "dioula"@fr ;
+    skos:definition "The language Dyula"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dyula"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dzo
+    a skos:Concept ;
+    skos:altLabel
+        "Dzongkha"@de ,
+        "dzongkha"@fr ;
+    skos:definition "The language Dzongkha"@en ;
+    skos:inScheme cs: ;
+    skos:notation "dz"^^:iso639-1Code ;
+    skos:prefLabel "Dzongkha"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:efi
+    a skos:Concept ;
+    skos:altLabel
+        "Efik"@de ,
+        "efik"@fr ;
+    skos:definition "The language Efik"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Efik"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:egy
+    a skos:Concept ;
+    skos:altLabel
+        "Ägyptisch"@de ,
+        "égyptien"@fr ;
+    skos:definition "The language Egyptian (Ancient)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Egyptian (Ancient)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:eka
+    a skos:Concept ;
+    skos:altLabel
+        "Ekajuk"@de ,
+        "ekajuk"@fr ;
+    skos:definition "The language Ekajuk"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ekajuk"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:elx
+    a skos:Concept ;
+    skos:altLabel
+        "Elamisch"@de ,
+        "élamite"@fr ;
+    skos:definition "The language Elamite"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Elamite"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:eng
+    a skos:Concept ;
+    skos:altLabel
+        "Englisch"@de ,
+        "anglais"@fr ;
+    skos:definition "The language English"@en ;
+    skos:inScheme cs: ;
+    skos:notation "en"^^:iso639-1Code ;
+    skos:prefLabel "English"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:enm
+    a skos:Concept ;
+    skos:altLabel
+        "Mittelenglisch"@de ,
+        "anglais moyen (1100-1500)"@fr ;
+    skos:definition "The language English, Middle (1100-1500)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "English, Middle (1100-1500)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:epo
+    a skos:Concept ;
+    skos:altLabel
+        "Esperanto"@de ,
+        "espéranto"@fr ;
+    skos:definition "The language Esperanto"@en ;
+    skos:inScheme cs: ;
+    skos:notation "eo"^^:iso639-1Code ;
+    skos:prefLabel "Esperanto"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:est
+    a skos:Concept ;
+    skos:altLabel
+        "Estnisch"@de ,
+        "estonien"@fr ;
+    skos:definition "The language Estonian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "et"^^:iso639-1Code ;
+    skos:prefLabel "Estonian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ewe
+    a skos:Concept ;
+    skos:altLabel
+        "Ewe-Sprache"@de ,
+        "éwé"@fr ;
+    skos:definition "The language Ewe"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ee"^^:iso639-1Code ;
+    skos:prefLabel "Ewe"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ewo
+    a skos:Concept ;
+    skos:altLabel
+        "Ewondo"@de ,
+        "éwondo"@fr ;
+    skos:definition "The language Ewondo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ewondo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fan
+    a skos:Concept ;
+    skos:altLabel
+        "Pangwe-Sprache"@de ,
+        "fang"@fr ;
+    skos:definition "The language Fang"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fang"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fao
+    a skos:Concept ;
+    skos:altLabel
+        "Färöisch"@de ,
+        "féroïen"@fr ;
+    skos:definition "The language Faroese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "fo"^^:iso639-1Code ;
+    skos:prefLabel "Faroese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fat
+    a skos:Concept ;
+    skos:altLabel
+        "Fante-Sprache"@de ,
+        "fanti"@fr ;
+    skos:definition "The language Fanti"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fanti"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fij
+    a skos:Concept ;
+    skos:altLabel
+        "Fidschi-Sprache"@de ,
+        "fidjien"@fr ;
+    skos:definition "The language Fijian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "fj"^^:iso639-1Code ;
+    skos:prefLabel "Fijian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fil
+    a skos:Concept ;
+    skos:altLabel
+        "Pilipino"@de ,
+        "filipino; pilipino"@fr ;
+    skos:definition "The language Filipino; Pilipino"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Filipino; Pilipino"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fin
+    a skos:Concept ;
+    skos:altLabel
+        "Finnisch"@de ,
+        "finnois"@fr ;
+    skos:definition "The language Finnish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "fi"^^:iso639-1Code ;
+    skos:prefLabel "Finnish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fiu
+    a skos:Concept ;
+    skos:altLabel
+        "Finnougrische Sprachen (Andere)"@de ,
+        "finno-ougriennes, langues"@fr ;
+    skos:definition "The language Finno-Ugrian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Finno-Ugrian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fon
+    a skos:Concept ;
+    skos:altLabel
+        "Fon-Sprache"@de ,
+        "fon"@fr ;
+    skos:definition "The language Fon"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fon"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fre
+    a skos:Concept ;
+    skos:altLabel
+        "Französisch"@de ,
+        "français"@fr ;
+    skos:definition "The language French"@en ;
+    skos:inScheme cs: ;
+    skos:notation "fr"^^:iso639-1Code ;
+    skos:prefLabel "French"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:frm
+    a skos:Concept ;
+    skos:altLabel
+        "Mittelfranzösisch"@de ,
+        "français moyen (1400-1600)"@fr ;
+    skos:definition "The language French, Middle (ca.1400-1600)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "French, Middle (ca.1400-1600)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fro
+    a skos:Concept ;
+    skos:altLabel
+        "Altfranzösisch"@de ,
+        "français ancien (842-ca.1400)"@fr ;
+    skos:definition "The language French, Old (842-ca.1400)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "French, Old (842-ca.1400)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:frr
+    a skos:Concept ;
+    skos:altLabel
+        "Nordfriesisch"@de ,
+        "frison septentrional"@fr ;
+    skos:definition "The language Northern Frisian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Northern Frisian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:frs
+    a skos:Concept ;
+    skos:altLabel
+        "Ostfriesisch"@de ,
+        "frison oriental"@fr ;
+    skos:definition "The language Eastern Frisian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Eastern Frisian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fry
+    a skos:Concept ;
+    skos:altLabel
+        "Friesisch"@de ,
+        "frison occidental"@fr ;
+    skos:definition "The language Western Frisian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "fy"^^:iso639-1Code ;
+    skos:prefLabel "Western Frisian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ful
+    a skos:Concept ;
+    skos:altLabel
+        "Ful"@de ,
+        "peul"@fr ;
+    skos:definition "The language Fulah"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ff"^^:iso639-1Code ;
+    skos:prefLabel "Fulah"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fur
+    a skos:Concept ;
+    skos:altLabel
+        "Friulisch"@de ,
+        "frioulan"@fr ;
+    skos:definition "The language Friulian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Friulian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gaa
+    a skos:Concept ;
+    skos:altLabel
+        "Ga-Sprache"@de ,
+        "ga"@fr ;
+    skos:definition "The language Ga"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ga"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gay
+    a skos:Concept ;
+    skos:altLabel
+        "Gayo-Sprache"@de ,
+        "gayo"@fr ;
+    skos:definition "The language Gayo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gayo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gba
+    a skos:Concept ;
+    skos:altLabel
+        "Gbaya-Sprache"@de ,
+        "gbaya"@fr ;
+    skos:definition "The language Gbaya"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gbaya"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gem
+    a skos:Concept ;
+    skos:altLabel
+        "Germanische Sprachen (Andere)"@de ,
+        "germaniques, langues"@fr ;
+    skos:definition "The language Germanic languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Germanic languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:geo
+    a skos:Concept ;
+    skos:altLabel
+        "Georgisch"@de ,
+        "géorgien"@fr ;
+    skos:definition "The language Georgian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ka"^^:iso639-1Code ;
+    skos:prefLabel "Georgian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ger
+    a skos:Concept ;
+    skos:altLabel
+        "Deutsch"@de ,
+        "allemand"@fr ;
+    skos:definition "The language German"@en ;
+    skos:inScheme cs: ;
+    skos:notation "de"^^:iso639-1Code ;
+    skos:prefLabel "German"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gez
+    a skos:Concept ;
+    skos:altLabel
+        "Altäthiopisch"@de ,
+        "guèze"@fr ;
+    skos:definition "The language Geez"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geez"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gil
+    a skos:Concept ;
+    skos:altLabel
+        "Gilbertesisch"@de ,
+        "kiribati"@fr ;
+    skos:definition "The language Gilbertese"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gilbertese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gla
+    a skos:Concept ;
+    skos:altLabel
+        "Gälisch-Schottisch"@de ,
+        "gaélique; gaélique écossais"@fr ;
+    skos:definition "The language Gaelic; Scottish Gaelic"@en ;
+    skos:inScheme cs: ;
+    skos:notation "gd"^^:iso639-1Code ;
+    skos:prefLabel "Gaelic; Scottish Gaelic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gle
+    a skos:Concept ;
+    skos:altLabel
+        "Irisch"@de ,
+        "irlandais"@fr ;
+    skos:definition "The language Irish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ga"^^:iso639-1Code ;
+    skos:prefLabel "Irish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:glg
+    a skos:Concept ;
+    skos:altLabel
+        "Galicisch"@de ,
+        "galicien"@fr ;
+    skos:definition "The language Galician"@en ;
+    skos:inScheme cs: ;
+    skos:notation "gl"^^:iso639-1Code ;
+    skos:prefLabel "Galician"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:glv
+    a skos:Concept ;
+    skos:altLabel
+        "Manx"@de ,
+        "manx; mannois"@fr ;
+    skos:definition "The language Manx"@en ;
+    skos:inScheme cs: ;
+    skos:notation "gv"^^:iso639-1Code ;
+    skos:prefLabel "Manx"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gmh
+    a skos:Concept ;
+    skos:altLabel
+        "Mittelhochdeutsch"@de ,
+        "allemand, moyen haut (ca. 1050-1500)"@fr ;
+    skos:definition "The language German, Middle High (ca.1050-1500)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "German, Middle High (ca.1050-1500)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:goh
+    a skos:Concept ;
+    skos:altLabel
+        "Althochdeutsch"@de ,
+        "allemand, vieux haut (ca. 750-1050)"@fr ;
+    skos:definition "The language German, Old High (ca.750-1050)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "German, Old High (ca.750-1050)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gon
+    a skos:Concept ;
+    skos:altLabel
+        "Gondi-Sprache"@de ,
+        "gond"@fr ;
+    skos:definition "The language Gondi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gondi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gor
+    a skos:Concept ;
+    skos:altLabel
+        "Gorontalesisch"@de ,
+        "gorontalo"@fr ;
+    skos:definition "The language Gorontalo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gorontalo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:got
+    a skos:Concept ;
+    skos:altLabel
+        "Gotisch"@de ,
+        "gothique"@fr ;
+    skos:definition "The language Gothic"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gothic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:grb
+    a skos:Concept ;
+    skos:altLabel
+        "Grebo-Sprache"@de ,
+        "grebo"@fr ;
+    skos:definition "The language Grebo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Grebo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:grc
+    a skos:Concept ;
+    skos:altLabel
+        "Griechisch"@de ,
+        "grec ancien (jusqu'à 1453)"@fr ;
+    skos:definition "The language Greek, Ancient (to 1453)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Greek, Ancient (to 1453)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gre
+    a skos:Concept ;
+    skos:altLabel
+        "Neugriechisch"@de ,
+        "grec moderne (après 1453)"@fr ;
+    skos:definition "The language Greek, Modern (1453-)"@en ;
+    skos:inScheme cs: ;
+    skos:notation "el"^^:iso639-1Code ;
+    skos:prefLabel "Greek, Modern (1453-)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:grn
+    a skos:Concept ;
+    skos:altLabel
+        "Guaraní-Sprache"@de ,
+        "guarani"@fr ;
+    skos:definition "The language Guarani"@en ;
+    skos:inScheme cs: ;
+    skos:notation "gn"^^:iso639-1Code ;
+    skos:prefLabel "Guarani"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gsw
+    a skos:Concept ;
+    skos:altLabel
+        "Schweizerdeutsch"@de ,
+        "suisse alémanique; alémanique; alsacien"@fr ;
+    skos:definition "The language Swiss German; Alemannic; Alsatian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Swiss German; Alemannic; Alsatian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:guj
+    a skos:Concept ;
+    skos:altLabel
+        "Gujarati-Sprache"@de ,
+        "goudjrati"@fr ;
+    skos:definition "The language Gujarati"@en ;
+    skos:inScheme cs: ;
+    skos:notation "gu"^^:iso639-1Code ;
+    skos:prefLabel "Gujarati"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gwi
+    a skos:Concept ;
+    skos:altLabel
+        "Kutchin-Sprache"@de ,
+        "gwich'in"@fr ;
+    skos:definition "The language Gwich'in"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gwich'in"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hai
+    a skos:Concept ;
+    skos:altLabel
+        "Haida-Sprache"@de ,
+        "haida"@fr ;
+    skos:definition "The language Haida"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Haida"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hat
+    a skos:Concept ;
+    skos:altLabel
+        "Haïtien (Haiti-Kreolisch)"@de ,
+        "haïtien; créole haïtien"@fr ;
+    skos:definition "The language Haitian; Haitian Creole"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ht"^^:iso639-1Code ;
+    skos:prefLabel "Haitian; Haitian Creole"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hau
+    a skos:Concept ;
+    skos:altLabel
+        "Haussa-Sprache"@de ,
+        "haoussa"@fr ;
+    skos:definition "The language Hausa"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ha"^^:iso639-1Code ;
+    skos:prefLabel "Hausa"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:haw
+    a skos:Concept ;
+    skos:altLabel
+        "Hawaiisch"@de ,
+        "hawaïen"@fr ;
+    skos:definition "The language Hawaiian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hawaiian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:heb
+    a skos:Concept ;
+    skos:altLabel
+        "Hebräisch"@de ,
+        "hébreu"@fr ;
+    skos:definition "The language Hebrew"@en ;
+    skos:inScheme cs: ;
+    skos:notation "he"^^:iso639-1Code ;
+    skos:prefLabel "Hebrew"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:her
+    a skos:Concept ;
+    skos:altLabel
+        "Herero-Sprache"@de ,
+        "herero"@fr ;
+    skos:definition "The language Herero"@en ;
+    skos:inScheme cs: ;
+    skos:notation "hz"^^:iso639-1Code ;
+    skos:prefLabel "Herero"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hil
+    a skos:Concept ;
+    skos:altLabel
+        "Hiligaynon-Sprache"@de ,
+        "hiligaynon"@fr ;
+    skos:definition "The language Hiligaynon"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hiligaynon"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:him
+    a skos:Concept ;
+    skos:altLabel
+        "Himachali"@de ,
+        "langues himachalis; langues paharis occidentales"@fr ;
+    skos:definition "The language Himachali languages; Western Pahari languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Himachali languages; Western Pahari languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hin
+    a skos:Concept ;
+    skos:altLabel
+        "Hindi"@de ,
+        "hindi"@fr ;
+    skos:definition "The language Hindi"@en ;
+    skos:inScheme cs: ;
+    skos:notation "hi"^^:iso639-1Code ;
+    skos:prefLabel "Hindi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hit
+    a skos:Concept ;
+    skos:altLabel
+        "Hethitisch"@de ,
+        "hittite"@fr ;
+    skos:definition "The language Hittite"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hittite"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hmn
+    a skos:Concept ;
+    skos:altLabel
+        "Miao-Sprachen"@de ,
+        "hmong"@fr ;
+    skos:definition "The language Hmong; Mong"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hmong; Mong"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hmo
+    a skos:Concept ;
+    skos:altLabel
+        "Hiri-Motu"@de ,
+        "hiri motu"@fr ;
+    skos:definition "The language Hiri Motu"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ho"^^:iso639-1Code ;
+    skos:prefLabel "Hiri Motu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hrv
+    a skos:Concept ;
+    skos:altLabel
+        "Kroatisch"@de ,
+        "croate"@fr ;
+    skos:definition "The language Croatian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "hr"^^:iso639-1Code ;
+    skos:prefLabel "Croatian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hsb
+    a skos:Concept ;
+    skos:altLabel
+        "Obersorbisch"@de ,
+        "haut-sorabe"@fr ;
+    skos:definition "The language Upper Sorbian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Upper Sorbian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hun
+    a skos:Concept ;
+    skos:altLabel
+        "Ungarisch"@de ,
+        "hongrois"@fr ;
+    skos:definition "The language Hungarian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "hu"^^:iso639-1Code ;
+    skos:prefLabel "Hungarian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hup
+    a skos:Concept ;
+    skos:altLabel
+        "Hupa-Sprache"@de ,
+        "hupa"@fr ;
+    skos:definition "The language Hupa"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hupa"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:iba
+    a skos:Concept ;
+    skos:altLabel
+        "Iban-Sprache"@de ,
+        "iban"@fr ;
+    skos:definition "The language Iban"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Iban"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ibo
+    a skos:Concept ;
+    skos:altLabel
+        "Ibo-Sprache"@de ,
+        "igbo"@fr ;
+    skos:definition "The language Igbo"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ig"^^:iso639-1Code ;
+    skos:prefLabel "Igbo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ice
+    a skos:Concept ;
+    skos:altLabel
+        "Isländisch"@de ,
+        "islandais"@fr ;
+    skos:definition "The language Icelandic"@en ;
+    skos:inScheme cs: ;
+    skos:notation "is"^^:iso639-1Code ;
+    skos:prefLabel "Icelandic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ido
+    a skos:Concept ;
+    skos:altLabel
+        "Ido"@de ,
+        "ido"@fr ;
+    skos:definition "The language Ido"@en ;
+    skos:inScheme cs: ;
+    skos:notation "io"^^:iso639-1Code ;
+    skos:prefLabel "Ido"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:iii
+    a skos:Concept ;
+    skos:altLabel
+        "Lalo-Sprache"@de ,
+        "yi de Sichuan"@fr ;
+    skos:definition "The language Sichuan Yi; Nuosu"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ii"^^:iso639-1Code ;
+    skos:prefLabel "Sichuan Yi; Nuosu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ijo
+    a skos:Concept ;
+    skos:altLabel
+        "Ijo-Sprache"@de ,
+        "ijo, langues"@fr ;
+    skos:definition "The language Ijo languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ijo languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:iku
+    a skos:Concept ;
+    skos:altLabel
+        "Inuktitut"@de ,
+        "inuktitut"@fr ;
+    skos:definition "The language Inuktitut"@en ;
+    skos:inScheme cs: ;
+    skos:notation "iu"^^:iso639-1Code ;
+    skos:prefLabel "Inuktitut"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ile
+    a skos:Concept ;
+    skos:altLabel
+        "Interlingue"@de ,
+        "interlingue"@fr ;
+    skos:definition "The language Interlingue; Occidental"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ie"^^:iso639-1Code ;
+    skos:prefLabel "Interlingue; Occidental"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ilo
+    a skos:Concept ;
+    skos:altLabel
+        "Ilokano-Sprache"@de ,
+        "ilocano"@fr ;
+    skos:definition "The language Iloko"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Iloko"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ina
+    a skos:Concept ;
+    skos:altLabel
+        "Interlingua"@de ,
+        "interlingua (langue auxiliaire internationale)"@fr ;
+    skos:definition "The language Interlingua (International Auxiliary Language Association)"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ia"^^:iso639-1Code ;
+    skos:prefLabel "Interlingua (International Auxiliary Language Association)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:inc
+    a skos:Concept ;
+    skos:altLabel
+        "Indoarische Sprachen (Andere)"@de ,
+        "indo-aryennes, langues"@fr ;
+    skos:definition "The language Indic languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Indic languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ind
+    a skos:Concept ;
+    skos:altLabel
+        "Bahasa Indonesia"@de ,
+        "indonésien"@fr ;
+    skos:definition "The language Indonesian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "id"^^:iso639-1Code ;
+    skos:prefLabel "Indonesian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ine
+    a skos:Concept ;
+    skos:altLabel
+        "Indogermanische Sprachen (Andere)"@de ,
+        "indo-européennes, langues"@fr ;
+    skos:definition "The language Indo-European languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Indo-European languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:inh
+    a skos:Concept ;
+    skos:altLabel
+        "Inguschisch"@de ,
+        "ingouche"@fr ;
+    skos:definition "The language Ingush"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ingush"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ipk
+    a skos:Concept ;
+    skos:altLabel
+        "Inupik"@de ,
+        "inupiaq"@fr ;
+    skos:definition "The language Inupiaq"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ik"^^:iso639-1Code ;
+    skos:prefLabel "Inupiaq"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ira
+    a skos:Concept ;
+    skos:altLabel
+        "Iranische Sprachen (Andere)"@de ,
+        "iraniennes, langues"@fr ;
+    skos:definition "The language Iranian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Iranian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:iro
+    a skos:Concept ;
+    skos:altLabel
+        "Irokesische Sprachen"@de ,
+        "iroquoises, langues"@fr ;
+    skos:definition "The language Iroquoian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Iroquoian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ita
+    a skos:Concept ;
+    skos:altLabel
+        "Italienisch"@de ,
+        "italien"@fr ;
+    skos:definition "The language Italian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "it"^^:iso639-1Code ;
+    skos:prefLabel "Italian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:jav
+    a skos:Concept ;
+    skos:altLabel
+        "Javanisch"@de ,
+        "javanais"@fr ;
+    skos:definition "The language Javanese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "jv"^^:iso639-1Code ;
+    skos:prefLabel "Javanese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:jbo
+    a skos:Concept ;
+    skos:altLabel
+        "Lojban"@de ,
+        "lojban"@fr ;
+    skos:definition "The language Lojban"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lojban"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:jpn
+    a skos:Concept ;
+    skos:altLabel
+        "Japanisch"@de ,
+        "japonais"@fr ;
+    skos:definition "The language Japanese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ja"^^:iso639-1Code ;
+    skos:prefLabel "Japanese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:jpr
+    a skos:Concept ;
+    skos:altLabel
+        "Jüdisch-Persisch"@de ,
+        "judéo-persan"@fr ;
+    skos:definition "The language Judeo-Persian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Judeo-Persian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:jrb
+    a skos:Concept ;
+    skos:altLabel
+        "Jüdisch-Arabisch"@de ,
+        "judéo-arabe"@fr ;
+    skos:definition "The language Judeo-Arabic"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Judeo-Arabic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kaa
+    a skos:Concept ;
+    skos:altLabel
+        "Karakalpakisch"@de ,
+        "karakalpak"@fr ;
+    skos:definition "The language Kara-Kalpak"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kara-Kalpak"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kab
+    a skos:Concept ;
+    skos:altLabel
+        "Kabylisch"@de ,
+        "kabyle"@fr ;
+    skos:definition "The language Kabyle"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kabyle"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kac
+    a skos:Concept ;
+    skos:altLabel
+        "Kachin-Sprache"@de ,
+        "kachin; jingpho"@fr ;
+    skos:definition "The language Kachin; Jingpho"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kachin; Jingpho"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kal
+    a skos:Concept ;
+    skos:altLabel
+        "Grönländisch"@de ,
+        "groenlandais"@fr ;
+    skos:definition "The language Kalaallisut; Greenlandic"@en ;
+    skos:inScheme cs: ;
+    skos:notation "kl"^^:iso639-1Code ;
+    skos:prefLabel "Kalaallisut; Greenlandic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kam
+    a skos:Concept ;
+    skos:altLabel
+        "Kamba-Sprache"@de ,
+        "kamba"@fr ;
+    skos:definition "The language Kamba"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kamba"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kan
+    a skos:Concept ;
+    skos:altLabel
+        "Kannada"@de ,
+        "kannada"@fr ;
+    skos:definition "The language Kannada"@en ;
+    skos:inScheme cs: ;
+    skos:notation "kn"^^:iso639-1Code ;
+    skos:prefLabel "Kannada"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kar
+    a skos:Concept ;
+    skos:altLabel
+        "Karenisch"@de ,
+        "karen, langues"@fr ;
+    skos:definition "The language Karen languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Karen languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kas
+    a skos:Concept ;
+    skos:altLabel
+        "Kaschmiri"@de ,
+        "kashmiri"@fr ;
+    skos:definition "The language Kashmiri"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ks"^^:iso639-1Code ;
+    skos:prefLabel "Kashmiri"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kau
+    a skos:Concept ;
+    skos:altLabel
+        "Kanuri-Sprache"@de ,
+        "kanouri"@fr ;
+    skos:definition "The language Kanuri"@en ;
+    skos:inScheme cs: ;
+    skos:notation "kr"^^:iso639-1Code ;
+    skos:prefLabel "Kanuri"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kaw
+    a skos:Concept ;
+    skos:altLabel
+        "Kawi"@de ,
+        "kawi"@fr ;
+    skos:definition "The language Kawi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kawi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kaz
+    a skos:Concept ;
+    skos:altLabel
+        "Kasachisch"@de ,
+        "kazakh"@fr ;
+    skos:definition "The language Kazakh"@en ;
+    skos:inScheme cs: ;
+    skos:notation "kk"^^:iso639-1Code ;
+    skos:prefLabel "Kazakh"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kbd
+    a skos:Concept ;
+    skos:altLabel
+        "Kabardinisch"@de ,
+        "kabardien"@fr ;
+    skos:definition "The language Kabardian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kabardian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kha
+    a skos:Concept ;
+    skos:altLabel
+        "Khasi-Sprache"@de ,
+        "khasi"@fr ;
+    skos:definition "The language Khasi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Khasi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:khi
+    a skos:Concept ;
+    skos:altLabel
+        "Khoisan-Sprachen (Andere)"@de ,
+        "khoïsan, langues"@fr ;
+    skos:definition "The language Khoisan languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Khoisan languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:khm
+    a skos:Concept ;
+    skos:altLabel
+        "Kambodschanisch"@de ,
+        "khmer central"@fr ;
+    skos:definition "The language Central Khmer"@en ;
+    skos:inScheme cs: ;
+    skos:notation "km"^^:iso639-1Code ;
+    skos:prefLabel "Central Khmer"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kho
+    a skos:Concept ;
+    skos:altLabel
+        "Sakisch"@de ,
+        "khotanais; sakan"@fr ;
+    skos:definition "The language Khotanese; Sakan"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Khotanese; Sakan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kik
+    a skos:Concept ;
+    skos:altLabel
+        "Kikuyu-Sprache"@de ,
+        "kikuyu"@fr ;
+    skos:definition "The language Kikuyu; Gikuyu"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ki"^^:iso639-1Code ;
+    skos:prefLabel "Kikuyu; Gikuyu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kin
+    a skos:Concept ;
+    skos:altLabel
+        "Rwanda-Sprache"@de ,
+        "rwanda"@fr ;
+    skos:definition "The language Kinyarwanda"@en ;
+    skos:inScheme cs: ;
+    skos:notation "rw"^^:iso639-1Code ;
+    skos:prefLabel "Kinyarwanda"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kir
+    a skos:Concept ;
+    skos:altLabel
+        "Kirgisisch"@de ,
+        "kirghiz"@fr ;
+    skos:definition "The language Kirghiz; Kyrgyz"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ky"^^:iso639-1Code ;
+    skos:prefLabel "Kirghiz; Kyrgyz"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kmb
+    a skos:Concept ;
+    skos:altLabel
+        "Kimbundu-Sprache"@de ,
+        "kimbundu"@fr ;
+    skos:definition "The language Kimbundu"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kimbundu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kok
+    a skos:Concept ;
+    skos:altLabel
+        "Konkani"@de ,
+        "konkani"@fr ;
+    skos:definition "The language Konkani (macrolanguage)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Konkani (macrolanguage)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kom
+    a skos:Concept ;
+    skos:altLabel
+        "Komi-Sprache"@de ,
+        "kom"@fr ;
+    skos:definition "The language Komi"@en ;
+    skos:inScheme cs: ;
+    skos:notation "kv"^^:iso639-1Code ;
+    skos:prefLabel "Komi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kon
+    a skos:Concept ;
+    skos:altLabel
+        "Kongo-Sprache"@de ,
+        "kongo"@fr ;
+    skos:definition "The language Kongo"@en ;
+    skos:inScheme cs: ;
+    skos:notation "kg"^^:iso639-1Code ;
+    skos:prefLabel "Kongo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kor
+    a skos:Concept ;
+    skos:altLabel
+        "Koreanisch"@de ,
+        "coréen"@fr ;
+    skos:definition "The language Korean"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ko"^^:iso639-1Code ;
+    skos:prefLabel "Korean"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kos
+    a skos:Concept ;
+    skos:altLabel
+        "Kosraeanisch"@de ,
+        "kosrae"@fr ;
+    skos:definition "The language Kosraean"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kosraean"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kpe
+    a skos:Concept ;
+    skos:altLabel
+        "Kpelle-Sprache"@de ,
+        "kpellé"@fr ;
+    skos:definition "The language Kpelle"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kpelle"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:krc
+    a skos:Concept ;
+    skos:altLabel
+        "Karatschaiisch-Balkarisch"@de ,
+        "karatchai balkar"@fr ;
+    skos:definition "The language Karachay-Balkar"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Karachay-Balkar"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:krl
+    a skos:Concept ;
+    skos:altLabel
+        "Karelisch"@de ,
+        "carélien"@fr ;
+    skos:definition "The language Karelian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Karelian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kro
+    a skos:Concept ;
+    skos:altLabel
+        "Kru-Sprachen (Andere)"@de ,
+        "krou, langues"@fr ;
+    skos:definition "The language Kru languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kru languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kru
+    a skos:Concept ;
+    skos:altLabel
+        "Oraon-Sprache"@de ,
+        "kurukh"@fr ;
+    skos:definition "The language Kurukh"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kurukh"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kua
+    a skos:Concept ;
+    skos:altLabel
+        "Kwanyama-Sprache"@de ,
+        "kuanyama; kwanyama"@fr ;
+    skos:definition "The language Kuanyama; Kwanyama"@en ;
+    skos:inScheme cs: ;
+    skos:notation "kj"^^:iso639-1Code ;
+    skos:prefLabel "Kuanyama; Kwanyama"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kum
+    a skos:Concept ;
+    skos:altLabel
+        "Kumükisch"@de ,
+        "koumyk"@fr ;
+    skos:definition "The language Kumyk"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kumyk"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kur
+    a skos:Concept ;
+    skos:altLabel
+        "Kurdisch"@de ,
+        "kurde"@fr ;
+    skos:definition "The language Kurdish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ku"^^:iso639-1Code ;
+    skos:prefLabel "Kurdish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kut
+    a skos:Concept ;
+    skos:altLabel
+        "Kutenai-Sprache"@de ,
+        "kutenai"@fr ;
+    skos:definition "The language Kutenai"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kutenai"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lad
+    a skos:Concept ;
+    skos:altLabel
+        "Judenspanisch"@de ,
+        "judéo-espagnol"@fr ;
+    skos:definition "The language Ladino"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ladino"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lah
+    a skos:Concept ;
+    skos:altLabel
+        "Lahnda"@de ,
+        "lahnda"@fr ;
+    skos:definition "The language Lahnda"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lahnda"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lam
+    a skos:Concept ;
+    skos:altLabel
+        "Lamba-Sprache (Bantusprache)"@de ,
+        "lamba"@fr ;
+    skos:definition "The language Lamba"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lamba"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lao
+    a skos:Concept ;
+    skos:altLabel
+        "Laotisch"@de ,
+        "lao"@fr ;
+    skos:definition "The language Lao"@en ;
+    skos:inScheme cs: ;
+    skos:notation "lo"^^:iso639-1Code ;
+    skos:prefLabel "Lao"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lat
+    a skos:Concept ;
+    skos:altLabel
+        "Latein"@de ,
+        "latin"@fr ;
+    skos:definition "The language Latin"@en ;
+    skos:inScheme cs: ;
+    skos:notation "la"^^:iso639-1Code ;
+    skos:prefLabel "Latin"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lav
+    a skos:Concept ;
+    skos:altLabel
+        "Lettisch"@de ,
+        "letton"@fr ;
+    skos:definition "The language Latvian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "lv"^^:iso639-1Code ;
+    skos:prefLabel "Latvian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lez
+    a skos:Concept ;
+    skos:altLabel
+        "Lesgisch"@de ,
+        "lezghien"@fr ;
+    skos:definition "The language Lezghian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lezghian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lim
+    a skos:Concept ;
+    skos:altLabel
+        "Limburgisch"@de ,
+        "limbourgeois"@fr ;
+    skos:definition "The language Limburgan; Limburger; Limburgish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "li"^^:iso639-1Code ;
+    skos:prefLabel "Limburgan; Limburger; Limburgish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lin
+    a skos:Concept ;
+    skos:altLabel
+        "Lingala"@de ,
+        "lingala"@fr ;
+    skos:definition "The language Lingala"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ln"^^:iso639-1Code ;
+    skos:prefLabel "Lingala"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lit
+    a skos:Concept ;
+    skos:altLabel
+        "Litauisch"@de ,
+        "lituanien"@fr ;
+    skos:definition "The language Lithuanian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "lt"^^:iso639-1Code ;
+    skos:prefLabel "Lithuanian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lol
+    a skos:Concept ;
+    skos:altLabel
+        "Mongo-Sprache"@de ,
+        "mongo"@fr ;
+    skos:definition "The language Mongo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mongo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:loz
+    a skos:Concept ;
+    skos:altLabel
+        "Rotse-Sprache"@de ,
+        "lozi"@fr ;
+    skos:definition "The language Lozi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lozi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ltz
+    a skos:Concept ;
+    skos:altLabel
+        "Luxemburgisch"@de ,
+        "luxembourgeois"@fr ;
+    skos:definition "The language Luxembourgish; Letzeburgesch"@en ;
+    skos:inScheme cs: ;
+    skos:notation "lb"^^:iso639-1Code ;
+    skos:prefLabel "Luxembourgish; Letzeburgesch"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lua
+    a skos:Concept ;
+    skos:altLabel
+        "Lulua-Sprache"@de ,
+        "luba-lulua"@fr ;
+    skos:definition "The language Luba-Lulua"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Luba-Lulua"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lub
+    a skos:Concept ;
+    skos:altLabel
+        "Luba-Katanga-Sprache"@de ,
+        "luba-katanga"@fr ;
+    skos:definition "The language Luba-Katanga"@en ;
+    skos:inScheme cs: ;
+    skos:notation "lu"^^:iso639-1Code ;
+    skos:prefLabel "Luba-Katanga"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lug
+    a skos:Concept ;
+    skos:altLabel
+        "Ganda-Sprache"@de ,
+        "ganda"@fr ;
+    skos:definition "The language Ganda"@en ;
+    skos:inScheme cs: ;
+    skos:notation "lg"^^:iso639-1Code ;
+    skos:prefLabel "Ganda"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lui
+    a skos:Concept ;
+    skos:altLabel
+        "Luiseño-Sprache"@de ,
+        "luiseno"@fr ;
+    skos:definition "The language Luiseno"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Luiseno"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lun
+    a skos:Concept ;
+    skos:altLabel
+        "Lunda-Sprache"@de ,
+        "lunda"@fr ;
+    skos:definition "The language Lunda"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lunda"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:luo
+    a skos:Concept ;
+    skos:altLabel
+        "Luo-Sprache"@de ,
+        "luo (Kenya et Tanzanie)"@fr ;
+    skos:definition "The language Luo (Kenya and Tanzania)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Luo (Kenya and Tanzania)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lus
+    a skos:Concept ;
+    skos:altLabel
+        "Lushai-Sprache"@de ,
+        "lushai"@fr ;
+    skos:definition "The language Lushai"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lushai"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mac
+    a skos:Concept ;
+    skos:altLabel
+        "Makedonisch"@de ,
+        "macédonien"@fr ;
+    skos:definition "The language Macedonian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "mk"^^:iso639-1Code ;
+    skos:prefLabel "Macedonian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mad
+    a skos:Concept ;
+    skos:altLabel
+        "Maduresisch"@de ,
+        "madourais"@fr ;
+    skos:definition "The language Madurese"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Madurese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mag
+    a skos:Concept ;
+    skos:altLabel
+        "Khotta"@de ,
+        "magahi"@fr ;
+    skos:definition "The language Magahi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Magahi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mah
+    a skos:Concept ;
+    skos:altLabel
+        "Marschallesisch"@de ,
+        "marshall"@fr ;
+    skos:definition "The language Marshallese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "mh"^^:iso639-1Code ;
+    skos:prefLabel "Marshallese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mai
+    a skos:Concept ;
+    skos:altLabel
+        "Maithili"@de ,
+        "maithili"@fr ;
+    skos:definition "The language Maithili"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Maithili"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mak
+    a skos:Concept ;
+    skos:altLabel
+        "Makassarisch"@de ,
+        "makassar"@fr ;
+    skos:definition "The language Makasar"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Makasar"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mal
+    a skos:Concept ;
+    skos:altLabel
+        "Malayalam"@de ,
+        "malayalam"@fr ;
+    skos:definition "The language Malayalam"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ml"^^:iso639-1Code ;
+    skos:prefLabel "Malayalam"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:man
+    a skos:Concept ;
+    skos:altLabel
+        "Malinke-Sprache"@de ,
+        "mandingue"@fr ;
+    skos:definition "The language Mandingo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mandingo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mao
+    a skos:Concept ;
+    skos:altLabel
+        "Maori-Sprache"@de ,
+        "maori"@fr ;
+    skos:definition "The language Maori"@en ;
+    skos:inScheme cs: ;
+    skos:notation "mi"^^:iso639-1Code ;
+    skos:prefLabel "Maori"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:map
+    a skos:Concept ;
+    skos:altLabel
+        "Austronesische Sprachen (Andere)"@de ,
+        "austronésiennes, langues"@fr ;
+    skos:definition "The language Austronesian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Austronesian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mar
+    a skos:Concept ;
+    skos:altLabel
+        "Marathi"@de ,
+        "marathe"@fr ;
+    skos:definition "The language Marathi"@en ;
+    skos:inScheme cs: ;
+    skos:notation "mr"^^:iso639-1Code ;
+    skos:prefLabel "Marathi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mas
+    a skos:Concept ;
+    skos:altLabel
+        "Massai-Sprache"@de ,
+        "massaï"@fr ;
+    skos:definition "The language Masai"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Masai"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:may
+    a skos:Concept ;
+    skos:altLabel
+        "Malaiisch"@de ,
+        "malais"@fr ;
+    skos:definition "The language Malay (macrolanguage)"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ms"^^:iso639-1Code ;
+    skos:prefLabel "Malay (macrolanguage)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mdf
+    a skos:Concept ;
+    skos:altLabel
+        "Mokscha-Sprache"@de ,
+        "moksa"@fr ;
+    skos:definition "The language Moksha"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Moksha"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mdr
+    a skos:Concept ;
+    skos:altLabel
+        "Mandaresisch"@de ,
+        "mandar"@fr ;
+    skos:definition "The language Mandar"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mandar"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:men
+    a skos:Concept ;
+    skos:altLabel
+        "Mende-Sprache"@de ,
+        "mendé"@fr ;
+    skos:definition "The language Mende"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mende"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mga
+    a skos:Concept ;
+    skos:altLabel
+        "Mittelirisch"@de ,
+        "irlandais moyen (900-1200)"@fr ;
+    skos:definition "The language Irish, Middle (900-1200)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Irish, Middle (900-1200)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mic
+    a skos:Concept ;
+    skos:altLabel
+        "Micmac-Sprache"@de ,
+        "mi'kmaq; micmac"@fr ;
+    skos:definition "The language Mi'kmaq; Micmac"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mi'kmaq; Micmac"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:min
+    a skos:Concept ;
+    skos:altLabel
+        "Minangkabau-Sprache"@de ,
+        "minangkabau"@fr ;
+    skos:definition "The language Minangkabau"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Minangkabau"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mis
+    a skos:Concept ;
+    skos:altLabel
+        "Einzelne andere Sprachen"@de ,
+        "langues non codées"@fr ;
+    skos:definition "The language Uncoded languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Uncoded languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mkh
+    a skos:Concept ;
+    skos:altLabel
+        "Mon-Khmer-Sprachen (Andere)"@de ,
+        "môn-khmer, langues"@fr ;
+    skos:definition "The language Mon-Khmer languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mon-Khmer languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mlg
+    a skos:Concept ;
+    skos:altLabel
+        "Malagassi-Sprache"@de ,
+        "malgache"@fr ;
+    skos:definition "The language Malagasy"@en ;
+    skos:inScheme cs: ;
+    skos:notation "mg"^^:iso639-1Code ;
+    skos:prefLabel "Malagasy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mlt
+    a skos:Concept ;
+    skos:altLabel
+        "Maltesisch"@de ,
+        "maltais"@fr ;
+    skos:definition "The language Maltese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "mt"^^:iso639-1Code ;
+    skos:prefLabel "Maltese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mnc
+    a skos:Concept ;
+    skos:altLabel
+        "Mandschurisch"@de ,
+        "mandchou"@fr ;
+    skos:definition "The language Manchu"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Manchu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mni
+    a skos:Concept ;
+    skos:altLabel
+        "Meithei-Sprache"@de ,
+        "manipuri"@fr ;
+    skos:definition "The language Manipuri"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Manipuri"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mno
+    a skos:Concept ;
+    skos:altLabel
+        "Manobo-Sprachen"@de ,
+        "manobo, langues"@fr ;
+    skos:definition "The language Manobo languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Manobo languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:moh
+    a skos:Concept ;
+    skos:altLabel
+        "Mohawk-Sprache"@de ,
+        "mohawk"@fr ;
+    skos:definition "The language Mohawk"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mohawk"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mon
+    a skos:Concept ;
+    skos:altLabel
+        "Mongolisch"@de ,
+        "mongol"@fr ;
+    skos:definition "The language Mongolian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "mn"^^:iso639-1Code ;
+    skos:prefLabel "Mongolian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mos
+    a skos:Concept ;
+    skos:altLabel
+        "Mossi-Sprache"@de ,
+        "moré"@fr ;
+    skos:definition "The language Mossi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mossi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mul
+    a skos:Concept ;
+    skos:altLabel
+        "Mehrere Sprachen"@de ,
+        "multilingue"@fr ;
+    skos:definition "The language Multiple languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Multiple languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mun
+    a skos:Concept ;
+    skos:altLabel
+        "Mundasprachen (Andere)"@de ,
+        "mounda, langues"@fr ;
+    skos:definition "The language Munda languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Munda languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mus
+    a skos:Concept ;
+    skos:altLabel
+        "Muskogisch"@de ,
+        "muskogee"@fr ;
+    skos:definition "The language Creek"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Creek"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mwl
+    a skos:Concept ;
+    skos:altLabel
+        "Mirandesisch"@de ,
+        "mirandais"@fr ;
+    skos:definition "The language Mirandese"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mirandese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mwr
+    a skos:Concept ;
+    skos:altLabel
+        "Marwari"@de ,
+        "marvari"@fr ;
+    skos:definition "The language Marwari"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Marwari"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:myn
+    a skos:Concept ;
+    skos:altLabel
+        "Maya-Sprachen"@de ,
+        "maya, langues"@fr ;
+    skos:definition "The language Mayan languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mayan languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:myv
+    a skos:Concept ;
+    skos:altLabel
+        "Erza-Mordwinisch"@de ,
+        "erza"@fr ;
+    skos:definition "The language Erzya"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Erzya"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nah
+    a skos:Concept ;
+    skos:altLabel
+        "Nahuatl"@de ,
+        "nahuatl, langues"@fr ;
+    skos:definition "The language Nahuatl languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nahuatl languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nai
+    a skos:Concept ;
+    skos:altLabel
+        "Indianersprachen, Nordamerika (Andere)"@de ,
+        "nord-amérindiennes, langues"@fr ;
+    skos:definition "The language North American Indian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "North American Indian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nap
+    a skos:Concept ;
+    skos:altLabel
+        "Neapel / Mundart"@de ,
+        "napolitain"@fr ;
+    skos:definition "The language Neapolitan"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Neapolitan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nau
+    a skos:Concept ;
+    skos:altLabel
+        "Nauruanisch"@de ,
+        "nauruan"@fr ;
+    skos:definition "The language Nauru"@en ;
+    skos:inScheme cs: ;
+    skos:notation "na"^^:iso639-1Code ;
+    skos:prefLabel "Nauru"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nav
+    a skos:Concept ;
+    skos:altLabel
+        "Navajo-Sprache"@de ,
+        "navaho"@fr ;
+    skos:definition "The language Navajo; Navaho"@en ;
+    skos:inScheme cs: ;
+    skos:notation "nv"^^:iso639-1Code ;
+    skos:prefLabel "Navajo; Navaho"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nbl
+    a skos:Concept ;
+    skos:altLabel
+        "Ndebele-Sprache (Transvaal)"@de ,
+        "ndébélé du Sud"@fr ;
+    skos:definition "The language Ndebele, South; South Ndebele"@en ;
+    skos:inScheme cs: ;
+    skos:notation "nr"^^:iso639-1Code ;
+    skos:prefLabel "Ndebele, South; South Ndebele"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nde
+    a skos:Concept ;
+    skos:altLabel
+        "Ndebele-Sprache (Simbabwe)"@de ,
+        "ndébélé du Nord"@fr ;
+    skos:definition "The language Ndebele, North; North Ndebele"@en ;
+    skos:inScheme cs: ;
+    skos:notation "nd"^^:iso639-1Code ;
+    skos:prefLabel "Ndebele, North; North Ndebele"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ndo
+    a skos:Concept ;
+    skos:altLabel
+        "Ndonga"@de ,
+        "ndonga"@fr ;
+    skos:definition "The language Ndonga"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ng"^^:iso639-1Code ;
+    skos:prefLabel "Ndonga"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nds
+    a skos:Concept ;
+    skos:altLabel
+        "Niederdeutsch"@de ,
+        "bas allemand; bas saxon; allemand, bas; saxon, bas"@fr ;
+    skos:definition "The language Low German; Low Saxon; German, Low; Saxon, Low"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Low German; Low Saxon; German, Low; Saxon, Low"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nep
+    a skos:Concept ;
+    skos:altLabel
+        "Nepali"@de ,
+        "népalais"@fr ;
+    skos:definition "The language Nepali (macrolanguage)"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ne"^^:iso639-1Code ;
+    skos:prefLabel "Nepali (macrolanguage)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:new
+    a skos:Concept ;
+    skos:altLabel
+        "Newari"@de ,
+        "nepal bhasa; newari"@fr ;
+    skos:definition "The language Nepal Bhasa; Newari"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nepal Bhasa; Newari"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nia
+    a skos:Concept ;
+    skos:altLabel
+        "Nias-Sprache"@de ,
+        "nias"@fr ;
+    skos:definition "The language Nias"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nias"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nic
+    a skos:Concept ;
+    skos:altLabel
+        "Nigerkordofanische Sprachen (Andere)"@de ,
+        "nigéro-kordofaniennes, langues"@fr ;
+    skos:definition "The language Niger-Kordofanian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Niger-Kordofanian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:niu
+    a skos:Concept ;
+    skos:altLabel
+        "Niue-Sprache"@de ,
+        "niué"@fr ;
+    skos:definition "The language Niuean"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Niuean"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nno
+    a skos:Concept ;
+    skos:altLabel
+        "Nynorsk"@de ,
+        "norvégien nynorsk; nynorsk, norvégien"@fr ;
+    skos:definition "The language Norwegian Nynorsk; Nynorsk, Norwegian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "nn"^^:iso639-1Code ;
+    skos:prefLabel "Norwegian Nynorsk; Nynorsk, Norwegian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nob
+    a skos:Concept ;
+    skos:altLabel
+        "Bokmål"@de ,
+        "norvégien bokmål"@fr ;
+    skos:definition "The language Bokmål, Norwegian; Norwegian Bokmål"@en ;
+    skos:inScheme cs: ;
+    skos:notation "nb"^^:iso639-1Code ;
+    skos:prefLabel "Bokmål, Norwegian; Norwegian Bokmål"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nog
+    a skos:Concept ;
+    skos:altLabel
+        "Nogaisch"@de ,
+        "nogaï; nogay"@fr ;
+    skos:definition "The language Nogai"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nogai"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:non
+    a skos:Concept ;
+    skos:altLabel
+        "Altnorwegisch"@de ,
+        "norrois, vieux"@fr ;
+    skos:definition "The language Norse, Old"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Norse, Old"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nor
+    a skos:Concept ;
+    skos:altLabel
+        "Norwegisch"@de ,
+        "norvégien"@fr ;
+    skos:definition "The language Norwegian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "no"^^:iso639-1Code ;
+    skos:prefLabel "Norwegian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nqo
+    a skos:Concept ;
+    skos:altLabel
+        "N'Ko"@de ,
+        "n'ko"@fr ;
+    skos:definition "The language N'Ko"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "N'Ko"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nso
+    a skos:Concept ;
+    skos:altLabel
+        "Pedi-Sprache"@de ,
+        "pedi; sepedi; sotho du Nord"@fr ;
+    skos:definition "The language Pedi; Sepedi; Northern Sotho"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pedi; Sepedi; Northern Sotho"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nub
+    a skos:Concept ;
+    skos:altLabel
+        "Nubische Sprachen"@de ,
+        "nubiennes, langues"@fr ;
+    skos:definition "The language Nubian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nubian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nwc
+    a skos:Concept ;
+    skos:altLabel
+        "Alt-Newari"@de ,
+        "newari classique"@fr ;
+    skos:definition "The language Classical Newari; Old Newari; Classical Nepal Bhasa"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Classical Newari; Old Newari; Classical Nepal Bhasa"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nya
+    a skos:Concept ;
+    skos:altLabel
+        "Nyanja-Sprache"@de ,
+        "chichewa; chewa; nyanja"@fr ;
+    skos:definition "The language Chichewa; Chewa; Nyanja"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ny"^^:iso639-1Code ;
+    skos:prefLabel "Chichewa; Chewa; Nyanja"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nym
+    a skos:Concept ;
+    skos:altLabel
+        "Nyamwezi-Sprache"@de ,
+        "nyamwezi"@fr ;
+    skos:definition "The language Nyamwezi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nyamwezi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nyn
+    a skos:Concept ;
+    skos:altLabel
+        "Nkole-Sprache"@de ,
+        "nyankolé"@fr ;
+    skos:definition "The language Nyankole"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nyankole"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nyo
+    a skos:Concept ;
+    skos:altLabel
+        "Nyoro-Sprache"@de ,
+        "nyoro"@fr ;
+    skos:definition "The language Nyoro"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nyoro"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nzi
+    a skos:Concept ;
+    skos:altLabel
+        "Nzima-Sprache"@de ,
+        "nzema"@fr ;
+    skos:definition "The language Nzima"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nzima"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:oci
+    a skos:Concept ;
+    skos:altLabel
+        "Okzitanisch"@de ,
+        "occitan (après 1500)"@fr ;
+    skos:definition "The language Occitan (post 1500)"@en ;
+    skos:inScheme cs: ;
+    skos:notation "oc"^^:iso639-1Code ;
+    skos:prefLabel "Occitan (post 1500)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:oji
+    a skos:Concept ;
+    skos:altLabel
+        "Ojibwa-Sprache"@de ,
+        "ojibwa"@fr ;
+    skos:definition "The language Ojibwa"@en ;
+    skos:inScheme cs: ;
+    skos:notation "oj"^^:iso639-1Code ;
+    skos:prefLabel "Ojibwa"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ori
+    a skos:Concept ;
+    skos:altLabel
+        "Oriya-Sprache"@de ,
+        "oriya"@fr ;
+    skos:definition "The language Oriya (macrolanguage)"@en ;
+    skos:inScheme cs: ;
+    skos:notation "or"^^:iso639-1Code ;
+    skos:prefLabel "Oriya (macrolanguage)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:orm
+    a skos:Concept ;
+    skos:altLabel
+        "Galla-Sprache"@de ,
+        "galla"@fr ;
+    skos:definition "The language Oromo"@en ;
+    skos:inScheme cs: ;
+    skos:notation "om"^^:iso639-1Code ;
+    skos:prefLabel "Oromo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:osa
+    a skos:Concept ;
+    skos:altLabel
+        "Osage-Sprache"@de ,
+        "osage"@fr ;
+    skos:definition "The language Osage"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Osage"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:oss
+    a skos:Concept ;
+    skos:altLabel
+        "Ossetisch"@de ,
+        "ossète"@fr ;
+    skos:definition "The language Ossetian; Ossetic"@en ;
+    skos:inScheme cs: ;
+    skos:notation "os"^^:iso639-1Code ;
+    skos:prefLabel "Ossetian; Ossetic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ota
+    a skos:Concept ;
+    skos:altLabel
+        "Osmanisch"@de ,
+        "turc ottoman (1500-1928)"@fr ;
+    skos:definition "The language Turkish, Ottoman (1500-1928)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Turkish, Ottoman (1500-1928)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:oto
+    a skos:Concept ;
+    skos:altLabel
+        "Otomangue-Sprachen"@de ,
+        "otomi, langues"@fr ;
+    skos:definition "The language Otomian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Otomian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:paa
+    a skos:Concept ;
+    skos:altLabel
+        "Papuasprachen (Andere)"@de ,
+        "papoues, langues"@fr ;
+    skos:definition "The language Papuan languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Papuan languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pag
+    a skos:Concept ;
+    skos:altLabel
+        "Pangasinan-Sprache"@de ,
+        "pangasinan"@fr ;
+    skos:definition "The language Pangasinan"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pangasinan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pal
+    a skos:Concept ;
+    skos:altLabel
+        "Mittelpersisch"@de ,
+        "pahlavi"@fr ;
+    skos:definition "The language Pahlavi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pahlavi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pam
+    a skos:Concept ;
+    skos:altLabel
+        "Pampanggan-Sprache"@de ,
+        "pampangan"@fr ;
+    skos:definition "The language Pampanga; Kapampangan"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pampanga; Kapampangan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pan
+    a skos:Concept ;
+    skos:altLabel
+        "Pandschabi-Sprache"@de ,
+        "pendjabi"@fr ;
+    skos:definition "The language Panjabi; Punjabi"@en ;
+    skos:inScheme cs: ;
+    skos:notation "pa"^^:iso639-1Code ;
+    skos:prefLabel "Panjabi; Punjabi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pap
+    a skos:Concept ;
+    skos:altLabel
+        "Papiamento"@de ,
+        "papiamento"@fr ;
+    skos:definition "The language Papiamento"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Papiamento"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pau
+    a skos:Concept ;
+    skos:altLabel
+        "Palau-Sprache"@de ,
+        "palau"@fr ;
+    skos:definition "The language Palauan"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Palauan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:peo
+    a skos:Concept ;
+    skos:altLabel
+        "Altpersisch"@de ,
+        "perse, vieux (ca. 600-400 av. J.-C.)"@fr ;
+    skos:definition "The language Persian, Old (ca.600-400 B.C.)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Persian, Old (ca.600-400 B.C.)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:per
+    a skos:Concept ;
+    skos:altLabel
+        "Persisch"@de ,
+        "persan"@fr ;
+    skos:definition "The language Persian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "fa"^^:iso639-1Code ;
+    skos:prefLabel "Persian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:phi
+    a skos:Concept ;
+    skos:altLabel
+        "Philippinisch-Austronesisch (Andere)"@de ,
+        "philippines, langues"@fr ;
+    skos:definition "The language Philippine languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Philippine languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:phn
+    a skos:Concept ;
+    skos:altLabel
+        "Phönikisch"@de ,
+        "phénicien"@fr ;
+    skos:definition "The language Phoenician"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Phoenician"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pli
+    a skos:Concept ;
+    skos:altLabel
+        "Pali"@de ,
+        "pali"@fr ;
+    skos:definition "The language Pali"@en ;
+    skos:inScheme cs: ;
+    skos:notation "pi"^^:iso639-1Code ;
+    skos:prefLabel "Pali"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pol
+    a skos:Concept ;
+    skos:altLabel
+        "Polnisch"@de ,
+        "polonais"@fr ;
+    skos:definition "The language Polish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "pl"^^:iso639-1Code ;
+    skos:prefLabel "Polish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pon
+    a skos:Concept ;
+    skos:altLabel
+        "Ponapeanisch"@de ,
+        "pohnpei"@fr ;
+    skos:definition "The language Pohnpeian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pohnpeian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:por
+    a skos:Concept ;
+    skos:altLabel
+        "Portugiesisch"@de ,
+        "portugais"@fr ;
+    skos:definition "The language Portuguese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "pt"^^:iso639-1Code ;
+    skos:prefLabel "Portuguese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pra
+    a skos:Concept ;
+    skos:altLabel
+        "Prakrit"@de ,
+        "prâkrit, langues"@fr ;
+    skos:definition "The language Prakrit languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Prakrit languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pro
+    a skos:Concept ;
+    skos:altLabel
+        "Altokzitanisch"@de ,
+        "provençal ancien (jusqu'à 1500); occitan ancien (jusqu'à 1500)"@fr ;
+    skos:definition "The language Provençal, Old (to 1500);Occitan, Old (to 1500)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Provençal, Old (to 1500);Occitan, Old (to 1500)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pus
+    a skos:Concept ;
+    skos:altLabel
+        "Paschtu"@de ,
+        "pachto"@fr ;
+    skos:definition "The language Pushto; Pashto"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ps"^^:iso639-1Code ;
+    skos:prefLabel "Pushto; Pashto"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:qaa-qtz
+    a skos:Concept ;
+    skos:altLabel
+        "Reserviert für lokale Verwendung"@de ,
+        "réservée à l'usage local"@fr ;
+    skos:definition "The language Reserved for local use"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Reserved for local use"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:que
+    a skos:Concept ;
+    skos:altLabel
+        "Quechua-Sprache"@de ,
+        "quechua"@fr ;
+    skos:definition "The language Quechua"@en ;
+    skos:inScheme cs: ;
+    skos:notation "qu"^^:iso639-1Code ;
+    skos:prefLabel "Quechua"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:raj
+    a skos:Concept ;
+    skos:altLabel
+        "Rajasthani"@de ,
+        "rajasthani"@fr ;
+    skos:definition "The language Rajasthani"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rajasthani"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rap
+    a skos:Concept ;
+    skos:altLabel
+        "Osterinsel-Sprache"@de ,
+        "rapanui"@fr ;
+    skos:definition "The language Rapanui"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rapanui"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rar
+    a skos:Concept ;
+    skos:altLabel
+        "Rarotonganisch"@de ,
+        "rarotonga; maori des îles Cook"@fr ;
+    skos:definition "The language Rarotongan; Cook Islands Maori"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rarotongan; Cook Islands Maori"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:roa
+    a skos:Concept ;
+    skos:altLabel
+        "Romanische Sprachen (Andere)"@de ,
+        "romanes, langues"@fr ;
+    skos:definition "The language Romance languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Romance languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:roh
+    a skos:Concept ;
+    skos:altLabel
+        "Rätoromanisch"@de ,
+        "romanche"@fr ;
+    skos:definition "The language Romansh"@en ;
+    skos:inScheme cs: ;
+    skos:notation "rm"^^:iso639-1Code ;
+    skos:prefLabel "Romansh"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rom
+    a skos:Concept ;
+    skos:altLabel
+        "Romani (Sprache)"@de ,
+        "tsigane"@fr ;
+    skos:definition "The language Romany"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Romany"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rum
+    a skos:Concept ;
+    skos:altLabel
+        "Rumänisch"@de ,
+        "roumain; moldave"@fr ;
+    skos:definition "The language Romanian; Moldavian; Moldovan"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ro"^^:iso639-1Code ;
+    skos:prefLabel "Romanian; Moldavian; Moldovan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:run
+    a skos:Concept ;
+    skos:altLabel
+        "Rundi-Sprache"@de ,
+        "rundi"@fr ;
+    skos:definition "The language Rundi"@en ;
+    skos:inScheme cs: ;
+    skos:notation "rn"^^:iso639-1Code ;
+    skos:prefLabel "Rundi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rup
+    a skos:Concept ;
+    skos:altLabel
+        "Aromunisch"@de ,
+        "aroumain; macédo-roumain"@fr ;
+    skos:definition "The language Aromanian; Arumanian; Macedo-Romanian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aromanian; Arumanian; Macedo-Romanian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rus
+    a skos:Concept ;
+    skos:altLabel
+        "Russisch"@de ,
+        "russe"@fr ;
+    skos:definition "The language Russian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ru"^^:iso639-1Code ;
+    skos:prefLabel "Russian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sad
+    a skos:Concept ;
+    skos:altLabel
+        "Sandawe-Sprache"@de ,
+        "sandawe"@fr ;
+    skos:definition "The language Sandawe"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sandawe"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sag
+    a skos:Concept ;
+    skos:altLabel
+        "Sango-Sprache"@de ,
+        "sango"@fr ;
+    skos:definition "The language Sango"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sg"^^:iso639-1Code ;
+    skos:prefLabel "Sango"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sah
+    a skos:Concept ;
+    skos:altLabel
+        "Jakutisch"@de ,
+        "iakoute"@fr ;
+    skos:definition "The language Yakut"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Yakut"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sai
+    a skos:Concept ;
+    skos:altLabel
+        "Indianersprachen, Südamerika (Andere)"@de ,
+        "sud-amérindiennes, langues"@fr ;
+    skos:definition "The language South American Indian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "South American Indian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sal
+    a skos:Concept ;
+    skos:altLabel
+        "Salish-Sprache"@de ,
+        "salishennes, langues"@fr ;
+    skos:definition "The language Salishan languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Salishan languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sam
+    a skos:Concept ;
+    skos:altLabel
+        "Samaritanisch"@de ,
+        "samaritain"@fr ;
+    skos:definition "The language Samaritan Aramaic"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Samaritan Aramaic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:san
+    a skos:Concept ;
+    skos:altLabel
+        "Sanskrit"@de ,
+        "sanskrit"@fr ;
+    skos:definition "The language Sanskrit"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sa"^^:iso639-1Code ;
+    skos:prefLabel "Sanskrit"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sas
+    a skos:Concept ;
+    skos:altLabel
+        "Sasak"@de ,
+        "sasak"@fr ;
+    skos:definition "The language Sasak"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sasak"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sat
+    a skos:Concept ;
+    skos:altLabel
+        "Santali"@de ,
+        "santal"@fr ;
+    skos:definition "The language Santali"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Santali"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:scn
+    a skos:Concept ;
+    skos:altLabel
+        "Sizilianisch"@de ,
+        "sicilien"@fr ;
+    skos:definition "The language Sicilian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sicilian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sco
+    a skos:Concept ;
+    skos:altLabel
+        "Schottisch"@de ,
+        "écossais"@fr ;
+    skos:definition "The language Scots"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Scots"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sel
+    a skos:Concept ;
+    skos:altLabel
+        "Selkupisch"@de ,
+        "selkoupe"@fr ;
+    skos:definition "The language Selkup"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Selkup"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sem
+    a skos:Concept ;
+    skos:altLabel
+        "Semitische Sprachen (Andere)"@de ,
+        "sémitiques, langues"@fr ;
+    skos:definition "The language Semitic languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Semitic languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sga
+    a skos:Concept ;
+    skos:altLabel
+        "Altirisch"@de ,
+        "irlandais ancien (jusqu'à 900)"@fr ;
+    skos:definition "The language Irish, Old (to 900)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Irish, Old (to 900)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sgn
+    a skos:Concept ;
+    skos:altLabel
+        "Zeichensprachen"@de ,
+        "langues des signes"@fr ;
+    skos:definition "The language Sign Languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sign Languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:shn
+    a skos:Concept ;
+    skos:altLabel
+        "Schan-Sprache"@de ,
+        "chan"@fr ;
+    skos:definition "The language Shan"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Shan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sid
+    a skos:Concept ;
+    skos:altLabel
+        "Sidamo-Sprache"@de ,
+        "sidamo"@fr ;
+    skos:definition "The language Sidamo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sidamo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sin
+    a skos:Concept ;
+    skos:altLabel
+        "Singhalesisch"@de ,
+        "singhalais"@fr ;
+    skos:definition "The language Sinhala; Sinhalese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "si"^^:iso639-1Code ;
+    skos:prefLabel "Sinhala; Sinhalese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sio
+    a skos:Concept ;
+    skos:altLabel
+        "Sioux-Sprachen (Andere)"@de ,
+        "sioux, langues"@fr ;
+    skos:definition "The language Siouan languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Siouan languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sit
+    a skos:Concept ;
+    skos:altLabel
+        "Sinotibetische Sprachen (Andere)"@de ,
+        "sino-tibétaines, langues"@fr ;
+    skos:definition "The language Sino-Tibetan languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sino-Tibetan languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sla
+    a skos:Concept ;
+    skos:altLabel
+        "Slawische Sprachen (Andere)"@de ,
+        "slaves, langues"@fr ;
+    skos:definition "The language Slavic languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Slavic languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:slo
+    a skos:Concept ;
+    skos:altLabel
+        "Slowakisch"@de ,
+        "slovaque"@fr ;
+    skos:definition "The language Slovak"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sk"^^:iso639-1Code ;
+    skos:prefLabel "Slovak"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:slv
+    a skos:Concept ;
+    skos:altLabel
+        "Slowenisch"@de ,
+        "slovène"@fr ;
+    skos:definition "The language Slovenian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sl"^^:iso639-1Code ;
+    skos:prefLabel "Slovenian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sma
+    a skos:Concept ;
+    skos:altLabel
+        "Südsaamisch"@de ,
+        "sami du Sud"@fr ;
+    skos:definition "The language Southern Sami"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Southern Sami"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sme
+    a skos:Concept ;
+    skos:altLabel
+        "Nordsaamisch"@de ,
+        "sami du Nord"@fr ;
+    skos:definition "The language Northern Sami"@en ;
+    skos:inScheme cs: ;
+    skos:notation "se"^^:iso639-1Code ;
+    skos:prefLabel "Northern Sami"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:smi
+    a skos:Concept ;
+    skos:altLabel
+        "Saamisch"@de ,
+        "sames, langues"@fr ;
+    skos:definition "The language Sami languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sami languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:smj
+    a skos:Concept ;
+    skos:altLabel
+        "Lulesaamisch"@de ,
+        "sami de Lule"@fr ;
+    skos:definition "The language Lule Sami"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lule Sami"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:smn
+    a skos:Concept ;
+    skos:altLabel
+        "Inarisaamisch"@de ,
+        "sami d'Inari"@fr ;
+    skos:definition "The language Inari Sami"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Inari Sami"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:smo
+    a skos:Concept ;
+    skos:altLabel
+        "Samoanisch"@de ,
+        "samoan"@fr ;
+    skos:definition "The language Samoan"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sm"^^:iso639-1Code ;
+    skos:prefLabel "Samoan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sms
+    a skos:Concept ;
+    skos:altLabel
+        "Skoltsaamisch"@de ,
+        "sami skolt"@fr ;
+    skos:definition "The language Skolt Sami"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Skolt Sami"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sna
+    a skos:Concept ;
+    skos:altLabel
+        "Schona-Sprache"@de ,
+        "shona"@fr ;
+    skos:definition "The language Shona"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sn"^^:iso639-1Code ;
+    skos:prefLabel "Shona"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:snd
+    a skos:Concept ;
+    skos:altLabel
+        "Sindhi-Sprache"@de ,
+        "sindhi"@fr ;
+    skos:definition "The language Sindhi"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sd"^^:iso639-1Code ;
+    skos:prefLabel "Sindhi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:snk
+    a skos:Concept ;
+    skos:altLabel
+        "Soninke-Sprache"@de ,
+        "soninké"@fr ;
+    skos:definition "The language Soninke"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Soninke"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sog
+    a skos:Concept ;
+    skos:altLabel
+        "Sogdisch"@de ,
+        "sogdien"@fr ;
+    skos:definition "The language Sogdian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sogdian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:som
+    a skos:Concept ;
+    skos:altLabel
+        "Somali"@de ,
+        "somali"@fr ;
+    skos:definition "The language Somali"@en ;
+    skos:inScheme cs: ;
+    skos:notation "so"^^:iso639-1Code ;
+    skos:prefLabel "Somali"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:son
+    a skos:Concept ;
+    skos:altLabel
+        "Songhai-Sprache"@de ,
+        "songhai, langues"@fr ;
+    skos:definition "The language Songhai languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Songhai languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sot
+    a skos:Concept ;
+    skos:altLabel
+        "Süd-Sotho-Sprache"@de ,
+        "sotho du Sud"@fr ;
+    skos:definition "The language Sotho, Southern"@en ;
+    skos:inScheme cs: ;
+    skos:notation "st"^^:iso639-1Code ;
+    skos:prefLabel "Sotho, Southern"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:spa
+    a skos:Concept ;
+    skos:altLabel
+        "Spanisch"@de ,
+        "espagnol; castillan"@fr ;
+    skos:definition "The language Spanish; Castilian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "es"^^:iso639-1Code ;
+    skos:prefLabel "Spanish; Castilian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:srd
+    a skos:Concept ;
+    skos:altLabel
+        "Sardisch"@de ,
+        "sarde"@fr ;
+    skos:definition "The language Sardinian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sc"^^:iso639-1Code ;
+    skos:prefLabel "Sardinian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:srn
+    a skos:Concept ;
+    skos:altLabel
+        "Sranantongo"@de ,
+        "sranan tongo"@fr ;
+    skos:definition "The language Sranan Tongo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sranan Tongo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:srp
+    a skos:Concept ;
+    skos:altLabel
+        "Serbisch"@de ,
+        "serbe"@fr ;
+    skos:definition "The language Serbian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sr"^^:iso639-1Code ;
+    skos:prefLabel "Serbian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:srr
+    a skos:Concept ;
+    skos:altLabel
+        "Serer-Sprache"@de ,
+        "sérère"@fr ;
+    skos:definition "The language Serer"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Serer"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ssa
+    a skos:Concept ;
+    skos:altLabel
+        "Nilosaharanische Sprachen (Andere)"@de ,
+        "nilo-sahariennes, langues"@fr ;
+    skos:definition "The language Nilo-Saharan languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nilo-Saharan languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ssw
+    a skos:Concept ;
+    skos:altLabel
+        "Swasi-Sprache"@de ,
+        "swati"@fr ;
+    skos:definition "The language Swati"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ss"^^:iso639-1Code ;
+    skos:prefLabel "Swati"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:suk
+    a skos:Concept ;
+    skos:altLabel
+        "Sukuma-Sprache"@de ,
+        "sukuma"@fr ;
+    skos:definition "The language Sukuma"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sukuma"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sun
+    a skos:Concept ;
+    skos:altLabel
+        "Sundanesisch"@de ,
+        "soundanais"@fr ;
+    skos:definition "The language Sundanese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "su"^^:iso639-1Code ;
+    skos:prefLabel "Sundanese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sus
+    a skos:Concept ;
+    skos:altLabel
+        "Susu"@de ,
+        "soussou"@fr ;
+    skos:definition "The language Susu"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Susu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sux
+    a skos:Concept ;
+    skos:altLabel
+        "Sumerisch"@de ,
+        "sumérien"@fr ;
+    skos:definition "The language Sumerian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sumerian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:swa
+    a skos:Concept ;
+    skos:altLabel
+        "Swahili"@de ,
+        "swahili"@fr ;
+    skos:definition "The language Swahili (macrolanguage)"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sw"^^:iso639-1Code ;
+    skos:prefLabel "Swahili (macrolanguage)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:swe
+    a skos:Concept ;
+    skos:altLabel
+        "Schwedisch"@de ,
+        "suédois"@fr ;
+    skos:definition "The language Swedish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "sv"^^:iso639-1Code ;
+    skos:prefLabel "Swedish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:syc
+    a skos:Concept ;
+    skos:altLabel
+        "Syrisch"@de ,
+        "syriaque classique"@fr ;
+    skos:definition "The language Classical Syriac"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Classical Syriac"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:syr
+    a skos:Concept ;
+    skos:altLabel
+        "Neuostaramäisch"@de ,
+        "syriaque"@fr ;
+    skos:definition "The language Syriac"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Syriac"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tah
+    a skos:Concept ;
+    skos:altLabel
+        "Tahitisch"@de ,
+        "tahitien"@fr ;
+    skos:definition "The language Tahitian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ty"^^:iso639-1Code ;
+    skos:prefLabel "Tahitian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tai
+    a skos:Concept ;
+    skos:altLabel
+        "Thaisprachen (Andere)"@de ,
+        "tai, langues"@fr ;
+    skos:definition "The language Tai languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tai languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tam
+    a skos:Concept ;
+    skos:altLabel
+        "Tamil"@de ,
+        "tamoul"@fr ;
+    skos:definition "The language Tamil"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ta"^^:iso639-1Code ;
+    skos:prefLabel "Tamil"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tat
+    a skos:Concept ;
+    skos:altLabel
+        "Tatarisch"@de ,
+        "tatar"@fr ;
+    skos:definition "The language Tatar"@en ;
+    skos:inScheme cs: ;
+    skos:notation "tt"^^:iso639-1Code ;
+    skos:prefLabel "Tatar"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tel
+    a skos:Concept ;
+    skos:altLabel
+        "Telugu-Sprache"@de ,
+        "télougou"@fr ;
+    skos:definition "The language Telugu"@en ;
+    skos:inScheme cs: ;
+    skos:notation "te"^^:iso639-1Code ;
+    skos:prefLabel "Telugu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tem
+    a skos:Concept ;
+    skos:altLabel
+        "Temne-Sprache"@de ,
+        "temne"@fr ;
+    skos:definition "The language Timne"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Timne"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ter
+    a skos:Concept ;
+    skos:altLabel
+        "Tereno-Sprache"@de ,
+        "tereno"@fr ;
+    skos:definition "The language Tereno"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tereno"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tet
+    a skos:Concept ;
+    skos:altLabel
+        "Tetum-Sprache"@de ,
+        "tetum"@fr ;
+    skos:definition "The language Tetum"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tetum"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tgk
+    a skos:Concept ;
+    skos:altLabel
+        "Tadschikisch"@de ,
+        "tadjik"@fr ;
+    skos:definition "The language Tajik"@en ;
+    skos:inScheme cs: ;
+    skos:notation "tg"^^:iso639-1Code ;
+    skos:prefLabel "Tajik"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tgl
+    a skos:Concept ;
+    skos:altLabel
+        "Tagalog"@de ,
+        "tagalog"@fr ;
+    skos:definition "The language Tagalog"@en ;
+    skos:inScheme cs: ;
+    skos:notation "tl"^^:iso639-1Code ;
+    skos:prefLabel "Tagalog"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tha
+    a skos:Concept ;
+    skos:altLabel
+        "Thailändisch"@de ,
+        "thaï"@fr ;
+    skos:definition "The language Thai"@en ;
+    skos:inScheme cs: ;
+    skos:notation "th"^^:iso639-1Code ;
+    skos:prefLabel "Thai"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tib
+    a skos:Concept ;
+    skos:altLabel
+        "Tibetisch"@de ,
+        "tibétain"@fr ;
+    skos:definition "The language Tibetan"@en ;
+    skos:inScheme cs: ;
+    skos:notation "bo"^^:iso639-1Code ;
+    skos:prefLabel "Tibetan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tig
+    a skos:Concept ;
+    skos:altLabel
+        "Tigre-Sprache"@de ,
+        "tigré"@fr ;
+    skos:definition "The language Tigre"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tigre"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tir
+    a skos:Concept ;
+    skos:altLabel
+        "Tigrinja-Sprache"@de ,
+        "tigrigna"@fr ;
+    skos:definition "The language Tigrinya"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ti"^^:iso639-1Code ;
+    skos:prefLabel "Tigrinya"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tiv
+    a skos:Concept ;
+    skos:altLabel
+        "Tiv-Sprache"@de ,
+        "tiv"@fr ;
+    skos:definition "The language Tiv"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tiv"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tkl
+    a skos:Concept ;
+    skos:altLabel
+        "Tokelauanisch"@de ,
+        "tokelau"@fr ;
+    skos:definition "The language Tokelau"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tokelau"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tlh
+    a skos:Concept ;
+    skos:altLabel
+        "Klingonisch"@de ,
+        "klingon"@fr ;
+    skos:definition "The language Klingon; tlhIngan-Hol"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Klingon; tlhIngan-Hol"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tli
+    a skos:Concept ;
+    skos:altLabel
+        "Tlingit-Sprache"@de ,
+        "tlingit"@fr ;
+    skos:definition "The language Tlingit"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tlingit"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tmh
+    a skos:Concept ;
+    skos:altLabel
+        "Tamašeq"@de ,
+        "tamacheq"@fr ;
+    skos:definition "The language Tamashek"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tamashek"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tog
+    a skos:Concept ;
+    skos:altLabel
+        "Tonga (Bantusprache, Sambia)"@de ,
+        "tonga (Nyasa)"@fr ;
+    skos:definition "The language Tonga (Nyasa)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tonga (Nyasa)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ton
+    a skos:Concept ;
+    skos:altLabel
+        "Tongaisch"@de ,
+        "tongan (Îles Tonga)"@fr ;
+    skos:definition "The language Tonga (Tonga Islands)"@en ;
+    skos:inScheme cs: ;
+    skos:notation "to"^^:iso639-1Code ;
+    skos:prefLabel "Tonga (Tonga Islands)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tpi
+    a skos:Concept ;
+    skos:altLabel
+        "Neumelanesisch"@de ,
+        "tok pisin"@fr ;
+    skos:definition "The language Tok Pisin"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tok Pisin"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tsi
+    a skos:Concept ;
+    skos:altLabel
+        "Tsimshian-Sprache"@de ,
+        "tsimshian"@fr ;
+    skos:definition "The language Tsimshian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tsimshian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tsn
+    a skos:Concept ;
+    skos:altLabel
+        "Tswana-Sprache"@de ,
+        "tswana"@fr ;
+    skos:definition "The language Tswana"@en ;
+    skos:inScheme cs: ;
+    skos:notation "tn"^^:iso639-1Code ;
+    skos:prefLabel "Tswana"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tso
+    a skos:Concept ;
+    skos:altLabel
+        "Tsonga-Sprache"@de ,
+        "tsonga"@fr ;
+    skos:definition "The language Tsonga"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ts"^^:iso639-1Code ;
+    skos:prefLabel "Tsonga"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tuk
+    a skos:Concept ;
+    skos:altLabel
+        "Turkmenisch"@de ,
+        "turkmène"@fr ;
+    skos:definition "The language Turkmen"@en ;
+    skos:inScheme cs: ;
+    skos:notation "tk"^^:iso639-1Code ;
+    skos:prefLabel "Turkmen"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tum
+    a skos:Concept ;
+    skos:altLabel
+        "Tumbuka-Sprache"@de ,
+        "tumbuka"@fr ;
+    skos:definition "The language Tumbuka"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tumbuka"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tup
+    a skos:Concept ;
+    skos:altLabel
+        "Tupi-Sprache"@de ,
+        "tupi, langues"@fr ;
+    skos:definition "The language Tupi languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tupi languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tur
+    a skos:Concept ;
+    skos:altLabel
+        "Türkisch"@de ,
+        "turc"@fr ;
+    skos:definition "The language Turkish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "tr"^^:iso639-1Code ;
+    skos:prefLabel "Turkish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tut
+    a skos:Concept ;
+    skos:altLabel
+        "Altaische Sprachen (Andere)"@de ,
+        "altaïques, langues"@fr ;
+    skos:definition "The language Altaic languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Altaic languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tvl
+    a skos:Concept ;
+    skos:altLabel
+        "Elliceanisch"@de ,
+        "tuvalu"@fr ;
+    skos:definition "The language Tuvalu"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tuvalu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:twi
+    a skos:Concept ;
+    skos:altLabel
+        "Twi-Sprache"@de ,
+        "twi"@fr ;
+    skos:definition "The language Twi"@en ;
+    skos:inScheme cs: ;
+    skos:notation "tw"^^:iso639-1Code ;
+    skos:prefLabel "Twi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tyv
+    a skos:Concept ;
+    skos:altLabel
+        "Tuwinisch"@de ,
+        "touva"@fr ;
+    skos:definition "The language Tuvinian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tuvinian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:udm
+    a skos:Concept ;
+    skos:altLabel
+        "Udmurtisch"@de ,
+        "oudmourte"@fr ;
+    skos:definition "The language Udmurt"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Udmurt"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:uga
+    a skos:Concept ;
+    skos:altLabel
+        "Ugaritisch"@de ,
+        "ougaritique"@fr ;
+    skos:definition "The language Ugaritic"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ugaritic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:uig
+    a skos:Concept ;
+    skos:altLabel
+        "Uigurisch"@de ,
+        "ouïgour"@fr ;
+    skos:definition "The language Uighur; Uyghur"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ug"^^:iso639-1Code ;
+    skos:prefLabel "Uighur; Uyghur"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ukr
+    a skos:Concept ;
+    skos:altLabel
+        "Ukrainisch"@de ,
+        "ukrainien"@fr ;
+    skos:definition "The language Ukrainian"@en ;
+    skos:inScheme cs: ;
+    skos:notation "uk"^^:iso639-1Code ;
+    skos:prefLabel "Ukrainian"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:umb
+    a skos:Concept ;
+    skos:altLabel
+        "Mbundu-Sprache"@de ,
+        "umbundu"@fr ;
+    skos:definition "The language Umbundu"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Umbundu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:und
+    a skos:Concept ;
+    skos:altLabel
+        "Nicht zu entscheiden"@de ,
+        "indéterminée"@fr ;
+    skos:definition "The language Undetermined"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Undetermined"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:urd
+    a skos:Concept ;
+    skos:altLabel
+        "Urdu"@de ,
+        "ourdou"@fr ;
+    skos:definition "The language Urdu"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ur"^^:iso639-1Code ;
+    skos:prefLabel "Urdu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:uzb
+    a skos:Concept ;
+    skos:altLabel
+        "Usbekisch"@de ,
+        "ouszbek"@fr ;
+    skos:definition "The language Uzbek"@en ;
+    skos:inScheme cs: ;
+    skos:notation "uz"^^:iso639-1Code ;
+    skos:prefLabel "Uzbek"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:vai
+    a skos:Concept ;
+    skos:altLabel
+        "Vai-Sprache"@de ,
+        "vaï"@fr ;
+    skos:definition "The language Vai"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Vai"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ven
+    a skos:Concept ;
+    skos:altLabel
+        "Venda-Sprache"@de ,
+        "venda"@fr ;
+    skos:definition "The language Venda"@en ;
+    skos:inScheme cs: ;
+    skos:notation "ve"^^:iso639-1Code ;
+    skos:prefLabel "Venda"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:vie
+    a skos:Concept ;
+    skos:altLabel
+        "Vietnamesisch"@de ,
+        "vietnamien"@fr ;
+    skos:definition "The language Vietnamese"@en ;
+    skos:inScheme cs: ;
+    skos:notation "vi"^^:iso639-1Code ;
+    skos:prefLabel "Vietnamese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:vol
+    a skos:Concept ;
+    skos:altLabel
+        "Volapük"@de ,
+        "volapük"@fr ;
+    skos:definition "The language Volapük"@en ;
+    skos:inScheme cs: ;
+    skos:notation "vo"^^:iso639-1Code ;
+    skos:prefLabel "Volapük"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:vot
+    a skos:Concept ;
+    skos:altLabel
+        "Wotisch"@de ,
+        "vote"@fr ;
+    skos:definition "The language Votic"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Votic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wak
+    a skos:Concept ;
+    skos:altLabel
+        "Wakash-Sprachen"@de ,
+        "wakashanes, langues"@fr ;
+    skos:definition "The language Wakashan languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Wakashan languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wal
+    a skos:Concept ;
+    skos:altLabel
+        "Walamo-Sprache"@de ,
+        "wolaitta; wolaytta"@fr ;
+    skos:definition "The language Wolaitta; Wolaytta"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Wolaitta; Wolaytta"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:war
+    a skos:Concept ;
+    skos:altLabel
+        "Waray"@de ,
+        "waray"@fr ;
+    skos:definition "The language Waray"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Waray"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:was
+    a skos:Concept ;
+    skos:altLabel
+        "Washo-Sprache"@de ,
+        "washo"@fr ;
+    skos:definition "The language Washo"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Washo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wel
+    a skos:Concept ;
+    skos:altLabel
+        "Kymrisch"@de ,
+        "gallois"@fr ;
+    skos:definition "The language Welsh"@en ;
+    skos:inScheme cs: ;
+    skos:notation "cy"^^:iso639-1Code ;
+    skos:prefLabel "Welsh"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wen
+    a skos:Concept ;
+    skos:altLabel
+        "Sorbisch (Andere)"@de ,
+        "sorabes, langues"@fr ;
+    skos:definition "The language Sorbian languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sorbian languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wln
+    a skos:Concept ;
+    skos:altLabel
+        "Wallonisch"@de ,
+        "wallon"@fr ;
+    skos:definition "The language Walloon"@en ;
+    skos:inScheme cs: ;
+    skos:notation "wa"^^:iso639-1Code ;
+    skos:prefLabel "Walloon"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wol
+    a skos:Concept ;
+    skos:altLabel
+        "Wolof-Sprache"@de ,
+        "wolof"@fr ;
+    skos:definition "The language Wolof"@en ;
+    skos:inScheme cs: ;
+    skos:notation "wo"^^:iso639-1Code ;
+    skos:prefLabel "Wolof"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:xal
+    a skos:Concept ;
+    skos:altLabel
+        "Kalmückisch"@de ,
+        "kalmouk; oïrat"@fr ;
+    skos:definition "The language Kalmyk; Oirat"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kalmyk; Oirat"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:xho
+    a skos:Concept ;
+    skos:altLabel
+        "Xhosa-Sprache"@de ,
+        "xhosa"@fr ;
+    skos:definition "The language Xhosa"@en ;
+    skos:inScheme cs: ;
+    skos:notation "xh"^^:iso639-1Code ;
+    skos:prefLabel "Xhosa"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:yao
+    a skos:Concept ;
+    skos:altLabel
+        "Yao-Sprache (Bantusprache)"@de ,
+        "yao"@fr ;
+    skos:definition "The language Yao"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Yao"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:yap
+    a skos:Concept ;
+    skos:altLabel
+        "Yapesisch"@de ,
+        "yapois"@fr ;
+    skos:definition "The language Yapese"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Yapese"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:yid
+    a skos:Concept ;
+    skos:altLabel
+        "Jiddisch"@de ,
+        "yiddish"@fr ;
+    skos:definition "The language Yiddish"@en ;
+    skos:inScheme cs: ;
+    skos:notation "yi"^^:iso639-1Code ;
+    skos:prefLabel "Yiddish"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:yor
+    a skos:Concept ;
+    skos:altLabel
+        "Yoruba-Sprache"@de ,
+        "yoruba"@fr ;
+    skos:definition "The language Yoruba"@en ;
+    skos:inScheme cs: ;
+    skos:notation "yo"^^:iso639-1Code ;
+    skos:prefLabel "Yoruba"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ypk
+    a skos:Concept ;
+    skos:altLabel
+        "Ypik-Sprachen"@de ,
+        "yupik, langues"@fr ;
+    skos:definition "The language Yupik languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Yupik languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:zap
+    a skos:Concept ;
+    skos:altLabel
+        "Zapotekisch"@de ,
+        "zapotèque"@fr ;
+    skos:definition "The language Zapotec"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Zapotec"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:zbl
+    a skos:Concept ;
+    skos:altLabel
+        "Bliss-Symbol"@de ,
+        "symboles Bliss; Bliss"@fr ;
+    skos:definition "The language Blissymbols; Blissymbolics; Bliss"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Blissymbols; Blissymbolics; Bliss"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:zen
+    a skos:Concept ;
+    skos:altLabel
+        "Zenaga"@de ,
+        "zenaga"@fr ;
+    skos:definition "The language Zenaga"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Zenaga"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:zgh
+    a skos:Concept ;
+    skos:altLabel
+        ""@de ,
+        "amazighe standard marocain"@fr ;
+    skos:definition "The language Standard Moroccan Tamazight"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Standard Moroccan Tamazight"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:zha
+    a skos:Concept ;
+    skos:altLabel
+        "Zhuang"@de ,
+        "zhuang; chuang"@fr ;
+    skos:definition "The language Zhuang; Chuang"@en ;
+    skos:inScheme cs: ;
+    skos:notation "za"^^:iso639-1Code ;
+    skos:prefLabel "Zhuang; Chuang"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:znd
+    a skos:Concept ;
+    skos:altLabel
+        "Zande-Sprachen"@de ,
+        "zandé, langues"@fr ;
+    skos:definition "The language Zande languages"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Zande languages"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:zul
+    a skos:Concept ;
+    skos:altLabel
+        "Zulu-Sprache"@de ,
+        "zoulou"@fr ;
+    skos:definition "The language Zulu"@en ;
+    skos:inScheme cs: ;
+    skos:notation "zu"^^:iso639-1Code ;
+    skos:prefLabel "Zulu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:zun
+    a skos:Concept ;
+    skos:altLabel
+        "Zuñi-Sprache"@de ,
+        "zuni"@fr ;
+    skos:definition "The language Zuni"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Zuni"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:zxx
+    a skos:Concept ;
+    skos:altLabel
+        "Kein linguistischer Inhalt"@de ,
+        "pas de contenu linguistique; non applicable"@fr ;
+    skos:definition "The language No linguistic content; Not applicable"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "No linguistic content; Not applicable"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:zza
+    a skos:Concept ;
+    skos:altLabel
+        "Zazaki"@de ,
+        "zaza; dimili; dimli; kirdki; kirmanjki; zazaki"@fr ;
+    skos:definition "The language Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy
+        <https://def.isotc211.org/common/standards/iso-19115-1-2014> ,
+        <https://def.isotc211.org/common/standards/iso-awi-19115-1> ;
+    skos:definition "An ISO standard's ConceptScheme"@en ;
+    skos:hasTopConcept
+        :aar ,
+        :abk ,
+        :ace ,
+        :ach ,
+        :ada ,
+        :ady ,
+        :afa ,
+        :afh ,
+        :afr ,
+        :ain ,
+        :aka ,
+        :akk ,
+        :alb ,
+        :ale ,
+        :alg ,
+        :alt ,
+        :amh ,
+        :ang ,
+        :anp ,
+        :apa ,
+        :ara ,
+        :arc ,
+        :arg ,
+        :arm ,
+        :arn ,
+        :arp ,
+        :art ,
+        :arw ,
+        :asm ,
+        :ast ,
+        :ath ,
+        :aus ,
+        :ava ,
+        :ave ,
+        :awa ,
+        :aym ,
+        :aze ,
+        :bad ,
+        :bai ,
+        :bak ,
+        :bal ,
+        :bam ,
+        :ban ,
+        :baq ,
+        :bas ,
+        :bat ,
+        :bej ,
+        :bel ,
+        :bem ,
+        :ben ,
+        :ber ,
+        :bho ,
+        :bih ,
+        :bik ,
+        :bin ,
+        :bis ,
+        :bla ,
+        :bnt ,
+        :bos ,
+        :bra ,
+        :bre ,
+        :btk ,
+        :bua ,
+        :bug ,
+        :bul ,
+        :bur ,
+        :byn ,
+        :cad ,
+        :cai ,
+        :car ,
+        :cat ,
+        :cau ,
+        :ceb ,
+        :cel ,
+        :cha ,
+        :chb ,
+        :che ,
+        :chg ,
+        :chi ,
+        :chk ,
+        :chm ,
+        :chn ,
+        :cho ,
+        :chp ,
+        :chr ,
+        :chu ,
+        :chv ,
+        :chy ,
+        :cmc ,
+        :cnr ,
+        :cop ,
+        :cor ,
+        :cos ,
+        :cpe ,
+        :cpf ,
+        :cpp ,
+        :cre ,
+        :crh ,
+        :crp ,
+        cs:b ,
+        :cus ,
+        :cze ,
+        :dak ,
+        :dan ,
+        :dar ,
+        :day ,
+        :del ,
+        :den ,
+        :dgr ,
+        :din ,
+        :div ,
+        :doi ,
+        :dra ,
+        :dsb ,
+        :dua ,
+        :dum ,
+        :dut ,
+        :dyu ,
+        :dzo ,
+        :efi ,
+        :egy ,
+        :eka ,
+        :elx ,
+        :eng ,
+        :enm ,
+        :epo ,
+        :est ,
+        :ewe ,
+        :ewo ,
+        :fan ,
+        :fao ,
+        :fat ,
+        :fij ,
+        :fil ,
+        :fin ,
+        :fiu ,
+        :fon ,
+        :fre ,
+        :frm ,
+        :fro ,
+        :frr ,
+        :frs ,
+        :fry ,
+        :ful ,
+        :fur ,
+        :gaa ,
+        :gay ,
+        :gba ,
+        :gem ,
+        :geo ,
+        :ger ,
+        :gez ,
+        :gil ,
+        :gla ,
+        :gle ,
+        :glg ,
+        :glv ,
+        :gmh ,
+        :goh ,
+        :gon ,
+        :gor ,
+        :got ,
+        :grb ,
+        :grc ,
+        :gre ,
+        :grn ,
+        :gsw ,
+        :guj ,
+        :gwi ,
+        :hai ,
+        :hat ,
+        :hau ,
+        :haw ,
+        :heb ,
+        :her ,
+        :hil ,
+        :him ,
+        :hin ,
+        :hit ,
+        :hmn ,
+        :hmo ,
+        :hrv ,
+        :hsb ,
+        :hun ,
+        :hup ,
+        :iba ,
+        :ibo ,
+        :ice ,
+        :ido ,
+        :iii ,
+        :ijo ,
+        :iku ,
+        :ile ,
+        :ilo ,
+        :ina ,
+        :inc ,
+        :ind ,
+        :ine ,
+        :inh ,
+        :ipk ,
+        :ira ,
+        :iro ,
+        :ita ,
+        :jav ,
+        :jbo ,
+        :jpn ,
+        :jpr ,
+        :jrb ,
+        :kaa ,
+        :kab ,
+        :kac ,
+        :kal ,
+        :kam ,
+        :kan ,
+        :kar ,
+        :kas ,
+        :kau ,
+        :kaw ,
+        :kaz ,
+        :kbd ,
+        :kha ,
+        :khi ,
+        :khm ,
+        :kho ,
+        :kik ,
+        :kin ,
+        :kir ,
+        :kmb ,
+        :kok ,
+        :kom ,
+        :kon ,
+        :kor ,
+        :kos ,
+        :kpe ,
+        :krc ,
+        :krl ,
+        :kro ,
+        :kru ,
+        :kua ,
+        :kum ,
+        :kur ,
+        :kut ,
+        :lad ,
+        :lah ,
+        :lam ,
+        :lao ,
+        :lat ,
+        :lav ,
+        :lez ,
+        :lim ,
+        :lin ,
+        :lit ,
+        :lol ,
+        :loz ,
+        :ltz ,
+        :lua ,
+        :lub ,
+        :lug ,
+        :lui ,
+        :lun ,
+        :luo ,
+        :lus ,
+        :mac ,
+        :mad ,
+        :mag ,
+        :mah ,
+        :mai ,
+        :mak ,
+        :mal ,
+        :man ,
+        :mao ,
+        :map ,
+        :mar ,
+        :mas ,
+        :may ,
+        :mdf ,
+        :mdr ,
+        :men ,
+        :mga ,
+        :mic ,
+        :min ,
+        :mis ,
+        :mkh ,
+        :mlg ,
+        :mlt ,
+        :mnc ,
+        :mni ,
+        :mno ,
+        :moh ,
+        :mon ,
+        :mos ,
+        :mul ,
+        :mun ,
+        :mus ,
+        :mwl ,
+        :mwr ,
+        :myn ,
+        :myv ,
+        :nah ,
+        :nai ,
+        :nap ,
+        :nau ,
+        :nav ,
+        :nbl ,
+        :nde ,
+        :ndo ,
+        :nds ,
+        :nep ,
+        :new ,
+        :nia ,
+        :nic ,
+        :niu ,
+        :nno ,
+        :nob ,
+        :nog ,
+        :non ,
+        :nor ,
+        :nqo ,
+        :nso ,
+        :nub ,
+        :nwc ,
+        :nya ,
+        :nym ,
+        :nyn ,
+        :nyo ,
+        :nzi ,
+        :oci ,
+        :oji ,
+        :ori ,
+        :orm ,
+        :osa ,
+        :oss ,
+        :ota ,
+        :oto ,
+        :paa ,
+        :pag ,
+        :pal ,
+        :pam ,
+        :pan ,
+        :pap ,
+        :pau ,
+        :peo ,
+        :per ,
+        :phi ,
+        :phn ,
+        :pli ,
+        :pol ,
+        :pon ,
+        :por ,
+        :pra ,
+        :pro ,
+        :pus ,
+        :qaa-qtz ,
+        :que ,
+        :raj ,
+        :rap ,
+        :rar ,
+        :roa ,
+        :roh ,
+        :rom ,
+        :rum ,
+        :run ,
+        :rup ,
+        :rus ,
+        :sad ,
+        :sag ,
+        :sah ,
+        :sai ,
+        :sal ,
+        :sam ,
+        :san ,
+        :sas ,
+        :sat ,
+        :scn ,
+        :sco ,
+        :sel ,
+        :sem ,
+        :sga ,
+        :sgn ,
+        :shn ,
+        :sid ,
+        :sin ,
+        :sio ,
+        :sit ,
+        :sla ,
+        :slo ,
+        :slv ,
+        :sma ,
+        :sme ,
+        :smi ,
+        :smj ,
+        :smn ,
+        :smo ,
+        :sms ,
+        :sna ,
+        :snd ,
+        :snk ,
+        :sog ,
+        :som ,
+        :son ,
+        :sot ,
+        :spa ,
+        :srd ,
+        :srn ,
+        :srp ,
+        :srr ,
+        :ssa ,
+        :ssw ,
+        :suk ,
+        :sun ,
+        :sus ,
+        :sux ,
+        :swa ,
+        :swe ,
+        :syc ,
+        :syr ,
+        :tah ,
+        :tai ,
+        :tam ,
+        :tat ,
+        :tel ,
+        :tem ,
+        :ter ,
+        :tet ,
+        :tgk ,
+        :tgl ,
+        :tha ,
+        :tib ,
+        :tig ,
+        :tir ,
+        :tiv ,
+        :tkl ,
+        :tlh ,
+        :tli ,
+        :tmh ,
+        :tog ,
+        :ton ,
+        :tpi ,
+        :tsi ,
+        :tsn ,
+        :tso ,
+        :tuk ,
+        :tum ,
+        :tup ,
+        :tur ,
+        :tut ,
+        :tvl ,
+        :twi ,
+        :tyv ,
+        :udm ,
+        :uga ,
+        :uig ,
+        :ukr ,
+        :umb ,
+        :und ,
+        :urd ,
+        :uzb ,
+        :vai ,
+        :ven ,
+        :vie ,
+        :vol ,
+        :vot ,
+        :wak ,
+        :wal ,
+        :war ,
+        :was ,
+        :wel ,
+        :wen ,
+        :wln ,
+        :wol ,
+        :xal ,
+        :xho ,
+        :yao ,
+        :yap ,
+        :yid ,
+        :yor ,
+        :ypk ,
+        :zap ,
+        :zbl ,
+        :zen ,
+        :zgh ,
+        :zha ,
+        :znd ,
+        :zul ,
+        :zun ,
+        :zxx ,
+        :zza ;
+    skos:historyNote """2025-11: Linked to ISO AWI 19115-1
+
+2025-08: Implemented TC-211 persistent IRIs
+
+2023: Derived from TC-211-produced RDF versions of the standard's UML"""@en ;
+    skos:prefLabel "Language Code"@en ;
+    schema:citation "http://standards.iso.org/iso/19115/-1/ed-1/en/"^^xsd:anyURI ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2000-01-01"^^xsd:date ;
+    schema:dateIssued "2025-11-19"^^xsd:date ;
+    schema:dateModified "2025-11-15"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:stable ;
+.

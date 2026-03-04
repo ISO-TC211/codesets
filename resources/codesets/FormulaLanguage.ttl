@@ -1,0 +1,60 @@
+PREFIX : <https://def.isotc211.org/common/FormulaLanguage/>
+PREFIX cs: <https://def.isotc211.org/common/FormulaLanguage>
+PREFIX m191571: <https://def.isotc211.org/model/19157-1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/common/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:mathjson
+    a skos:Concept , m191571:FormulaLanguage ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The MathJSON formula language"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MathJSON"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:mathml
+    a skos:Concept , m191571:FormulaLanguage ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The MathML formula language"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MathML"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:openmath
+    a skos:Concept , m191571:FormulaLanguage ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The OpenMath formula language"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OpenMath"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19157-1-2023> ;
+    skos:definition "The data language use for mathematical formula expression"@en ;
+    skos:hasTopConcept
+        :mathjson ,
+        :mathml ,
+        :openmath;
+    skos:historyNote """2025-11: implemented directly by GOM from the UML"""@en ;
+    skos:prefLabel "Formula Language"@en ;
+    schema:citation "http://standards.iso.org/iso/19157/-1/ed-1/en/"^^xsd:anyURI ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2025-11-18"^^xsd:date ;
+    schema:dateModified "2025-11-19"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:stable ;
+.

@@ -1,0 +1,98 @@
+PREFIX : <https://def.isotc211.org/common/ValueStructure/>
+PREFIX cs: <https://def.isotc211.org/common/ValueStructure>
+PREFIX m191571: <https://def.isotc211.org/model/19157-1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/common/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:bag
+    a skos:Concept , m191571:ValueStructure ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "finite, unordered collection of related items (objects or values) that may be repeated (ISO 19107:2003)"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bag"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:coverage
+    a skos:Concept , m191571:ValueStructure ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "feature that acts as a function to return values from its range for any direct position within its spatial, temporal or spatiotemporal domain (ISO 19123:2005)"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coverage"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:matrix
+    a skos:Concept , m191571:ValueStructure ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "rectangular array of numbers (ISO.sl.TS 19129:2009)"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "matrix"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:sequence
+    a skos:Concept , m191571:ValueStructure ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "finite, ordered collection of related items (objects or values) that may be repeated (ISO 19107:2003)"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sequence"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:set
+    a skos:Concept , m191571:ValueStructure ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "unordered collection of related items (objects or values) with no repetition (ISO 19107:2003)"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "set"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:table
+    a skos:Concept , m191571:ValueStructure ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "an arrangement of data in which each item may be identified by means of arguments or keys (ISO.sl.IEC 2382-4:1999)"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "table"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19157-1-2023> ;
+    skos:definition "The structure of values in a dataset"@en ;
+    skos:hasTopConcept
+        :bag ,
+        :coverage ,
+        :matrix ,
+        :sequence ,
+        :set ,
+        :table ;
+    skos:historyNote """2025-08: Implemented TC-211 persistent IRIs
+
+2023: Derived from TC-211-produced RDF versions of the standard's UML"""@en ;
+    skos:prefLabel "Value Structure Code"@en ;
+    schema:citation "http://standards.iso.org/iso/19157/-1/ed-1/en/"^^xsd:anyURI ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2023-12-01"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:stable ;
+.
