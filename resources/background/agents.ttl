@@ -25,3 +25,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "Open Geospatial Consortium" ;
     schema:url "https://www.ogc.org"^^xsd:anyURI ;
 .
+
+<https://def.isotc211.org/org/ag6>
+    a schema:Organization ;
+    schema:name "Advisory Group 6 - Group on Ontology Maintenance (GOM)" ;
+    schema:url "https://committee.iso.org/sites/tc211/home/about/advisory-groups.html"^^xsd:anyURI ;
+.
