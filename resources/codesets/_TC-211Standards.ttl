@@ -123,5 +123,5 @@ cs:
     schema:dateModified "2025-11-19"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
-    schema:status status:stable ;
+    schema:status status:experimental ;
 .

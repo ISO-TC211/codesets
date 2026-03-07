@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :auxilliaryInformation
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/CoverageContentTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "data, usually a physical measurement, used to support the calculation of the primary physicalMeasurement coverages in the dataset (e.g. grid of aerosol optical thickness used in the calculation of a sea surface temperature product)."@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :coordinate
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/CoverageContentTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "data used to provide coordinate axis values"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -30,7 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :image
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/CoverageContentTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "meaningful numerical representation of a physical parameter that is not the actual value of the physical parameter"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -41,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :modelResult
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/CoverageContentTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resources with values that are calculated using a model rather than being observed or calculated from observations."@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -52,7 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :physicalMeasurement
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/CoverageContentTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "value in physical units of the quantity being measured"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -63,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :qualityInformation
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/CoverageContentTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "data used to characterize the quality of the physicalMeasurement coverages in the dataset. Typically included in a gmi:QE_CoverageResult."@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -74,7 +74,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :referenceInformation
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/CoverageContentTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "reference information used to support the calculation or use of the physicalMeasurement coverages in the dataset (e.g. grids of latitude/longitude used to geolocate the physical measurements)."@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -85,7 +85,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :thematicClassification
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/CoverageContentTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "code value with no quantitative meaning, used to represent a physical quantity"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -96,7 +96,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-awi-19115-1> ;
     skos:definition "specific type of information represented in the cell"@en ;
     skos:hasTopConcept
         :auxilliaryInformation ,

@@ -19,7 +19,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-awi-19115-1> ;
     skos:definition ""@en ;
     skos:hasTopConcept :placeholder ;
     skos:historyNote "This version of this codeset was produced for the 2025 update of the 19115 standard" ;

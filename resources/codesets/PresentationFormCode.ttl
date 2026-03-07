@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :audioDigital
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "digital audio recording"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :audioHardcopy
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "audio recording delivered by analog media, such as a magnetic tape"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -30,7 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :diagramDigital
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "information represented graphically by charts such as pie chart, bar chart, and other type of diagrams and recorded in digital format"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -41,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :diagramHardcopy
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "information represented graphically by charts such as pie chart, bar chart, and other type of diagrams and printed on paper, photographic material, or other media"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -52,7 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :documentDigital
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "digital representation of a primarily textual item (can contain illustrations also)"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -63,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :documentHardcopy
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "representation of a primarily textual item (can contain illustrations also) on paper, photographic material, or other media"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -74,7 +74,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :imageDigital
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and stored in digital format"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -85,7 +85,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :imageHardcopy
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and reproduced on paper, photographic material, or other media for use directly by the human user"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -96,7 +96,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mapDigital
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "map represented in raster or vector form"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -107,7 +107,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mapHardcopy
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "map printed on paper, photographic material, or other media for use directly by the human user"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -118,7 +118,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :modelDigital
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "multi-dimensional digital representation of a feature, process, etc."@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -129,7 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :modelHardcopy
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "3-dimensional, physical model"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -140,7 +140,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :multimediaDigital
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "information representation using simultaneously various digital modes for text, sound, image"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -151,7 +151,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :multimediaHardcopy
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "information representation using simultaneously various analog modes for text, sound, image"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -162,7 +162,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :physicalObject
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a physical object. Eg. Rock or mineral sample, microscope slide"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -173,7 +173,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :profileDigital
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "vertical cross-section in digital form"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -184,7 +184,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :profileHardcopy
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "vertical cross-section printed on paper, etc."@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -195,7 +195,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :tableDigital
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "digital representation of facts or figures systematically displayed, especially in columns"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -206,7 +206,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :tableHardcopy
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "representation of facts or figures systematically displayed, especially in columns, printed on paper, photographic material, or other media"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -217,7 +217,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :videoDigital
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "digital video recording"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -228,7 +228,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :videoHardcopy
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/PresentationFormCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "video recording on film"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -239,7 +239,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-awi-19115-1> ;
     skos:definition "mode in which the data is represented"@en ;
     skos:hasTopConcept
         :audioDigital ,

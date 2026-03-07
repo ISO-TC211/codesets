@@ -42,7 +42,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19157-1-2023> ;
     skos:definition "Methods of evaluating the quality of a dataset"@en ;
     skos:hasTopConcept
         :directExternal ,
@@ -58,5 +57,5 @@ cs:
     schema:dateModified "2025-08-01"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
-    schema:status status:stable ;
+    schema:status status:experimental ;
 .

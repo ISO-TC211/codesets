@@ -74,7 +74,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19160-1-2015> ;
     skos:definition "AddressLifecycleStage represents the different lifecycle stages of an Address or AddressComponent"@en ;
     skos:hasTopConcept
         :current ,
@@ -93,5 +92,5 @@ cs:
     schema:dateModified "2025-08-01"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
-    schema:status status:stable ;
+    schema:status status:experimental ;
 .

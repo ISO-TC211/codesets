@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :campaign
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "series of organized planned actions"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :collection
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "accumulation of resources assembled for a specific purpose"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -30,7 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :exercise
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "specific performance of a function or group of functions"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -41,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :experiment
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "process designed to find if something is effective or valid"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -52,7 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :investigation
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "search or systematic inquiry"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -63,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mission
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "specific operation of a data collection system"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -74,7 +74,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :operation
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "action that is part of a series of actions"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -85,7 +85,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :platform
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "vehicle or other support base that holds a sensor"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -96,7 +96,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :process
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "method of doing something involving a number of steps"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -107,7 +107,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :program
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "specific planned activity"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -118,7 +118,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :project
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "organized undertaking, research, or development"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -129,7 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sensor
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "device or piece of equipment which detects or records"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -140,7 +140,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :study
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "examination or investigation"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -151,7 +151,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :task
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "piece of work"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -162,7 +162,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :trial
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/InitiativeTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "process of testing to discover or demonstrate something"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -173,7 +173,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-awi-19115-1> ;
     skos:definition "type of aggregation activity in which resources are related"@en ;
     skos:hasTopConcept
         :campaign ,

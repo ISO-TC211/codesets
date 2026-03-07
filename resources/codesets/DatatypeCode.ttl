@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :abstractClass
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "class that cannot be directly instantiated"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :aggregateClass
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "class that is composed of classes it is connected to by an aggregate relationship"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -30,7 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :association
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "semantic relationship between two classes that involves connections among their instances"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -41,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :characterString
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "free text field"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -52,7 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :class
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "descriptor of a set of objects that share the same attributes, operations, methods, relationships, and behaviour"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -63,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :codelist
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "flexible enumeration useful for expressing a long list of values, can be extended"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -74,7 +74,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :codelistElement
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "permissible value for a codelist or enumeration"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -85,7 +85,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :datatypeClass
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "class with few or no operations whose primary purpose is to hold the abstract state of another class for transmittal, storage, encoding or persistent storage"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -96,7 +96,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :enumeration
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "data type whose instances form a list of named literal values, not extendable"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -107,7 +107,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :integer
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "numerical field"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -118,7 +118,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :interfaceClass
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "named set of operations that characterize the behaviour of an element"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -129,7 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :metaClass
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "class whose instances are classes"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -140,7 +140,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :specifiedClass
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "subclass that may be substituted for its superclass"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -151,7 +151,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :typeClass
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "class used for specification of a domain of instances (objects), together with the operations applicable to the objects. A type may have attributes and associations"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -162,7 +162,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unionClass
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/DatatypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "class describing a selection of one of the specified types"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -173,7 +173,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-awi-19115-1> ;
     skos:definition "datatype of element or entity"@en ;
     skos:hasTopConcept
         :abstractClass ,

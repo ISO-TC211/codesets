@@ -42,7 +42,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-19157-1-2023> ;
     skos:definition "The data language use for mathematical formula expression"@en ;
     skos:hasTopConcept
         :mathjson ,
@@ -56,5 +55,5 @@ cs:
     schema:dateModified "2025-11-19"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
-    schema:status status:stable ;
+    schema:status status:experimental ;
 .

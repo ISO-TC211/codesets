@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :collectiveTitle
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/AssociationTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "common title with holdings note NOTE: title identifies elements of a series collectively, combined with information about what volumes are available at the source cited"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :crossReference
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/AssociationTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "reference from one resource to another"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -30,7 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :dependency
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/AssociationTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "associate through a dependency"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -41,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :isComposedOf
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/AssociationTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "reference to resources that are parts of this data set"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -52,7 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :largerWorkCitation
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/AssociationTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "reference to a master resource of which this one is a part"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -63,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :partOfSeamlessDatabase
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/AssociationTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "part of same structured set of data held in a computer"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -74,7 +74,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :revisionOf
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/AssociationTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "resource is a revision of associated resource"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -85,7 +85,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :series
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/AssociationTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "associated through a common heritage such as produced to a common product specification"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -96,7 +96,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :stereoMate
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/AssociationTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "part of a set of imagery that when used together, provides three-dimensional images"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -107,7 +107,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-awi-19115-1> ;
     skos:definition "justification for the correlation of two resources"@en ;
     skos:hasTopConcept
         :collectiveTitle ,

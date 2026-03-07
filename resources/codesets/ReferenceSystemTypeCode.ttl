@@ -8,7 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundEngineeringParametric
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound statio-parametric coordinate reference system containing an engineering coordinate reference system and a parametric reference system e.g. [local] x, y, pressure"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundEngineeringParametricTemporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound statio-parametric-temporal coordinate reference system containing an engineering, a parametric, and a temporal coordinate reference system e.g. [local] x, y, pressure, time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -30,7 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundEngineeringTemporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound spatio-temoral coordinate reference system containing an engineering and a temporal coordinate reference system e.g. [local] x, y, time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -41,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundEngineeringVertical
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound spatial reference system containing a horizontal engineering coordinate reference system and a vertical coordinate reference system e.g. [local] x, y, height"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -52,7 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundEngineeringVerticalTemporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound spatio-temoral coordinate reference system containing an engineering, a vertical, and a temporal coordinate reference system e.g. [local] x, y, height, time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -63,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundGeographic2DParametric
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound statio-parametric coordinate reference system containing a 2 dimensional geographic horizontal coordinate reference system and a parametric reference system e.g. latitude, longitude, pressure"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -74,7 +74,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundGeographic2DParametricTemporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound statio-parametric-temporal coordinate reference system containing a 2 dimensional geographic horizontal, a parametric and a temporal coordinate reference system e.g. latitude, longitude, pressure, time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -85,7 +85,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundGeographic2DTemporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound spatio-temoral coordinate reference system containing a 2 dimensional geographic horizontal coordinate reference system and a temporal reference system e.g. latitude, longitude, time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -96,7 +96,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundGeographic2DVertical
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound coordinate reference system in which one constituent coordinate reference system is a horizontal geodetic coordinate reference system and one is a vertical coordinate reference system e.g. latitude, longitude, [gravity-related] height or depth"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -107,7 +107,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundGeographic2DVerticalTemporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound spatio-temoral coordinate reference system containing a 2 dimensional geographic horizontal, a vertical, and a temporal coordinate reference system e.g. latitude, longitude, height, time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -118,7 +118,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundGeographic3DTemporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound spatio-temoral coordinate reference system containing a 3 dimensional geographic and a temporal coordinate reference system e.g. latitude, longitude, ellipsoidal height, time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -129,7 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundProjected2DParametric
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound statio-parametric coordinate reference system containing a projected horizontal coordinate reference system and a parametric reference system e.g. easting, northing, density"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -140,7 +140,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundProjected2DParametricTemporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound statio-parametric-temporal coordinate reference system containing a projected horizontal, a parametric, and a temporal coordinate reference system e.g. easting, northing, density, time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -151,7 +151,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundProjectedTemporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound spatio-temoral coordinate reference system containing a projected horizontal and a temporal coordinate reference system e.g. easting, northing, time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -162,7 +162,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundProjectedVertical
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound spatial reference system containing a horizontal projected coordinate reference system and a vertical coordinate reference system e.g. easting, northing, [gravity-related] height or depth"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -173,7 +173,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :compoundProjectedVerticalTemporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "compound spatio-temoral coordinate reference system containing a projected horizontal, a vertical, and a temporal coordinate reference system e.g. easting, northing, height, time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -184,7 +184,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :engineering
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "coordinate reference system based on an engineering datum (datum describing the relationship of a coordinate system to a local reference)e.g. [local] x,y"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -195,7 +195,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :engineeringDesign
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "engineering coordinate reference system in which the base representation of a moving object is specified e.g. [local] x,y"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -206,7 +206,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :engineeringImage
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "coordinate reference system based on an image datum (engineering datum which defines the relationship of a coordinate system to an image)e.g. row, column"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -217,7 +217,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :geodeticGeocentric
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "geodetic CRS having a Cartesian 3D coordinate system e.g. [geocentric] X,Y,Z"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -228,7 +228,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :geodeticGeographic2D
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "geodetic CRS having an ellipsoidal 2D coordinate system e.g. latitude, longitude"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -239,7 +239,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :geodeticGeographic3D
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "geodetic CRS having an ellipsoidal 3D coordinate system e.g. latitude, longitude, ellipsoidal height"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -250,7 +250,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :geographicIdentifier
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "spatial reference in the form of a label or code that identifies a location e.g. post code"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -261,7 +261,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :linear
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "reference system that identifies a location by reference to a segment of a linear geographic feature and distance along that segment from a given point e.g. x km along road"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -272,7 +272,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :parametric
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "coordinate reference system based on a parametric datum (datum describing the relationship of a parametric coordinate system to an object) e.g. pressure"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -283,7 +283,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :projected
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "coordinate reference system derived from a two-dimensional geodetic coordinate reference system by applying a map projection e.g. easting, northing"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -294,7 +294,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :temporal
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "reference system against which time is measured e.g. time"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -305,7 +305,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :vertical
     a skos:Concept ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/ReferenceSystemTypeCode> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "one-dimensional coordinate reference system based on a vertical datum (datum describing the relation of gravity-related heights or depths to the Earth) e.g. [gravity-related] height or depth"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
@@ -316,7 +316,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standards/iso-awi-19115-1> ;
     skos:definition "defines type of reference system used"@en ;
     skos:hasTopConcept
         :compoundEngineeringParametric ,
