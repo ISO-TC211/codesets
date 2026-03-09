@@ -14,12 +14,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:url "https://www.ogc.org"^^xsd:anyURI ;
 .
 
-<https://def.isotc211.org/org/tc211>
-    a schema:Organization ;
-    schema:name "ISO Technical Committee 211" ;
-    schema:url "https://www.iso.org/committee/54904.html"^^xsd:anyURI ;
-.
-
 <https://www.ogc.org>
     a schema:Organization ;
     schema:name "Open Geospatial Consortium" ;

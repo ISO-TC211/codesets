@@ -17,7 +17,7 @@ PREFIX schema: <https://schema.org/>
             prof:hasArtifact "codesets/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:description "Code sets as catalogued resources" ;
-            schema:name "Resource Data" ;
+            schema:name "Resources Data" ;
             dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
         ] ,
         [
