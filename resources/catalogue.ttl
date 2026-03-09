@@ -56,13 +56,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://def.isotc211.org/common/TopologyLevelCode> ,
         <https://def.isotc211.org/common/ValueStructure> ,
         <https://def.isotc211.org/common/standards> ;
-    skos:historyNote "This catalogue was assembled by TC-211's Group on Ontology Maintenance"@en ;
+    skos:historyNote "This catalogue was assembled by ISO/TC211's Group on Ontology Maintenance"@en ;
     schema:codeRepository "https://github.com/ISO-TC211/codelist-vocabularies" ;
     schema:contributor <https://def.isotc211.org/org/ogc> ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2024-09-03"^^xsd:date ;
     schema:dateModified "2025-08-01"^^xsd:date ;
-    schema:description """Code sets in the TC-211 Harmonised Model.
+    schema:description """Code sets in the ISO/TC211 Harmonised Model.
 
 This catalogue contains all of the code sets managed by ISO Technical Committee 211 (Geographic information/Geomatics) for use within their 19* series standards.
 
@@ -72,7 +72,7 @@ The code set content here is stored here in [RDF](https://www.w3.org/TR/rdf12-co
         "International Organization for Standardization" ,
         "geographic information" ,
         "geomatics" ;
-    schema:name "ISO TC-211 Codesets" ;
+    schema:name "ISO/TC211 Codesets" ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status <https://def.isotc211.org/common/ItemStatus/stable> ;
 .

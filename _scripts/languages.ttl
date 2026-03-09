@@ -6035,7 +6035,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :zun ,
         :zxx ,
         :zza ;
-    skos:historyNote "Derived from TC-211-produced RDF versions of the standard's UML"@en ;
+    skos:historyNote "Derived from ISO/TC211-produced RDF versions of the standard's UML"@en ;
     skos:prefLabel "Language Code"@en ;
     schema:citation "http://standards.iso.org/iso/19115/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://def.isotc211.org/org/tc211> ;

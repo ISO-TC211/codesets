@@ -1,4 +1,4 @@
-# ISO/TC-211 Code Sets
+# ISO/ISO/TC211 Code Sets
 
 This repository contains the point-of-truth source data of the [International Standards Organization](https://www.iso.org)'s [Technical Committee 211 (Geographic information/Geomatics)](https://committee.iso.org/home/tc211)'s code sets. Code sets are controlled lists of identified terms used in standards.
 
@@ -10,13 +10,13 @@ The code sets are published online at [IRI](https://en.wikipedia.org/wiki/Intern
 
 ## Governance
 
-The code sets here will be maintained via procedures aligning with [ISO 19135:2026 Geographic information — Procedures for item registration](https://www.iso.org/standard/87753.html) with the TC-211's [Advisory Group 6 Group for Ontology Maintenance (GOM)](https://committee.iso.org/sites/tc211/home/about/advisory-groups.html) acting as the _Control Body_ organising expert reviews of proposed content changes from _Content Authorities_ - standards editors and content maintainers.
+The code sets here will be maintained via procedures aligning with [ISO 19135:2026 Geographic information — Procedures for item registration](https://www.iso.org/standard/87753.html) with the ISO/TC211's [Advisory Group 6 Group for Ontology Maintenance (GOM)](https://committee.iso.org/sites/tc211/home/about/advisory-groups.html) acting as the _Control Body_ organising expert reviews of proposed content changes from _Content Authorities_ - standards editors and content maintainers.
 
-Content Authorities will not be select by GOM but assigned via TC-211 processes, yet to be determined throughout 2026.
+Content Authorities will not be select by GOM but assigned via ISO/TC211 processes, yet to be determined throughout 2026.
 
 ### Who can propose changes?
 
-Until the TC-211 May 2027 plenary meeting, changes to code sets will only be accepted from Content Authorities as TC-211 moved to the first comprehensive and authoritative publication of code sets. From May 2026, Content Authorities may allow changes to code sets to be proposed by others - trusted editors, general public etc.: to be determined by the Content Authorities.
+Until the ISO/TC211 May 2027 plenary meeting, changes to code sets will only be accepted from Content Authorities as ISO/TC211 moved to the first comprehensive and authoritative publication of code sets. From May 2026, Content Authorities may allow changes to code sets to be proposed by others - trusted editors, general public etc.: to be determined by the Content Authorities.
 
 ### Changes procedure
 
@@ -82,7 +82,7 @@ Here the addition was 'submitted' in January 2026 by Organisation X, 'accepted' 
 
 ### Code Set coverage
 
-Not all the Code Sets within TC-211's 19* series of standards are yet delivered here. Those that are, are published at <https://def.isotc211.org/codesets> with the remainder to be delivered by May 2026. Until that time, Content Authorities are being contacted to assist with delivery of all TC-211 code sets.
+Not all the Code Sets within ISO/TC211's 19* series of standards are yet delivered here. Those that are, are published at <https://def.isotc211.org/codesets> with the remainder to be delivered by May 2026. Until that time, Content Authorities are being contacted to assist with delivery of all ISO/TC211 code sets.
 
 ## Content Structure
 
@@ -104,7 +104,7 @@ These vocabularies and the software in this repository is copyright as follows:
 
 ## Contact
 
-These code sets are managed by the TC-211's [Advisory Group 6 Group for Ontology Maintenance (GOM)](https://committee.iso.org/sites/tc211/home/about/advisory-groups.html). Please contact that group using the details at:
+These code sets are managed by the ISO/TC211's [Advisory Group 6 Group for Ontology Maintenance (GOM)](https://committee.iso.org/sites/tc211/home/about/advisory-groups.html). Please contact that group using the details at:
 
 * <https://github.com/ISO-TC211/GOM#contact>
 

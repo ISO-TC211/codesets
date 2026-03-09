@@ -47,9 +47,9 @@ cs:
         :directExternal ,
         :directInternal ,
         :indirect ;
-    skos:historyNote """2025-08: Implemented TC-211 persistent IRIs
+    skos:historyNote """2025-08: Implemented ISO/TC211 persistent IRIs
 
-2023: Derived from TC-211-produced RDF versions of the standard's UML"""@en ;
+2023: Derived from ISO/TC211-produced RDF versions of the standard's UML"""@en ;
     skos:prefLabel "Evaluation Method Type Code"@en ;
     schema:citation "http://standards.iso.org/iso/19157/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://def.isotc211.org/org/tc211> ;

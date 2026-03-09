@@ -3003,9 +3003,9 @@ cs:
         :ZW ;
     skos:historyNote """2025-11: Linked to ISO AWI 19115-1
 
-2025-08: Implemented TC-211 persistent IRIs
+2025-08: Implemented ISO/TC211 persistent IRIs
 
-2023: Derived from TC-211-produced RDF versions of the standard's UML"""@en ;
+2023: Derived from ISO/TC211-produced RDF versions of the standard's UML"""@en ;
     skos:prefLabel "Country Code"@en ;
     schema:citation "http://standards.iso.org/iso/19115/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
