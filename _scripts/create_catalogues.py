@@ -43,10 +43,10 @@ The _Association Type Codes_ codelist above has previously been delivered online
 Such unauthorised republications of ISO content are not allowed by ISO licensing. We encourage people wanting more ISO material delivered as machine-readable objects to contact the Group on Ontology maintenance, see this catalogue's publisher details for contact information.""" ;
         skos:historyNote "This catalogue was assembled from all the vocabularies made available by TC-211's Group on Ontology Maintenance"@en ;
         schema:contributor <https://www.ogc.org> ;
-        schema:creator <https://committee.iso.org/home/tc211> ;
+        schema:creator <https://def.isotc211.org/org/tc211> ;
         schema:dateCreated "2024-09-03"^^xsd:date ;
         schema:dateModified "2024-09-03"^^xsd:date ;
-        schema:publisher <https://committee.iso.org/home/tc211> ;
+        schema:publisher <https://def.isotc211.org/org/tc211> ;
         schema:keywords
             "International Organization for Standardization" ,
             "ISO" ,
