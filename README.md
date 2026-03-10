@@ -32,7 +32,7 @@ If you cannot raise an Issue, please contact GOM or the Content Authority of you
 
 All changes to code sets - either the code sets as a whole or individual concepts within them - will be annotated on the code set or concept with the Submitter and approving Content Authority indicated as well as the date of the change. 
 
-An example of a fictitious addition of 'catbot' to the [19115 On Line Function Code](https://def.isotc211.org/common/OnLineFunctionCode) is:
+An example of a fictitious addition of 'chatbot' to the [19115 On Line Function Code](https://def.isotc211.org/codeset/OnLineFunctionCode) is:
 
 ```turtle
 :chatbot

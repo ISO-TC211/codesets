@@ -1,9 +1,9 @@
-PREFIX : <https://def.isotc211.org/common/LanguageCode/>
-PREFIX cs: <https://def.isotc211.org/common/LanguageCode>
+PREFIX : <https://def.isotc211.org/codeset/LanguageCode/>
+PREFIX cs: <https://def.isotc211.org/codeset/LanguageCode>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX status: <https://def.isotc211.org/common/ItemStatus/>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :aar
@@ -5549,8 +5549,8 @@ cs:b
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy
-        <https://def.isotc211.org/common/standards/iso-19115-1-2014> ,
-        <https://def.isotc211.org/common/standards/iso-awi-19115-1> ;
+        <https://def.isotc211.org/codeset/standards/iso-19115-1-2014> ,
+        <https://def.isotc211.org/codeset/standards/iso-awi-19115-1> ;
     skos:definition "An ISO standard's ConceptScheme"@en ;
     skos:hasTopConcept
         :aar ,
