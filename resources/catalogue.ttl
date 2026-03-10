@@ -38,7 +38,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://def.isotc211.org/codeset/InitiativeTypeCode> ,
         <https://def.isotc211.org/codeset/ItemStatus> ,
         <https://def.isotc211.org/codeset/KeywordTypeCode> ,
-        <https://def.isotc211.org/codeset/KeywordTypeCode-Bio> ,
         <https://def.isotc211.org/codeset/LanguageCode> ,
         <https://def.isotc211.org/codeset/MaintenanceFrequencyCode> ,
         <https://def.isotc211.org/codeset/MediumFormatCode> ,
