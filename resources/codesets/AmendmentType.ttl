@@ -33,7 +33,7 @@ cs:
         :retirement ,
         :supersession ;
     skos:historyNote "Created manually by GOM staff directly from the ISO19135-1:2014 document"@en ;
-    skos:prefLabel "RE Amendment Type Codes"@en ;
+    skos:prefLabel "Amendment Type Codes"@en ;
     schema:citation "http://standards.iso.org/iso/19135/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2014-09-18"^^xsd:date ;
