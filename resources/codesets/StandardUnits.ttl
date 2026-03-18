@@ -1,0 +1,170 @@
+
+PREFIX : <https://def.isotc211.org/codeset/StandardUnits/>
+PREFIX cs: <https://def.isotc211.org/codeset/StandardUnits>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX unit: <http://qudt.org/vocab/unit/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:cubicMetre
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The volume of a cube with sides of 1 metre in length" ;
+    skos:exactMatch unit:M3 ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cubic metre"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:kilogram
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "" ;
+    skos:exactMatch unit:KiloGM ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "kilogram"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:metre
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "meter"@en-US ;
+    skos:definition "The metric and SI base unit of distance. The 17th General Conference on Weights and Measures in 1983 defined the meter as that distance that makes the speed of light in a vacuum equal to exactly 299 792 458 meters per second. " ;
+    skos:exactMatch unit:M ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "metre"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:metrePrMetre
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "" ;
+    skos:exactMatch <file:///Users/nick/work/iso/codesets/resources/> ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "metre per metre"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:metrePrSecond
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Distance in metres divided by time in seconds" ;
+    skos:exactMatch unit:M-PER-SEC ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "metre per second"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:metrePrSecondPrSecond
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "As acceleration, this unit is interpreted physically as change in velocity or speed per time interval" ;
+    skos:exactMatch unit:M-PER-SEC2 ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "metre per second per second"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:radian
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The radian is the standard unit of angular measure, used in many areas of mathematics. It describes the plane angle subtended by a circular arc as the length of the arc divided by the radius of the arc." ;
+    skos:exactMatch unit:RAD ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "radian"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:radianPrSecond
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The change in the orientation of an object, in radians, every second." ;
+    skos:exactMatch unit:RAD-PER-SEC ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "radian per second"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:radianPrSecondPrSecond
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The rate of change of angular velocity" ;
+    skos:exactMatch unit:RAD-PER-SEC2 ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "radian per second per second"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:second
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The base SI unit for time. It is the duration of 9,192,631,770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium 133 atom" ;
+    skos:exactMatch unit:SEC ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "second"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:squareMetre
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The SI unit of area is the square metre" ;
+    skos:exactMatch unit:M2 ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "square metre"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "ISO 19103:2015's list of standard units"@en ;
+    skos:hasTopConcept
+        :cubicMetre ,
+        :kilogram ,
+        :metre ,
+        :metrePrMetre ,
+        :metrePrSecond ,
+        :metrePrSecondPrSecond ,
+        :radian ,
+        :radianPrSecond ,
+        :radianPrSecondPrSecond ,
+        :second ,
+        :squareMetre ;
+    skos:historyNote "This code set was extracted from an RDF/XML extract from ISO19103:2015's XMI file"@en ;
+    skos:prefLabel "Standard Units"@en ;
+    schema:citation "https://www.iso.org/standard/56734.html"^^xsd:anyURI ;
+    schema:contributor <https://def.isotc211.org/org/ogc> ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-03-17"^^xsd:date ;
+    schema:dateIssued "2026-03-17"^^xsd:date ;
+    schema:dateModified "2026-03-17"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+.

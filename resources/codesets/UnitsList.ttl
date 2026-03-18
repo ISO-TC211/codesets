@@ -1,0 +1,65 @@
+
+PREFIX : <https://def.isotc211.org/codeset/UnitList/>
+PREFIX cs: <https://def.isotc211.org/codeset/UnitList>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX unit: <http://qudt.org/vocab/unit/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:cubicYard
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The volume of a cube with sides of 1 yard in length." ;
+    skos:exactMatch unit:YD3 ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cubic yard"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:foot
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A unit of length defined as being 0.3048 m" ;
+    skos:exactMatch unit:FT ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "foot"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:squareFoot
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The area of a square with sides of 1 foot in length" ;
+    skos:exactMatch unit:FT2 ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "square foot"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "ISO 19103:2015's list of units"@en ;
+    skos:hasTopConcept
+        :cubicYard ,
+        :foot ,
+        :squareFoot ;
+    skos:historyNote "This code set was extracted from an RDF/XML extract from ISO19103:2015's XMI file"@en ;
+    skos:prefLabel "Unit List"@en ;
+    schema:citation "https://www.iso.org/standard/56734.html"^^xsd:anyURI ;
+    schema:contributor <https://def.isotc211.org/org/ogc> ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-03-17"^^xsd:date ;
+    schema:dateIssued "2026-03-17"^^xsd:date ;
+    schema:dateModified "2026-03-17"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+.
