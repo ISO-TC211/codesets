@@ -1,9 +1,9 @@
-
 PREFIX : <https://def.isotc211.org/codeset/StandardUnits/>
 PREFIX cs: <https://def.isotc211.org/codeset/StandardUnits>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX standards: <https://def.isotc211.org/codeset/standards/>
 PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX unit: <http://qudt.org/vocab/unit/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -158,7 +158,7 @@ cs:
         :squareMetre ;
     skos:historyNote "This code set was extracted from an RDF/XML extract from ISO19103:2015's XMI file"@en ;
     skos:prefLabel "Standard Units"@en ;
-    schema:citation "https://www.iso.org/standard/56734.html"^^xsd:anyURI ;
+    schema:citation standards:iso-19103-2015 ;
     schema:contributor <https://def.isotc211.org/org/ogc> ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2026-03-17"^^xsd:date ;

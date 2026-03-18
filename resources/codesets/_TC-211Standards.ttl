@@ -7,6 +7,17 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+:iso-19160-1-2015
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Addressing Part 1: Conceptual model, 2015" ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19160-1:2015"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
 :iso-tc-19103-2005
     a skos:Concept ;
     dcterms:isReplacedBy :iso-19103-2015 ;
@@ -20,19 +31,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:url "https://www.iso.org/standard/37800.html"^^xsd:anyURI ;
 .
 
-:iso-19103-2015
-    a skos:Concept ;
-    dcterms:isReplacedBy :iso-19103-2024 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — Conceptual schema language, 2015" ;
-    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "ISO 19103:2015"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:stable ;
-    schema:url "https://www.iso.org/standard/56734.html"^^xsd:anyURI ;
-.
-
 :iso-19103-2024
     a skos:Concept ;
     dcterms:replaces :iso-19103-2015 ;
@@ -44,17 +42,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
     schema:status status:stable ;
     schema:url "https://www.iso.org/standard/83454.html"^^xsd:anyURI ;
-.
-
-:iso-19160-1-2015
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Addressing Part 1: Conceptual model, 2015" ;
-    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "ISO 19160-1:2015"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:stable ;
 .
 
 :iso-19115-2003
@@ -129,6 +116,19 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
 .
 
+:iso-19103-2015
+    a skos:Concept ;
+    dcterms:isReplacedBy :iso-19103-2024 ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Conceptual schema language, 2015" ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19103:2015"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+    schema:url "https://www.iso.org/standard/56734.html"^^xsd:anyURI ;
+.
+
 :iso-19115-1-2014
     a skos:Concept ;
     dcterms:isReplacedBy :iso-awi-19115-1 ;
@@ -146,7 +146,6 @@ cs:
     a skos:ConceptScheme ;
     skos:definition "A code set of ISO/TC211 Standards"@en ;
     skos:hasTopConcept
-        :iso-tc-19103-2005 ,
         :iso-19103-2015 ,
         :iso-19103-2024 ,
         :iso-19115-1-2014 ,
@@ -156,7 +155,8 @@ cs:
         :iso-19157-1-2023 ,
         :iso-19157-2013 ,
         :iso-19160-1-2015 ,
-        :iso-awi-19115-1 ;
+        :iso-awi-19115-1 ,
+        :iso-tc-19103-2005 ;
     skos:historyNote "2025-11: Created to allow derivation of codelists from standards"@en ;
     skos:prefLabel "ISO/TC211 Standards"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
