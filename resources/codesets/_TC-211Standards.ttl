@@ -108,7 +108,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:replaces :iso-19115-1-2014 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals, 2014" ;
+    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals" ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO/AWI 19115-1"@en ;
@@ -142,6 +142,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
 .
 
+:iso-19115-1-2027
+    a skos:Concept ;
+    dcterms:replaces :iso-awi-19115-1 ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals, 2027" ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19115-1:2027"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
 cs:
     a skos:ConceptScheme ;
     skos:definition "A code set of ISO/TC211 Standards"@en ;
@@ -149,6 +161,7 @@ cs:
         :iso-19103-2015 ,
         :iso-19103-2024 ,
         :iso-19115-1-2014 ,
+        :iso-19115-1-2027 ,
         :iso-19115-2003 ,
         :iso-19135-1-2015 ,
         :iso-19135-2005 ,
