@@ -239,6 +239,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19115-1-2027> ;
     skos:definition "high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. NOTE 1 Can be used to group keywords as well. Listed examples are not exhaustive. NOTE 2: It is understood there are overlaps between general categories and the user is encouraged to select the one most appropriate"@en ;
     skos:hasTopConcept
         :farming ,
@@ -268,9 +269,7 @@ cs:
     schema:dateCreated "2026-07-01"^^xsd:date ;
     schema:dateIssued "2026-07-02"^^xsd:date ;
     schema:dateModified "2026-07-02"^^xsd:date ;
-    schema:isPartOf
-        <https://def.isotc211.org/codesets> ,
-        <https://def.isotc211.org/codeset/standards/iso-19115-1-2027> ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
 .
