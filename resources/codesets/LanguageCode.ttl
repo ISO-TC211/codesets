@@ -68,7 +68,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel
         "Adygisch"@de ,
         "adyghé"@fr ;
-    skos:definition "The language Adyghe; Adygei"@en ;
+    skos:definition "The language Adyghe"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Adyghe; Adygei"@en ;
     skos:topConceptOf cs: ;
@@ -373,10 +373,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel
         "Awarisch"@de ,
         "avar"@fr ;
-    skos:definition "The language Avaric"@en ;
+    skos:definition "The language Avar"@en ;
     skos:inScheme cs: ;
     skos:notation "av"^^:iso639-1Code ;
-    skos:prefLabel "Avaric"@en ;
+    skos:prefLabel "Avar"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -1111,9 +1111,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel
         "Krimtatarisch"@de ,
         "tatar de Crimé"@fr ;
-    skos:definition "The language Crimean Tatar; Crimean Turkish"@en ;
+    skos:definition "The language Crimean Tatar"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Crimean Tatar; Crimean Turkish"@en ;
+    skos:prefLabel "Crimean Tatar"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -3775,10 +3775,10 @@ cs:b
     skos:altLabel
         "Ossetisch"@de ,
         "ossète"@fr ;
-    skos:definition "The language Ossetian; Ossetic"@en ;
+    skos:definition "The language Ossetic"@en ;
     skos:inScheme cs: ;
     skos:notation "os"^^:iso639-1Code ;
-    skos:prefLabel "Ossetian; Ossetic"@en ;
+    skos:prefLabel "Ossetic"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -4173,9 +4173,9 @@ cs:b
     skos:altLabel
         "Jakutisch"@de ,
         "iakoute"@fr ;
-    skos:definition "The language Yakut"@en ;
+    skos:definition "The language Yakut (Sakha)"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Yakut"@en ;
+    skos:prefLabel "Yakut (Sakha)"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -5359,9 +5359,9 @@ cs:b
     skos:altLabel
         "Kalmückisch"@de ,
         "kalmouk; oïrat"@fr ;
-    skos:definition "The language Kalmyk; Oirat"@en ;
+    skos:definition "The language Kalmyk"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Kalmyk; Oirat"@en ;
+    skos:prefLabel "Kalmyk"@en ;
     skos:topConceptOf cs: ;
 .
 
