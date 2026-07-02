@@ -1,0 +1,58 @@
+PREFIX : <https://def.isotc211.org/codeset/ObligationCode/>
+PREFIX cs: <https://def.isotc211.org/codeset/ObligationCode>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:mandatory
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "element is always required"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2026 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mandatory"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:optional
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "element is not required"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2026 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "optional"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:conditional
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "element is required when a specific condition is met"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2026 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "conditional"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "obligation of the element or entity"@en ;
+    skos:hasTopConcept
+        :mandatory ,
+        :optional ,
+        :conditional ;
+    skos:historyNote "This version of this codeset was produced for the 2025 update of the 19115 standard" ;
+    skos:prefLabel "Obligation Code"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-07-01"^^xsd:date ;
+    schema:dateIssued "2026-07-02"^^xsd:date ;
+    schema:dateModified "2026-07-02"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+.

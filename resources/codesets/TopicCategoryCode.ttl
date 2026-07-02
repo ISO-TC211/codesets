@@ -1,0 +1,274 @@
+PREFIX : <https://def.isotc211.org/codeset/TopicCategoryCode/>
+PREFIX cs: <https://def.isotc211.org/codeset/TopicCategoryCode>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:farming
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "rearing of animals and/or cultivation of plantsExamples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "farming"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:biota
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "flora and/or fauna in natural environment Examples: wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "biota"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:boundaries
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "legal land descriptions Examples: political and administrative boundaries"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "boundaries"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:climatology-meteorology-atmosphere
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "processes and phenomena of the atmosphere Examples: cloud cover, weather, climate, atmospheric conditions, climate change, precipitation"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "climatology meteorology atmosphere"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:economy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "economic activities, conditions and employment Examples: production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "economy"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:elevation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "height above or below a vertical datumExamples: altitude, bathymetry, digital elevation models, slope, derived products"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "elevation"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:environment
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "environmental resources, protection and conservation Examples: environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "environment"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:geoscientific-information
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "information pertaining to earth sciences Examples: geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth's rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, hydrogeology, erosion"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geoscientific information"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:health
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "health, health services, human ecology, and safety Examples: disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "health"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:imagery-base-maps-earth-cover
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "base maps Examples: land cover, topographic maps, imagery, unclassified images, annotations"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "imagery base maps earth cover"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:intelligence-military
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "military bases, structures, activities Examples: barracks, training grounds, military transportation, information collection"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intelligence military"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:inland-waters
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "inland water features, drainage systems and their characteristics Examples: rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrographic charts"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "inland waters"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:location
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "positional information and services Examples: addresses, geodetic networks, control points, postal zones and services, place names"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "location"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:oceans
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "features and characteristics of salt water bodies (excluding inland waters) Examples: tides, tidal waves, coastal information, reefs"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "oceans"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:planning-cadastre
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "information used for appropriate actions for future use of the land Examples: land use maps, zoning maps, cadastral surveys, land ownership"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "planning cadastre"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:society
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "characteristics of society and cultures Examples: settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, recreational areas and activities, social impact assessments, crime and justice, census information"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "society"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:structure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "man-made construction Examples: buildings, museums, churches, factories, housing, monuments, shops, towers"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "structure"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:transportation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "means and aids for conveying persons and/or goods Examples: roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "transportation"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:utilities-communication
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "energy, water and waste systems and communications infrastructure and servicesExamples: hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, communication networks"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "utilities communication"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:extra-terrestrial
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "region more than 100 km above the surface of the Earth"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "extra terrestrial"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:disaster
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "information related to disasters  Examples: site of the disaster, evacuation zone, disaster-prevention facility, disaster relief activities"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "disaster"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. NOTE 1 Can be used to group keywords as well. Listed examples are not exhaustive. NOTE 2: It is understood there are overlaps between general categories and the user is encouraged to select the one most appropriate"@en ;
+    skos:hasTopConcept
+        :farming ,
+        :biota ,
+        :boundaries ,
+        :climatology-meteorology-atmosphere ,
+        :economy ,
+        :elevation ,
+        :environment ,
+        :geoscientific-information ,
+        :health ,
+        :imagery-base-maps-earth-cover ,
+        :intelligence-military ,
+        :inland-waters ,
+        :location ,
+        :oceans ,
+        :planning-cadastre ,
+        :society ,
+        :structure ,
+        :transportation ,
+        :utilities-communication ,
+        :extra-terrestrial ,
+        :disaster ;
+    skos:historyNote "This version of this codeset was produced for the 2025 update of the 19115 standard" ;
+    skos:prefLabel "Topic CategoryCode"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-07-01"^^xsd:date ;
+    schema:dateIssued "2026-07-02"^^xsd:date ;
+    schema:dateModified "2026-07-02"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+.
