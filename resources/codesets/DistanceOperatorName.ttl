@@ -1,0 +1,47 @@
+PREFIX : <https://def.isotc211.org/codeset/DistanceOperatorName/>
+PREFIX cs: <https://def.isotc211.org/codeset/DistanceOperatorName>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:Beyond
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Beyond"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Beyond"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:DWithin
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "DWithin"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DWithin"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19143-2010> ;
+    skos:definition "The spatial operators DWithin and Beyond shall test whether the value of a geometric property is within or beyond a specified distance of the specified literal geometric value"@en ;
+    skos:hasTopConcept
+        :Beyond ,
+        :DWithin ;
+    skos:prefLabel "Distance Operator Name"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-07-03"^^xsd:date ;
+    schema:dateIssued "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+    skos:historyNote "Taken from 19143:2010" ;
+.

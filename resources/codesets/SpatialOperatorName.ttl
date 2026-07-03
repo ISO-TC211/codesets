@@ -1,0 +1,123 @@
+PREFIX : <https://def.isotc211.org/codeset/SpatialOperatorName/>
+PREFIX cs: <https://def.isotc211.org/codeset/SpatialOperatorName>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:Equals
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Equals"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Equals"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:Disjoint
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Disjoint"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Disjoint"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:Intersects
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Intersects"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Intersects"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:Touches
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Touches"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Touches"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:Crosses
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Crosses"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Crosses"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:Within
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Within"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Within"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:Contains
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Contains"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Contains"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:Overlaps
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Overlaps"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Overlaps"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19143-2010> ;
+    skos:definition """Spatial operators shall be used to test whether the value of a geometric property, referenced using the name of the property, and a literal geometric value or the value of another geometric property satisfy the spatial relationship implied by the operator
+
+The semantics of the other operators Equals, Disjoint, Touches, Within, Overlaps, Crosses, Intersects, and Contains are defined in ISO 19125-1:2004, 6.1.14.
+
+The BBOX Concept is defined as a convenient and more compact way of encoding the very common bounding box constraint based on the gml:Envelope geometry. It is equivalent to the spatial operation Not Disjoint meaning that the BBOX operator shall identify all geometries that spatially interact with the box. If the optional PropertyName element is not specified, the calling service shall apply the BBOX operator to all the spatial properties of the resource."""@en ;
+    skos:hasTopConcept
+        :Equals ,
+        :Disjoint ,
+        :Intersects ,
+        :Touches ,
+        :Crosses ,
+        :Within ,
+        :Contains ,
+        :Overlaps ;
+    skos:prefLabel "Spatial Operator Name"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-07-03"^^xsd:date ;
+    schema:dateIssued "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+    skos:historyNote "Taken from 19143:2010" ;
+.
