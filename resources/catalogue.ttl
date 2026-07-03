@@ -52,6 +52,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://def.isotc211.org/codeset/PixelOrientationCode> ,
         <https://def.isotc211.org/codeset/PresentationFormCode> ,
         <https://def.isotc211.org/codeset/ProgressCode> ,
+        <https://def.isotc211.org/codeset/RelativePlacement> ,
         <https://def.isotc211.org/codeset/ReferenceObjectType> ,
         <https://def.isotc211.org/codeset/ReferenceSystemTypeCode> ,
         <https://def.isotc211.org/codeset/RestrictionCode> ,
