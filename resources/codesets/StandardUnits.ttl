@@ -143,6 +143,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19103-2015> ;
     skos:definition "ISO 19103:2015's list of standard units"@en ;
     skos:hasTopConcept
         :cubicMetre ,
