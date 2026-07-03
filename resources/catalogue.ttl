@@ -59,6 +59,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://def.isotc211.org/codeset/TelephoneTypeCode> ,
         <https://def.isotc211.org/codeset/TopicCategoryCode> ,
         <https://def.isotc211.org/codeset/TopologyLevelCode> ,
+        <https://def.isotc211.org/codeset/TrainingTypeCode> ,
         <https://def.isotc211.org/codeset/UnitList> ,
         <https://def.isotc211.org/codeset/ValueStructure> ,
         <https://def.isotc211.org/codeset/standards> ;
