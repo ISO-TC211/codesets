@@ -1,0 +1,47 @@
+PREFIX : <https://def.isotc211.org/codeset/ProcessingMode/>
+PREFIX cs: <https://def.isotc211.org/codeset/ProcessingMode>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:postProcessed
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "indicates the processing mode will be post-processed after collection"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "post processed"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:realTime
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "indicates the processing mode will be in real time as the data are acquired"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "real time"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19116-2025> ;
+    skos:definition "codes to indicate whether a real-time or post-processed solution is in use"@en ;
+    skos:hasTopConcept
+        :postProcessed ,
+        :realTime ;
+    skos:prefLabel "Processing Mode"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-07-03"^^xsd:date ;
+    schema:dateIssued "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+    skos:historyNote "Taken from 19116:2025" ;
+.
