@@ -77,8 +77,8 @@ cs:
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19116-2025> ;
     skos:definition "obtain types of positioning solution"@en ;
     skos:hasTopConcept
-        :nofix ,
-        :oldfix ,
+        :noFix ,
+        :oldFix ,
         :1D ,
         :2D ,
         :3D ,
