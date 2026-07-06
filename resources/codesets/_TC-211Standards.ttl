@@ -78,9 +78,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :iso-19160-1-2015
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition
-        "ISO Standard Addressing Part 1: Conceptual model, 2015"@en ,
-        "ISO Standard Geographic information — Addressing — Part 1: Conceptual model, 2015"@en ;
+    skos:definition "ISO Standard Geographic information — Addressing — Part 1: Conceptual model, 2015"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19160-1:2015"@en ;
