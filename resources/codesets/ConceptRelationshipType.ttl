@@ -1,0 +1,60 @@
+PREFIX : <https://def.isotc211.org/codeset/ConceptRelationshipType/>
+PREFIX cs: <https://def.isotc211.org/codeset/ConceptRelationshipType>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:similarity
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Relationship such that two concepts share many significant characteristics but differ in other, generally less significant, characteristics" ;
+    skos:historyNote "This code was extracted directly from the defining standard: ISO19126:2021"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "similarity"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:experimental ;
+.
+
+:opposition
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Relationship such that the connotation of one concept is contrary to that of the other" ;
+    skos:historyNote "This code was extracted directly from the defining standard: ISO19126:2021"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "opposition"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:experimental ;
+.
+
+:other
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Relation of a type not otherwise identified by a keyword in the code list" ;
+    skos:historyNote "This code was extracted directly from the defining standard: ISO19126:2021"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "other"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:experimental ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19126-2021> ;
+    skos:definition "Keywords that identify the general nature of the relationships between concepts"@en ;
+    skos:hasTopConcept
+        :similarity ,
+        :opposition  ,
+        :other  ;
+    skos:historyNote "This code set was extracted directly from the defining standard: ISO19126:2021"@en ;
+    skos:prefLabel "Concept Relationship Type"@en ;
+    schema:contributor <https://def.isotc211.org/org/ogc> ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2021-05-01"^^xsd:date ;
+    schema:dateIssued "2026-07-06"^^xsd:date ;
+    schema:dateModified "2026-07-06"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+.

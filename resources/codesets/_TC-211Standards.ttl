@@ -137,6 +137,30 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
 .
 
+:iso-19126-2009
+    a skos:Concept ;
+    dcterms:isReplacedBy :iso-19126-2021 ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Feature concept dictionaries and registers, 2009"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19126:2006"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
+:iso-19126-2021
+    a skos:Concept ;
+    dcterms:replaces :iso-19126-2009 ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Feature concept dictionaries and registers, 2021"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19126:2021"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
 :iso-19135-1-2014
     a skos:Concept ;
     dcterms:isReplacedBy <https://def.isotc211.org/codeset/standards/iso-19135:2026> ;
@@ -246,6 +270,8 @@ cs:
         :iso-19115-2003 ,
         :iso-19116-2025 ,
         :iso-19117-2012 ,
+        :iso-19126-2009 ,
+        :iso-19126-2021 ,
         :iso-19135-1-2014 ,
         :iso-19135-1-2015 ,
         :iso-19135-2005 ,
@@ -264,7 +290,7 @@ cs:
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2025-11-14"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
-    schema:dateModified "2026-07-02"^^xsd:date ;
+    schema:dateModified "2026-07-06"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
