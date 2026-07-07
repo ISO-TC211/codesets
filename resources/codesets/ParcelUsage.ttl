@@ -1,0 +1,83 @@
+PREFIX : <https://def.isotc211.org/codeset/ParcelUsage/>
+PREFIX cs: <https://def.isotc211.org/codeset/ParcelUsage>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:factory
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "factory"@en ;
+    skos:historyNote "Originally presented in the ISO 19136-1:2020 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "factory"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:road
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "road"@en ;
+    skos:historyNote "Originally presented in the ISO 19136-1:2020 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "road"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:residential
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "residential"@en ;
+    skos:historyNote "Originally presented in the ISO 19136-1:2020 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "residential"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:offices
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "offices"@en ;
+    skos:historyNote "Originally presented in the ISO 19136-1:2020 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "offices"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:sea-river
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "sea, river"@en ;
+    skos:historyNote "Originally presented in the ISO 19136-1:2020 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sea, river"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19136-1-2020> ;
+    skos:definition "The use of a Parcel"@en ;
+    skos:hasTopConcept
+        :factory ,
+        :road ,
+        :residential ,
+        :offices ,
+        :sea-river ;
+    skos:prefLabel "Parcel Usage"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-07-03"^^xsd:date ;
+    schema:dateIssued "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+    skos:historyNote "Taken from 19136-1:2020" ;
+.

@@ -7,13 +7,92 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+:iso-19115-1-2027
+    a skos:Concept ;
+    dcterms:replaces :iso-awi-19115-1 ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals, 2027"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19115-1:2027"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
+:iso-19116-2025
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Positioning services, 2025"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19116:2025"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
+:iso-19117-2012
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Portrayal, 2012"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19117:2012"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
+<https://def.isotc211.org/codeset/standards/iso-19135:2026>
+    a skos:Concept ;
+    dcterms:replaces :iso-19135-1-2014 ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Registration and register governance, 2026"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19135-1:2014"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
+:iso-19136-1-2020
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Geography Markup Language (GML) Part 1: Fundamentals, 2020"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19136-1:2020"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
+:iso-19143-2010
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Filter encoding, 2010"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19143:2010"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
 :iso-19160-1-2015
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Addressing Part 1: Conceptual model, 2015" ;
+    skos:definition "ISO Standard Geographic information — Addressing — Part 1: Conceptual model, 2015"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19160-1:2015"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
+:iso-19178-1-2025
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Training data markup language for artificial intelligence Part 1: Conceptual model, 2025"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19178-1:2025"@en ;
     skos:topConceptOf cs: ;
     schema:status status:stable ;
 .
@@ -22,7 +101,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:isReplacedBy :iso-19103-2015 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — Conceptual schema language, 2005" ;
+    skos:definition "ISO Standard Geographic information — Conceptual schema language, 2005"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO/TC 19103:2005"@en ;
@@ -35,7 +114,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:replaces :iso-19103-2015 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — Conceptual schema language, 2024" ;
+    skos:definition "ISO Standard Geographic information — Conceptual schema language, 2024"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19103:2024"@en ;
@@ -48,10 +127,46 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:isReplacedBy :iso-19115-1-2014 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — Metadata, 2003" ;
+    skos:definition "ISO Standard Geographic information — Metadata, 2003"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19115:2003"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
+:iso-19126-2009
+    a skos:Concept ;
+    dcterms:isReplacedBy :iso-19126-2021 ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Feature concept dictionaries and registers, 2009"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19126:2006"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
+:iso-19126-2021
+    a skos:Concept ;
+    dcterms:replaces :iso-19126-2009 ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Feature concept dictionaries and registers, 2021"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19126:2021"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
+:iso-19135-1-2014
+    a skos:Concept ;
+    dcterms:isReplacedBy <https://def.isotc211.org/codeset/standards/iso-19135:2026> ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Procedures for item registration Part 1: Fundamentals, 2014"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19135-1:2014"@en ;
     skos:topConceptOf cs: ;
     schema:status status:stable ;
 .
@@ -60,7 +175,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:replaces :iso-19135-2005 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — Procedures for item registration Part 1: Fundamentals, 2005" ;
+    skos:definition "ISO Standard Geographic information — Procedures for item registration Part 1: Fundamentals, 2005"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19135-1:2015"@en ;
@@ -72,7 +187,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:isReplacedBy :iso-19135-1-2015 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — Procedures for item registration, 2015" ;
+    skos:definition "ISO Standard Geographic information — Procedures for item registration, 2015"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19135:2005"@en ;
@@ -84,7 +199,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:replaces :iso-19157-2013 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — Data quality Part 1: General requirements, 2023" ;
+    skos:definition "ISO Standard Geographic information — Data quality Part 1: General requirements, 2023"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19160-1:2015"@en ;
@@ -96,22 +211,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:isReplacedBy :iso-19157-1-2023 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — Data quality, 2023" ;
+    skos:definition "ISO Standard Geographic information — Data quality, 2023"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19157:2013"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:stable ;
-.
-
-:iso-awi-19115-1
-    a skos:Concept ;
-    dcterms:replaces :iso-19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals" ;
-    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "ISO/AWI 19115-1"@en ;
     skos:topConceptOf cs: ;
     schema:status status:stable ;
 .
@@ -120,7 +223,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     dcterms:isReplacedBy :iso-19103-2024 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — Conceptual schema language, 2015" ;
+    skos:definition "ISO Standard Geographic information — Conceptual schema language, 2015"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19103:2015"@en ;
@@ -134,7 +237,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:isReplacedBy :iso-awi-19115-1 ;
     dcterms:replaces :iso-19115-2003 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals, 2014" ;
+    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals, 2014"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19115-1:2014"@en ;
@@ -142,14 +245,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
 .
 
-:iso-19115-1-2027
+:iso-awi-19115-1
     a skos:Concept ;
-    dcterms:replaces :iso-awi-19115-1 ;
+    dcterms:replaces :iso-19115-1-2014 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals, 2027" ;
+    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals"@en ;
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "ISO 19115-1:2027"@en ;
+    skos:prefLabel "ISO/AWI 19115-1"@en ;
     skos:topConceptOf cs: ;
     schema:status status:stable ;
 .
@@ -163,19 +266,29 @@ cs:
         :iso-19115-1-2014 ,
         :iso-19115-1-2027 ,
         :iso-19115-2003 ,
+        :iso-19116-2025 ,
+        :iso-19117-2012 ,
+        :iso-19126-2009 ,
+        :iso-19126-2021 ,
+        :iso-19135-1-2014 ,
         :iso-19135-1-2015 ,
         :iso-19135-2005 ,
+        :iso-19136-1-2020 ,
+        :iso-19143-2010 ,
         :iso-19157-1-2023 ,
         :iso-19157-2013 ,
         :iso-19160-1-2015 ,
+        :iso-19178-1-2025 ,
         :iso-awi-19115-1 ,
         :iso-tc-19103-2005 ;
-    skos:historyNote "2025-11: Created to allow derivation of codelists from standards"@en ;
+    skos:changeNote """2025-11: Created to allow derivation of codelists from standards
+
+2026-07: Added Code Sets as a result of feedback from Countries via CIB N 6268"""@en ;
     skos:prefLabel "ISO/TC211 Standards"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2025-11-14"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
-    schema:dateModified "2025-11-19"^^xsd:date ;
+    schema:dateModified "2026-07-06"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;

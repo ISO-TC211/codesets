@@ -1,0 +1,143 @@
+PREFIX : <https://def.isotc211.org/codeset/SystemCapability/>
+PREFIX cs: <https://def.isotc211.org/codeset/SystemCapability>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:positionData
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing positioning data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "position data"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:positionQuality
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing positioning-quality data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "position quality"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:motionData
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing motion data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "motion data"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:motionQuality
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing motion-quality data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "motion quality"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:attitudeData
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing altitude data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "attitude data"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:attitudeQuality
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing altitude-quality data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "attitude quality"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:rotationData
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing rotation data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rotation data"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:rotationQuality
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing rotation-quality data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rotation quality"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:technologySpecificData
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing technology-specific data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "technology specific data"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:rawMeasurementData
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing raw-measurement data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "raw measurement data"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19116-2025> ;
+    skos:definition "capabilities of a positioning service"@en ;
+    skos:hasTopConcept
+        :positionData ,
+        :positionQuality ,
+        :motionData ,
+        :motionQuality ,
+        :attitudeData ,
+        :attitudeQuality ,
+        :rotationData ,
+        :rotationQuality ,
+        :technologySpecificData ,
+        :rawMeasurementData ;
+    skos:prefLabel "System Capability"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-07-03"^^xsd:date ;
+    schema:dateIssued "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+    skos:historyNote "Taken from 19116:2025" ;
+.

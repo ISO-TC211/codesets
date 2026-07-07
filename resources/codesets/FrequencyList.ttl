@@ -1,0 +1,119 @@
+PREFIX : <https://def.isotc211.org/codeset/FrequencyList/>
+PREFIX cs: <https://def.isotc211.org/codeset/FrequencyList>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:L1
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "positioning solution employed solely L-band frequency 1"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "L1"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:L2
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "positioning solution employed solely L-band frequency 2 observables"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "L2"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:L3
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "positioning solution employed solely L-band frequency 3 observables"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "L3"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:L1-L2
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "positioning solution employed observables from L-band frequencies 1 and 2"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "L1/L2"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:L2-L3
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "positioning solution employed observables from L-band frequencies 2 and 3"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "L2/L3"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:L1-L3
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "positioning solution employed observables from L-band frequencies 1 and 3"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "L1/L3"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:L1-L2-L3
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "positioning solution employed observables from L-band frequencies 1, 2 and 3"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "L1/L2/L3"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:kinematicFixed
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "double - difference vector with fixed integer part and antenna mobile during observation"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "kinematic fixed"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19116-2025> ;
+    skos:definition "identifiers of the frequency band designations employed in GNSS positioning systems and their combinations that may be observed to obtain positioning results"@en ;
+    skos:hasTopConcept
+        :L1 ,
+        :L2 ,
+        :L3 ,
+        :L1-L2 ,
+        :L2-L3 ,
+        :L1-L3 ,
+        :L1-L2-L3 ,
+        :kinematicFixed ;
+    skos:prefLabel "Frequency List"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-07-03"^^xsd:date ;
+    schema:dateIssued "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+    skos:historyNote "Taken from 19116:2025" ;
+.

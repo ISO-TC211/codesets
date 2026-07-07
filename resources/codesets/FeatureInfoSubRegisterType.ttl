@@ -1,0 +1,48 @@
+PREFIX : <https://def.isotc211.org/codeset/FeatureInfoSubRegisterType/>
+PREFIX cs: <https://def.isotc211.org/codeset/FeatureInfoSubRegisterType>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:featureCatalogue
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Feature information subregister is a feature catalogue" ;
+    skos:historyNote "This code was extracted directly from the defining standard: ISO19126:2021"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "feature catalogue"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:experimental ;
+.
+
+:featureConceptDictionary
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Feature information subregister is a feature concept dictionary" ;
+    skos:historyNote "This code was extracted directly from the defining standard: ISO19126:2021"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "feature concept dictionary"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:experimental ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19126-2021> ;
+    skos:definition "Keywords that identify the nature of the feature information subregister"@en ;
+    skos:hasTopConcept
+        :featureCatalogue ,
+        :featureConceptDictionary ;
+    skos:historyNote "This code set was extracted directly from the defining standard: ISO19126:2021"@en ;
+    skos:prefLabel "Feature Info Sub Register Type"@en ;
+    schema:contributor <https://def.isotc211.org/org/ogc> ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2021-05-01"^^xsd:date ;
+    schema:dateIssued "2026-07-06"^^xsd:date ;
+    schema:dateModified "2026-07-06"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+.

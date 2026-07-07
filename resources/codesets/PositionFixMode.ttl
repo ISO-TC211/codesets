@@ -1,0 +1,95 @@
+PREFIX : <https://def.isotc211.org/codeset/PositionFixMode/>
+PREFIX cs: <https://def.isotc211.org/codeset/PositionFixMode>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:noFix
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "insufficient observables are available to compute a position fix"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "no fix"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:oldFix
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "only available position fix information is stale"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "old fix"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:1D
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "only enough observables are available for time observation"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "1D"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:2D
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "enough observables are available for a two-dimensional fix"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "2D"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:3D
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "enough observables are available for a three-dimensional fix"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "3D"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:3Doverdetermined
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "enough observables are available for a three-dimensional fix with additional degrees of freedom for statistical computations"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "3D over-determined"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19116-2025> ;
+    skos:definition "obtain types of positioning solution"@en ;
+    skos:hasTopConcept
+        :noFix ,
+        :oldFix ,
+        :1D ,
+        :2D ,
+        :3D ,
+        :3Doverdetermined ;
+    skos:prefLabel "Position Fix Mode"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-07-03"^^xsd:date ;
+    schema:dateIssued "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+    skos:historyNote "Taken from 19116:2025" ;
+.

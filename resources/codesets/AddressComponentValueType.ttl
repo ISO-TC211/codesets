@@ -63,6 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19160-1-2015> ;
     skos:definition "AddressComponentValueType specifies the type of address component value"@en ;
     skos:hasTopConcept
         :abbreviatedAlternative ,

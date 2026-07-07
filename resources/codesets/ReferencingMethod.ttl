@@ -1,0 +1,59 @@
+PREFIX : <https://def.isotc211.org/codeset/ReferencingMethod/>
+PREFIX cs: <https://def.isotc211.org/codeset/ReferencingMethod>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:coordinate
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "coordinate referencing"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coordinate"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:linear
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "linear referencing"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "linear"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:gridCell
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "alphanumeric locator grid"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "grid cell"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19116-2025> ;
+    skos:definition "used to identify which basic referencing method is used by a positioning service"@en ;
+    skos:hasTopConcept
+        :coordinate ,
+        :linear ,
+        :gridCell ;
+    skos:prefLabel "Referencing Method"@en ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2026-07-03"^^xsd:date ;
+    schema:dateIssued "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status status:experimental ;
+    skos:historyNote "Taken from 19116:2025" ;
+.
