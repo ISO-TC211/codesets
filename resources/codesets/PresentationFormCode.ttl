@@ -239,6 +239,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19115-1-2027> ;
     skos:definition "mode in which the data is represented"@en ;
     skos:hasTopConcept
         :audioDigital ,
@@ -267,7 +268,7 @@ cs:
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2025-11-19"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
-    schema:dateModified "2025-11-19"^^xsd:date ;
+    schema:dateModified "2026-07-07"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
