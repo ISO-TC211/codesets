@@ -6,24 +6,13 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:usability
+:accuracy
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "degree of effort required in obtaining a derived position from a positioning technology"@en ;
+    skos:definition "combination of factors defining an accuracy requirement for a specific positioning technology"@en ;
     skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "usability"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:powerAvailability
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "dynamically evaluated power availability of a specific device determining the level of operation"@en ;
-    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "power availability"@en ;
+    skos:prefLabel "accuracy"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
@@ -39,13 +28,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
-:proximity
+:movement
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "perceived distance at which it is necessary for the collection device to be located in relation to the transmitting device to contact and measure a derived position value"@en ;
+    skos:definition "motion status of the device"@en ;
     skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "proximity"@en ;
+    skos:prefLabel "movement"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
@@ -61,24 +50,24 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
-:movement
+:powerAvailability
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "motion status of the device"@en ;
+    skos:definition "dynamically evaluated power availability of a specific device determining the level of operation"@en ;
     skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "movement"@en ;
+    skos:prefLabel "power availability"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
 
-:accuracy
+:proximity
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "combination of factors defining an accuracy requirement for a specific positioning technology"@en ;
+    skos:definition "perceived distance at which it is necessary for the collection device to be located in relation to the transmitting device to contact and measure a derived position value"@en ;
     skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "accuracy"@en ;
+    skos:prefLabel "proximity"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
@@ -94,26 +83,37 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
+:usability
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "degree of effort required in obtaining a derived position from a positioning technology"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "usability"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19116-2025> ;
     skos:definition "evaluation categories"@en ;
     skos:hasTopConcept
-        :usability ,
-        :powerAvailability ,
-        :collectionTime ,
-        :proximity ,
-        :performance ,
-        :movement ,
         :accuracy ,
-        :trustability ;
+        :collectionTime ,
+        :movement ,
+        :performance ,
+        :powerAvailability ,
+        :proximity ,
+        :trustability ,
+        :usability ;
+    skos:historyNote "Taken from 19116:2025" ;
     skos:prefLabel "Reliability Evaluation Code"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2026-07-03"^^xsd:date ;
     schema:dateIssued "2026-07-03"^^xsd:date ;
-    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
-    skos:historyNote "Taken from 19116:2025" ;
 .

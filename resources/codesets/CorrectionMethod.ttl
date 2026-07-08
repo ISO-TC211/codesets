@@ -47,13 +47,13 @@ cs:
         :DGPS ,
         :preciseEphemeris ,
         :preciseEphemerisWithClockCorrection ;
+    skos:historyNote "Taken from 19116:2025" ;
     skos:prefLabel "Correction Method"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2026-07-03"^^xsd:date ;
     schema:dateIssued "2026-07-03"^^xsd:date ;
-    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
-    skos:historyNote "Taken from 19116:2025" ;
 .

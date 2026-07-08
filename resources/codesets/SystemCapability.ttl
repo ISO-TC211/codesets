@@ -6,24 +6,24 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:positionData
+:attitudeData
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "the service is capable of providing positioning data"@en ;
+    skos:definition "the service is capable of providing altitude data"@en ;
     skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "position data"@en ;
+    skos:prefLabel "attitude data"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
 
-:positionQuality
+:attitudeQuality
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "the service is capable of providing positioning-quality data"@en ;
+    skos:definition "the service is capable of providing altitude-quality data"@en ;
     skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "position quality"@en ;
+    skos:prefLabel "attitude quality"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
@@ -50,24 +50,35 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
-:attitudeData
+:positionData
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "the service is capable of providing altitude data"@en ;
+    skos:definition "the service is capable of providing positioning data"@en ;
     skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "attitude data"@en ;
+    skos:prefLabel "position data"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
 
-:attitudeQuality
+:positionQuality
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "the service is capable of providing altitude-quality data"@en ;
+    skos:definition "the service is capable of providing positioning-quality data"@en ;
     skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "attitude quality"@en ;
+    skos:prefLabel "position quality"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:rawMeasurementData
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "the service is capable of providing raw-measurement data"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "raw measurement data"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
@@ -105,39 +116,28 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
-:rawMeasurementData
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "the service is capable of providing raw-measurement data"@en ;
-    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "raw measurement data"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19116-2025> ;
     skos:definition "capabilities of a positioning service"@en ;
     skos:hasTopConcept
-        :positionData ,
-        :positionQuality ,
-        :motionData ,
-        :motionQuality ,
         :attitudeData ,
         :attitudeQuality ,
+        :motionData ,
+        :motionQuality ,
+        :positionData ,
+        :positionQuality ,
+        :rawMeasurementData ,
         :rotationData ,
         :rotationQuality ,
-        :technologySpecificData ,
-        :rawMeasurementData ;
+        :technologySpecificData ;
+    skos:historyNote "Taken from 19116:2025" ;
     skos:prefLabel "System Capability"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2026-07-03"^^xsd:date ;
     schema:dateIssued "2026-07-03"^^xsd:date ;
-    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
-    skos:historyNote "Taken from 19116:2025" ;
 .

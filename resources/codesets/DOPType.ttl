@@ -17,17 +17,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
-:PDOP
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "positional dilution of precision"@en ;
-    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "PDOP"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
 :HDOP
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -39,13 +28,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
-:VDOP
+:PDOP
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "vertical dilution of precision"@en ;
+    skos:definition "positional dilution of precision"@en ;
     skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "VDOP"@en ;
+    skos:prefLabel "PDOP"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
@@ -61,23 +50,34 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
+:VDOP
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "vertical dilution of precision"@en ;
+    skos:historyNote "Originally presented in the ISO 19116:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VDOP"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19116-2025> ;
     skos:definition "types of dilution of precision"@en ;
     skos:hasTopConcept
         :GDOP ,
-        :PDOP ,
         :HDOP ,
-        :VDOP ,
-        :TDOP ;
+        :PDOP ,
+        :TDOP ,
+        :VDOP ;
+    skos:historyNote "Taken from 19116:2025" ;
     skos:prefLabel "DOP Type"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2026-07-03"^^xsd:date ;
     schema:dateIssued "2026-07-03"^^xsd:date ;
-    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
-    skos:historyNote "Taken from 19116:2025" ;
 .

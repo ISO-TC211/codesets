@@ -1,5 +1,6 @@
 PREFIX : <https://def.isotc211.org/codeset/InitiativeTypeCode/>
 PREFIX cs: <https://def.isotc211.org/codeset/InitiativeTypeCode>
+PREFIX mpkg: <https://def.isotc211.org/package/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -174,7 +175,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19115-1-2014> ;
-    schema:isPartOf mpkg:IdentificationInformation ;
     skos:definition "type of aggregation activity in which resources are related"@en ;
     skos:hasTopConcept
         :campaign ,
@@ -198,7 +198,9 @@ cs:
     schema:dateCreated "2025-11-19"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
     schema:dateModified "2026-07-08"^^xsd:date ;
-    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:isPartOf
+        <https://def.isotc211.org/codesets> ,
+        mpkg:IdentificationInformation ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
 .

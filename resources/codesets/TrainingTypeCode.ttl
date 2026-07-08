@@ -6,6 +6,17 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+:test
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "test"@en ;
+    skos:historyNote "Originally presented in the ISO 19178-1:2025 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "test"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
 :training
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -28,32 +39,21 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
-:test
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "test"@en ;
-    skos:historyNote "Originally presented in the ISO 19178-1:2025 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "test"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19178-1-2025> ;
     skos:definition "A code used to identify whether the individual data element is used for different purposes"@en ;
     skos:hasTopConcept
+        :test ,
         :training ,
-        :validation ,
-        :test ;
+        :validation ;
+    skos:historyNote "Taken from 19178-1:2025" ;
     skos:prefLabel "TrainingTypeCode"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2026-07-03"^^xsd:date ;
     schema:dateIssued "2026-07-03"^^xsd:date ;
-    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
-    skos:historyNote "Taken from 19178-1:2025" ;
 .

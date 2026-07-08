@@ -8,7 +8,9 @@ PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :bag
-    a skos:Concept , m191571:ValueStructure ;
+    a
+        skos:Concept ,
+        m191571:ValueStructure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "finite, unordered collection of related items (objects or values) that may be repeated (ISO 19107:2003)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
@@ -19,7 +21,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 :coverage
-    a skos:Concept , m191571:ValueStructure ;
+    a
+        skos:Concept ,
+        m191571:ValueStructure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "feature that acts as a function to return values from its range for any direct position within its spatial, temporal or spatiotemporal domain (ISO 19123:2005)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
@@ -30,7 +34,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 :matrix
-    a skos:Concept , m191571:ValueStructure ;
+    a
+        skos:Concept ,
+        m191571:ValueStructure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "rectangular array of numbers (ISO.sl.TS 19129:2009)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
@@ -41,7 +47,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 :sequence
-    a skos:Concept , m191571:ValueStructure ;
+    a
+        skos:Concept ,
+        m191571:ValueStructure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "finite, ordered collection of related items (objects or values) that may be repeated (ISO 19107:2003)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
@@ -52,7 +60,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 :set
-    a skos:Concept , m191571:ValueStructure ;
+    a
+        skos:Concept ,
+        m191571:ValueStructure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "unordered collection of related items (objects or values) with no repetition (ISO 19107:2003)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
@@ -63,7 +73,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 :table
-    a skos:Concept , m191571:ValueStructure ;
+    a
+        skos:Concept ,
+        m191571:ValueStructure ;
     rdfs:isDefinedBy cs: ;
     skos:definition "an arrangement of data in which each item may be identified by means of arguments or keys (ISO.sl.IEC 2382-4:1999)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
@@ -91,7 +103,7 @@ cs:
     schema:citation "http://standards.iso.org/iso/19157/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2023-12-01"^^xsd:date ;
-    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;

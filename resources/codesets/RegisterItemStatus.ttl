@@ -17,17 +17,6 @@ status:retired
     schema:status status:original ;
 .
 
-status:stable
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader status:valid ;
-    skos:definition "The item valid and expected to remain unchanged. It may be used widely"@en ;
-    skos:historyNote "Added to this codelist by GOM, 2023"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "stable"@en ;
-    schema:status status:experimental ;
-.
-
 status:submitted
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -63,14 +52,14 @@ status:addition
     schema:status status:addition ;
 .
 
-status:experimental
+status:stable
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader status:invalid ;
-    skos:definition "The item is valid but is experimental in nature and should be used with caution"@en ;
+    skos:broader status:valid ;
+    skos:definition "The item valid and expected to remain unchanged. It may be used widely"@en ;
     skos:historyNote "Added to this codelist by GOM, 2023"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "valid"@en ;
+    skos:prefLabel "stable"@en ;
     schema:status status:experimental ;
 .
 
@@ -83,6 +72,17 @@ status:valid
     skos:prefLabel "valid"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
+.
+
+status:experimental
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader status:invalid ;
+    skos:definition "The item is valid but is experimental in nature and should be used with caution"@en ;
+    skos:historyNote "Added to this codelist by GOM, 2023"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "valid"@en ;
+    schema:status status:experimental ;
 .
 
 status:invalid
@@ -122,7 +122,7 @@ cs:
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2000-01-01"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
-    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;

@@ -9,143 +9,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :After
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/After> ;
     skos:definition "After"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/After> ;
     skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "After"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:Before
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Before> ;
-    skos:definition "Before"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Before"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:Begins
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Begins> ;
-    skos:definition "Begins"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Begins"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:BegunBy
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Begun> ;
-    skos:definition "BegunBy"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "BegunBy"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:TContains
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Contains> ;
-    skos:definition "TContains"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "TContains"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:During
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/During> ;
-    skos:definition "During"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "During"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:TEquals
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Equals> ;
-    skos:definition "TEquals"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "TEquals"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:TOverlaps
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Overlaps> ;
-    skos:definition "TOverlaps"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "TOverlaps"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:Meets
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Meets> ;
-    skos:definition "Meets"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Meets"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:OverlappedBy
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/OverlappedBy> ;
-    skos:definition "OverlappedBy"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "OverlappedBy"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:MetBy
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/MetBy> ;
-    skos:definition "MetBy"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "MetBy"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:EndedBy
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/EndedBy> ;
-    skos:definition "EndedBy"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "EndedBy"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
@@ -161,6 +29,138 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
+:Before
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Before"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Before> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Before"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:Begins
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Begins"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Begins> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Begins"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:BegunBy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "BegunBy"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Begun> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BegunBy"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:During
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "During"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/During> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "During"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:EndedBy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "EndedBy"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/EndedBy> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EndedBy"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:Meets
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Meets"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Meets> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Meets"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:MetBy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "MetBy"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/MetBy> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MetBy"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:OverlappedBy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "OverlappedBy"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/OverlappedBy> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OverlappedBy"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:TContains
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "TContains"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Contains> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TContains"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:TEquals
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "TEquals"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Equals> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TEquals"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:TOverlaps
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "TOverlaps"@en ;
+    skos:exactMatch <https://def.isotc211.org/codeset/TemporalOperator/Overlaps> ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TOverlaps"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19143-2010> ;
@@ -169,25 +169,25 @@ cs:
 The temporal operators are mapped to to the set of temporal operators defined in ISO 19108 per Concept with skos:exactMatch where appropriate"""@en ;
     skos:hasTopConcept
         :After ,
+        :AnyInteracts ,
         :Before ,
         :Begins ,
         :BegunBy ,
-        :TContains ,
         :During ,
-        :TEquals ,
-        :TOverlaps ,
-        :Meets ,
-        :OverlappedBy ,
-        :MetBy ,
         :EndedBy ,
-        :AnyInteracts ;
+        :Meets ,
+        :MetBy ,
+        :OverlappedBy ,
+        :TContains ,
+        :TEquals ,
+        :TOverlaps ;
+    skos:historyNote "Taken from 19143:2010" ;
     skos:prefLabel "Temporal Operator Name"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2026-07-03"^^xsd:date ;
     schema:dateIssued "2026-07-03"^^xsd:date ;
-    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
-    skos:historyNote "Taken from 19143:2010" ;
 .

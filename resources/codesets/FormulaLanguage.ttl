@@ -8,7 +8,9 @@ PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mathjson
-    a skos:Concept , m191571:FormulaLanguage ;
+    a
+        skos:Concept ,
+        m191571:FormulaLanguage ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The MathJSON formula language"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
@@ -19,7 +21,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 :mathml
-    a skos:Concept , m191571:FormulaLanguage ;
+    a
+        skos:Concept ,
+        m191571:FormulaLanguage ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The MathML formula language"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
@@ -30,7 +34,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 :openmath
-    a skos:Concept , m191571:FormulaLanguage ;
+    a
+        skos:Concept ,
+        m191571:FormulaLanguage ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The OpenMath formula language"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
@@ -47,13 +53,13 @@ cs:
     skos:hasTopConcept
         :mathjson ,
         :mathml ,
-        :openmath;
-    skos:historyNote """2025-11: implemented directly by GOM from the UML"""@en ;
+        :openmath ;
+    skos:historyNote "2025-11: implemented directly by GOM from the UML"@en ;
     skos:prefLabel "Formula Language"@en ;
     schema:citation "http://standards.iso.org/iso/19157/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2025-11-18"^^xsd:date ;
-    schema:dateModified "2025-11-19"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;

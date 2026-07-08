@@ -49,7 +49,7 @@ cs:
     schema:citation "http://standards.iso.org/iso/19135/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2014-09-18"^^xsd:date ;
-    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;

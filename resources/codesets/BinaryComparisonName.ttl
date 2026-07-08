@@ -17,28 +17,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
-:PropertyIsNotEqualTo
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Property Is Not Equal To"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Property Is Not Equal To"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:PropertyIsLessThan
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Property Is Less Than"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Property Is Less Than"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
 :PropertyIsGreaterThan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -46,17 +24,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Property Is Greater Than"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:PropertyIsLessThanOrEqualTo
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Property Is Less Than Or Equal To"@en ;
-    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Property Is Less Than Or Equal To"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
@@ -72,24 +39,57 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
+:PropertyIsLessThan
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Property Is Less Than"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Property Is Less Than"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:PropertyIsLessThanOrEqualTo
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Property Is Less Than Or Equal To"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Property Is Less Than Or Equal To"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:PropertyIsNotEqualTo
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Property Is Not Equal To"@en ;
+    skos:historyNote "Originally presented in the ISO 19143:2010 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Property Is Not Equal To"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19143-2010> ;
     skos:definition "A comparison operator is used to form expressions that evaluate the mathematical comparison between two arguments. If the arguments satisfy the comparison then the expression evaluates to true. Otherwise the expression evaluates to false"@en ;
     skos:hasTopConcept
         :PropertyIsEqualTo ,
-        :PropertyIsNotEqualTo ,
-        :PropertyIsLessThan ,
         :PropertyIsGreaterThan ,
+        :PropertyIsGreaterThanOrEqualTo ,
+        :PropertyIsLessThan ,
         :PropertyIsLessThanOrEqualTo ,
-        :PropertyIsGreaterThanOrEqualTo ;
+        :PropertyIsNotEqualTo ;
+    skos:historyNote "Taken from 19143:2010" ;
     skos:prefLabel "Binary Comparison Name"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2026-07-03"^^xsd:date ;
     schema:dateIssued "2026-07-03"^^xsd:date ;
-    schema:dateModified "2026-07-03"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
-    skos:historyNote "Taken from 19143:2010" ;
 .

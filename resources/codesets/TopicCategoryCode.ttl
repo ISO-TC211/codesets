@@ -1,21 +1,11 @@
 PREFIX : <https://def.isotc211.org/codeset/TopicCategoryCode/>
 PREFIX cs: <https://def.isotc211.org/codeset/TopicCategoryCode>
+PREFIX mpkg: <https://def.isotc211.org/package/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
-:farming
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "rearing of animals and/or cultivation of plantsExamples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock"@en ;
-    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "farming"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
 
 :biota
     a skos:Concept ;
@@ -46,6 +36,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "climatology meteorology atmosphere"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:disaster
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "information related to disasters  Examples: site of the disaster, evacuation zone, disaster-prevention facility, disaster relief activities"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "disaster"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
@@ -83,6 +84,28 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
+:extra-terrestrial
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "region more than 100 km above the surface of the Earth"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "extra terrestrial"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:farming
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "rearing of animals and/or cultivation of plantsExamples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "farming"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
 :geoscientific-information
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -116,17 +139,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
-:intelligence-military
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "military bases, structures, activities Examples: barracks, training grounds, military transportation, information collection"@en ;
-    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "intelligence military"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
 :inland-waters
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -134,6 +146,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "inland waters"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+.
+
+:intelligence-military
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "military bases, structures, activities Examples: barracks, training grounds, military transportation, information collection"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intelligence military"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
 .
@@ -215,62 +238,41 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:original ;
 .
 
-:extra-terrestrial
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "region more than 100 km above the surface of the Earth"@en ;
-    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "extra terrestrial"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
-:disaster
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "information related to disasters  Examples: site of the disaster, evacuation zone, disaster-prevention facility, disaster relief activities"@en ;
-    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "disaster"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:original ;
-.
-
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19115-1-2027> ;
-    schema:isPartOf mpkg:IdentificationInformation ;
     skos:definition "high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. NOTE 1 Can be used to group keywords as well. Listed examples are not exhaustive. NOTE 2: It is understood there are overlaps between general categories and the user is encouraged to select the one most appropriate"@en ;
     skos:hasTopConcept
-        :farming ,
         :biota ,
         :boundaries ,
         :climatology-meteorology-atmosphere ,
+        :disaster ,
         :economy ,
         :elevation ,
         :environment ,
+        :extra-terrestrial ,
+        :farming ,
         :geoscientific-information ,
         :health ,
         :imagery-base-maps-earth-cover ,
-        :intelligence-military ,
         :inland-waters ,
+        :intelligence-military ,
         :location ,
         :oceans ,
         :planning-cadastre ,
         :society ,
         :structure ,
         :transportation ,
-        :utilities-communication ,
-        :extra-terrestrial ,
-        :disaster ;
+        :utilities-communication ;
     skos:historyNote "This version of this codeset was produced for the 2025 update of the 19115 standard" ;
     skos:prefLabel "Topic CategoryCode"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2026-07-01"^^xsd:date ;
     schema:dateIssued "2026-07-02"^^xsd:date ;
     schema:dateModified "2026-07-08"^^xsd:date ;
-    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:isPartOf
+        <https://def.isotc211.org/codesets> ,
+        mpkg:IdentificationInformation ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
 .

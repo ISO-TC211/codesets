@@ -1,5 +1,6 @@
 PREFIX : <https://def.isotc211.org/codeset/LanguageCode/>
 PREFIX cs: <https://def.isotc211.org/codeset/LanguageCode>
+PREFIX mpkg: <https://def.isotc211.org/package/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1125,17 +1126,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "The language Creoles and pidgins"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Creoles and pidgins"@en ;
-    skos:topConceptOf cs: ;
-.
-
-cs:b
-    a skos:Concept ;
-    skos:altLabel
-        "Kaschubisch"@de ,
-        "kachoube"@fr ;
-    skos:definition "The language Kashubian"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Kashubian"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -5546,12 +5536,22 @@ cs:b
     skos:topConceptOf cs: ;
 .
 
+cs:b
+    a skos:Concept ;
+    skos:altLabel
+        "Kaschubisch"@de ,
+        "kachoube"@fr ;
+    skos:definition "The language Kashubian"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Kashubian"@en ;
+    skos:topConceptOf cs: ;
+.
+
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy
         <https://def.isotc211.org/codeset/standards/iso-19115-1-2014> ,
         <https://def.isotc211.org/codeset/standards/iso-awi-19115-1> ;
-    schema:isPartOf mpkg:Language-CharactersetLocalizationInformation ;
     skos:definition "ISO 639-2, 3-alphabetic digits code"@en ;
     skos:hasTopConcept
         :aar ,
@@ -5653,7 +5653,6 @@ cs:
         :cre ,
         :crh ,
         :crp ,
-        cs:b ,
         :cus ,
         :cze ,
         :dak ,
@@ -6040,7 +6039,8 @@ cs:
         :zul ,
         :zun ,
         :zxx ,
-        :zza ;
+        :zza ,
+        cs:b ;
     skos:historyNote """2025-11: Linked to ISO AWI 19115-1
 
 2025-08: Implemented ISO/TC211 persistent IRIs
@@ -6052,7 +6052,9 @@ cs:
     schema:dateCreated "2000-01-01"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
     schema:dateModified "2026-07-08"^^xsd:date ;
-    schema:isPartOf <https://def.isotc211.org/codesets> ;
+    schema:isPartOf
+        <https://def.isotc211.org/codesets> ,
+        mpkg:Language-CharactersetLocalizationInformation ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
 .
