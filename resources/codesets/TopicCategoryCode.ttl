@@ -240,7 +240,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19115-1-2027> ;
-    dcterms:isPartOf mpkg:IdentificationInformation ;
+    schema:isPartOf mpkg:IdentificationInformation ;
     skos:definition "high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. NOTE 1 Can be used to group keywords as well. Listed examples are not exhaustive. NOTE 2: It is understood there are overlaps between general categories and the user is encouraged to select the one most appropriate"@en ;
     skos:hasTopConcept
         :farming ,

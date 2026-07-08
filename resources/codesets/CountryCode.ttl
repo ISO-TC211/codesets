@@ -2750,7 +2750,7 @@ cs:
     rdfs:isDefinedBy
         <https://def.isotc211.org/codeset/standards/iso-19115-1-2014> ,
         <https://def.isotc211.org/codeset/standards/iso-awi-19115-1> ;
-    dcterms:isPartOf mpkg:Language-CharactersetLocalizationInformation ;
+    schema:isPartOf mpkg:Language-CharactersetLocalizationInformation ;
     skos:definition "An ISO standard's ConceptScheme"@en ;
     skos:hasTopConcept
         :AD ,
