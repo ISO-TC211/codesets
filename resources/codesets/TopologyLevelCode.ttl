@@ -108,6 +108,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/codeset/standards/iso-19115-1-2014> ;
+    dcterms:isPartOf mpkg:SpatialRepresentationInformation ;
     skos:definition "degree of complexity of the spatial relationships"@en ;
     skos:hasTopConcept
         :abstract ,
