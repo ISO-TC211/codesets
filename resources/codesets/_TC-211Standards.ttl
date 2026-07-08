@@ -19,7 +19,7 @@ mpkg:ApplicationSchemaInformation
     skos:definition "Model Package Application Schema Information"@en ;
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Application Schema Information"@en 
+    skos:prefLabel "Application Schema Information"@en ;
     schema:status status:experimental ;
 .
 
@@ -46,7 +46,7 @@ mpkg:CommonClasses
     skos:definition "Model Package Common Classes"@en ;
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Common Classes"@en 
+    skos:prefLabel "Common Classes"@en ;
     schema:status status:experimental ;
 .
 
@@ -59,7 +59,7 @@ mpkg:ConstraintInformation
     skos:definition "Model Package Constraint Information"@en ;
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Constraint Information"@en 
+    skos:prefLabel "Constraint Information"@en ;
     schema:status status:experimental ;
 .
 
@@ -100,7 +100,7 @@ mpkg:ExampleOfExtendedMatadata
     skos:definition "Model Package Example Of Extended Matadata"@en ;
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Example Of Extended Matadata"@en 
+    skos:prefLabel "Example Of Extended Matadata"@en ;
     schema:status status:experimental ;
 .
 
@@ -113,7 +113,7 @@ mpkg:ExtentInformation
     skos:definition "Model Package Extent Information"@en ;
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Extent Information"@en 
+    skos:prefLabel "Extent Information"@en ;
     schema:status status:experimental ;
 .
 
@@ -154,7 +154,7 @@ mpkg:LineageInformation
     skos:definition "Model Package Lineage Information"@en ;
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Lineage Information"@en 
+    skos:prefLabel "Lineage Information"@en ;
     schema:status status:experimental ;
 .
 
@@ -167,7 +167,7 @@ mpkg:MaintenanceInformation
     skos:definition "Model Package Maintenance Information"@en ;
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Maintenance Information"@en 
+    skos:prefLabel "Maintenance Information"@en ;
     schema:status status:experimental ;
 .
 
@@ -180,7 +180,7 @@ mpkg:MetadataApplicationInformation
     skos:definition "Model Package Metadata Application Information"@en ;
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Metadata Application Information"@en 
+    skos:prefLabel "Metadata Application Information"@en ;
     schema:status status:experimental ;
 .
 
@@ -221,7 +221,7 @@ mpkg:PortrayalCatalogueInformation
     skos:definition "Model Package Portrayal Catalogue Information"@en ;
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Portrayal Catalogue Information"@en 
+    skos:prefLabel "Portrayal Catalogue Information"@en ;
     schema:status status:experimental ;
 .
 
@@ -234,7 +234,7 @@ mpkg:ReferenceSystemInformation
     skos:definition "Model Package Reference System Information"@en ;
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Reference System Information"@en 
+    skos:prefLabel "Reference System Information"@en ;
     schema:status status:experimental ;
 .
 
