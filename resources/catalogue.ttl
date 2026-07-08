@@ -51,6 +51,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://def.isotc211.org/codeset/MaintenanceFrequencyCode> ,
         <https://def.isotc211.org/codeset/MeasurementType> ,
         <https://def.isotc211.org/codeset/MediumFormatCode> ,
+        <https://def.isotc211.org/codeset/MediumNameCode> ,
         <https://def.isotc211.org/codeset/ObligationCode> ,
         <https://def.isotc211.org/codeset/OffsetSourceType> ,
         <https://def.isotc211.org/codeset/OnLineFunctionCode> ,

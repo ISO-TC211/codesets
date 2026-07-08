@@ -76,7 +76,7 @@ mpkg:ContentInformation
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Content Information"@en ;
-    schema:identifier ""^^:PackageId ;
+    schema:identifier "MI"^^:PackageId ;
     schema:status status:experimental ;
 .
 
@@ -90,7 +90,7 @@ mpkg:DistributionInformation
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Distribution Information"@en ;
-    schema:identifier ""^^:PackageId ;
+    schema:identifier "MD"^^:PackageId ;
     schema:status status:experimental ;
 .
 
@@ -132,7 +132,7 @@ mpkg:IdentificationInformation
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Identification Information"@en ;
-    schema:identifier ""^^:PackageId ;
+    schema:identifier "DS"^^:PackageId ;
     schema:status status:experimental ;
 .
 
@@ -146,7 +146,7 @@ mpkg:Language-CharactersetLocalizationInformation
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Language-Characterset Localization Information"@en ;
-    schema:identifier ""^^:PackageId ;
+    schema:identifier "MD"^^:PackageId ;
     schema:status status:experimental ;
 .
 
@@ -202,7 +202,7 @@ mpkg:MetadataExtensionInformation
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Metadata Extension Information"@en ;
-    schema:identifier ""^^:PackageId ;
+    schema:identifier "MX"^^:PackageId ;
     schema:status status:experimental ;
 .
 
@@ -272,7 +272,7 @@ mpkg:SpatialRepresentationInformation
     skos:historyNote "Extracted from GOM ontology processing"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Spatial Representation Information"@en ;
-    schema:identifier ""^^:PackageId ;
+    schema:identifier "MD"^^:PackageId ;
     schema:status status:experimental ;
 .
 
