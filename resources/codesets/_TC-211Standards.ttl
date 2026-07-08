@@ -10,6 +10,286 @@ PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
 PREFIX std: <https://def.isotc211.org/standard/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+mpkg:ApplicationSchemaInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Application Schema Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Application Schema Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:CitationAndResponsiblePartyInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Citation And Responsible Party Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Citation And Responsible Party Information"@en ;
+    schema:identifier "CI"^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:CommonClasses
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Common Classes"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Common Classes"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:ConstraintInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Constraint Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Constraint Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:ContentInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Content Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Content Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:DistributionInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Distribution Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Distribution Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:ExampleOfExtendedMatadata
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Example Of Extended Matadata"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Example Of Extended Matadata"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:ExtentInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Extent Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Extent Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:IdentificationInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Identification Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Identification Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:Language-CharactersetLocalizationInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Language-Characterset Localization Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Language-Characterset Localization Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:LineageInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Lineage Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lineage Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:MaintenanceInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Maintenance Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Maintenance Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:MetadataApplicationInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Metadata Application Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Metadata Application Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:MetadataExtensionInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Metadata Extension Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Metadata Extension Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:MetadataInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Metadata Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Metadata Information"@en ;
+    schema:identifier "MD"^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:PortrayalCatalogueInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Portrayal Catalogue Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Portrayal Catalogue Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:ReferenceSystemInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Reference System Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Reference System Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:ServiceMetadataInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Service Metadata Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Service Metadata Information"@en ;
+    schema:identifier "SV"^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+mpkg:SpatialRepresentationInformation
+    a
+        skos:Concept ,
+        ho:ModelPackage ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader std:ISO19115-1-2014 ;
+    skos:definition "Model Package Spatial Representation Information"@en ;
+    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Spatial Representation Information"@en ;
+    schema:identifier ""^^:PackageId ;
+    schema:status status:experimental ;
+.
+
+<https://def.isotc211.org/codeset/standards/iso-19135:2026>
+    a
+        dcterms:Standard ,
+        skos:Concept ;
+    dcterms:replaces std:ISO19135-1-2014 ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ISO Standard Geographic information — Registration and register governance, 2026"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ISO 19135-1:2014"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
+.
+
 std:ISO19115-1-2027
     a
         dcterms:Standard ,
@@ -46,20 +326,6 @@ std:ISO19117-2012
     skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ISO 19117:2012"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:stable ;
-.
-
-<https://def.isotc211.org/codeset/standards/iso-19135:2026>
-    a
-        dcterms:Standard ,
-        skos:Concept ;
-    dcterms:replaces std:ISO19135-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — Registration and register governance, 2026"@en ;
-    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "ISO 19135-1:2014"@en ;
     skos:topConceptOf cs: ;
     schema:status status:stable ;
 .
@@ -273,21 +539,6 @@ std:ISO19103-2015
     schema:url "https://www.iso.org/standard/56734.html"^^xsd:anyURI ;
 .
 
-std:ISO19115-1-2014
-    a
-        dcterms:Standard ,
-        skos:Concept ;
-    dcterms:isReplacedBy std:ISOawi-19115-1 ;
-    dcterms:replaces std:ISO19115-2003 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals, 2014"@en ;
-    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "ISO 19115-1:2014"@en ;
-    skos:topConceptOf cs: ;
-    schema:status status:stable ;
-.
-
 std:ISOawi-19115-1
     a
         dcterms:Standard ,
@@ -302,270 +553,19 @@ std:ISOawi-19115-1
     schema:status status:stable ;
 .
 
-mpkg:ApplicationSchemaInformation
+std:ISO19115-1-2014
     a
-        ho:ModelPackage ,
+        dcterms:Standard ,
         skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
+    dcterms:isReplacedBy std:ISOawi-19115-1 ;
+    dcterms:replaces std:ISO19115-2003 ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Application Schema Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
+    skos:definition "ISO Standard Geographic information — MetadataPart 1: Fundamentals, 2014"@en ;
+    skos:historyNote "Created to allow derivation of codelists from standards"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Application Schema Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:CitationAndResponsiblePartyInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Citation And Responsible Party Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Citation And Responsible Party Information"@en ;
-    schema:status status:experimental ;
-schema:identifier "CI"^^:PackageId ;
-.
-
-mpkg:CommonClasses
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Common Classes"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Common Classes"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:ConstraintInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Constraint Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Constraint Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:ContentInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Content Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Content Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:DistributionInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Distribution Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Distribution Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:ExampleOfExtendedMatadata
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Example Of Extended Matadata"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Example Of Extended Matadata"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:ExtentInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Extent Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Extent Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:IdentificationInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Identification Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Identification Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:Language-CharactersetLocalizationInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Language-Characterset Localization Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Language-Characterset Localization Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:LineageInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Lineage Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Lineage Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:MaintenanceInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Maintenance Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Maintenance Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:MetadataApplicationInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Metadata Application Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Metadata Application Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:MetadataExtensionInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Metadata Extension Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Metadata Extension Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:MetadataInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Metadata Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Metadata Information"@en ;
-    schema:status status:experimental ;
-schema:identifier "MD"^^:PackageId ;
-.
-
-mpkg:PortrayalCatalogueInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Portrayal Catalogue Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Portrayal Catalogue Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:ReferenceSystemInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Reference System Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Reference System Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
-.
-
-mpkg:ServiceMetadataInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Service Metadata Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Service Metadata Information"@en ;
-    schema:status status:experimental ;
-schema:identifier "SV"^^:PackageId ;
-.
-
-mpkg:SpatialRepresentationInformation
-    a
-        ho:ModelPackage ,
-        skos:Concept ;
-    skos:broader std:ISO19115-1-2014 ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Model Package Spatial Representation Information"@en ;
-    skos:historyNote "Extracted from GOM ontology processing"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "Spatial Representation Information"@en ;
-    schema:status status:experimental ;
-schema:identifier ""^^:PackageId ;
+    skos:prefLabel "ISO 19115-1:2014"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:stable ;
 .
 
 cs:
@@ -601,7 +601,7 @@ cs:
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2025-11-14"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
-    schema:dateModified "2026-07-06"^^xsd:date ;
+    schema:dateModified "2026-07-08"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
