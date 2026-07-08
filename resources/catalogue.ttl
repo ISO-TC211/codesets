@@ -89,7 +89,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:contributor <https://def.isotc211.org/org/ogc> ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2024-09-03"^^xsd:date ;
-    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:dateModified "2025-08-09"^^xsd:date ;
     schema:description """Code sets in the ISO/TC211 Harmonised Model.
 
 This catalogue contains all of the code sets managed by ISO Technical Committee 211 (Geographic information/Geomatics) for use within their 19* series standards.
@@ -103,4 +103,5 @@ The code set content here is stored here in [RDF](https://www.w3.org/TR/rdf12-co
     schema:name "ISO/TC211 Codesets" ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status <https://def.isotc211.org/codeset/ItemStatus/stable> ;
+    schema:version "1" ;
 .

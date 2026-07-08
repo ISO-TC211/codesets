@@ -116,8 +116,9 @@ The BBOX Concept is defined as a convenient and more compact way of encoding the
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2026-07-03"^^xsd:date ;
     schema:dateIssued "2026-07-03"^^xsd:date ;
-    schema:dateModified "2026-07-08"^^xsd:date ;
+    schema:dateModified "2026-07-09"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/codesets> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
+    schema:version "1" ;
 .
